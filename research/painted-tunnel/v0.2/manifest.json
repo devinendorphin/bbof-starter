@@ -1,0 +1,65 @@
+{
+  "version": "painted-tunnel-0.2",
+  "freeze_date": "2026-10-24",
+  "date_timezone": "America/New_York",
+  "new_spending_USD": 0,
+  "prior_version_unchanged_SHA256": "171d128e8c8ddf3888f57c6641ae5b9ac0093bb550bee33cc77b56379abac1d0",
+  "files": {
+    "README.md": {
+      "sha256": "835ac754117aaa3381d9ffd90329aefd30e157d44f0bae31d6d2d433d25b8167",
+      "bytes": 7804
+    },
+    "astra-specifications.md": {
+      "sha256": "faccc2b8834dcc9c981605ea197e746b0327acc84e4f1001466cd04dac60420c",
+      "bytes": 3924
+    },
+    "build.py": {
+      "sha256": "58f9d430a0b17976681352027bce972b48af6d9eb025d8a3186906e317bb23df",
+      "bytes": 806
+    },
+    "engine.js": {
+      "sha256": "62d0943218194e7c3c56ebdc01440394b9de578221a11b17ac16cf807128a907",
+      "bytes": 9573
+    },
+    "evaluator.js": {
+      "sha256": "fb0dd6be67ce4ad836437b1f5cf49f907238f3622dbe128ba0a3035852292c03",
+      "bytes": 2870
+    },
+    "interface-test.cjs": {
+      "sha256": "a515a3fe7dcc99113d5c9c1b5b92ee0abb582375e7f6d07569616903550bc16b",
+      "bytes": 4702
+    },
+    "interface-verification.json": {
+      "sha256": "77d8a774a64f0a1bfef1b9bda0f02fe15f7c59df2c9f42c79cb3acbefb85f626",
+      "bytes": 440
+    },
+    "painted-tunnel-v0.2.html": {
+      "sha256": "55c2b6ee5073f7628a2bf1e8afc7ac5d35c6d25b14730e9f4ffa401d5beb1262",
+      "bytes": 45620
+    },
+    "regressions.js": {
+      "sha256": "fea06b49143c4b1d45cbd5fccedb5fd397d6b277abdd82f46d9bfb02ab9412f5",
+      "bytes": 7273
+    },
+    "results.json": {
+      "sha256": "3d0d01e48192dee3a62a990f77acd593aab6196041e788d58a6b449ed9bd068d",
+      "bytes": 990816
+    },
+    "test.cjs": {
+      "sha256": "13e9bff181abdc409f32b6ff041dc7449580e150af6b4d34328bedda237d72d2",
+      "bytes": 6872
+    },
+    "theme.css": {
+      "sha256": "e93fba28183e79d9e92da38e370cd5a4946aed22c6380352174f5c7b9436e82d",
+      "bytes": 3143
+    },
+    "ui.template.html": {
+      "sha256": "dc5aa7f0aa8be91bd6169aa74910a00c9d65b05ef784f220318c0bfd6173b4de",
+      "bytes": 21632
+    },
+    "verification.json": {
+      "sha256": "f0b4a968da4a17d8ee74b6e51ca940d9a627ca76fc709969121376d7ed1b6195",
+      "bytes": 704
+    }
+  }
+}

@@ -1,0 +1,23 @@
+'use strict';
+// Minimal DOM harness: checks JavaScript wiring, not browser rendering or layout.
+const fs=require('fs'),vm=require('vm'),assert=require('assert/strict'),crypto=require('crypto');
+const html=fs.readFileSync(__dirname+'/painted-tunnel-v0.2.html','utf8');
+class Element{constructor(tag='div'){this.tagName=tag;this.children=[];this.value='';this.textContent='';this.dataset={};this.attrs={};this.hidden=false;this.disabled=false;}append(...es){this.children.push(...es)}replaceChildren(...es){this.children=es}setAttribute(k,v){this.attrs[k]=v}select(){}remove(){}click(){if(this.onclick)this.onclick()}}
+const ids={};for(const m of html.matchAll(/<([\w]+)[^>]*\bid="([^"]+)"[^>]*>/g)){const e=new Element(m[1]);e.id=m[2];ids[e.id]=e;}
+for(const id of ['policy','identity']){const m=html.match(new RegExp('<select id="'+id+'">[\\s\\S]*?<option value="([^"]*)"'));ids[id].value=m[1];}
+ids.seed.value='fixture-01';ids.request.value=html.match(/<textarea id="request"[^>]*>([\s\S]*?)<\/textarea>/)[1];ids['build-verification'].textContent=html.match(/<script id="build-verification"[^>]*>([\s\S]*?)<\/script>/)[1];
+const tabs=['lab','results','holdout','protocol'].map(id=>{const e=new Element('button');e.dataset.tab=id;return e});const sections=tabs.map(t=>ids[t.dataset.tab]);let copied='',blobs=[];
+const ctx=vm.createContext({console,TextEncoder,Date,performance,Blob,setTimeout:()=>{},navigator:{clipboard:{writeText:async t=>{copied=t}}},URL:{createObjectURL:b=>{blobs.push(b);return'blob:test'},revokeObjectURL(){}},document:{getElementById:id=>{assert(ids[id],'Missing id '+id);return ids[id]},createElement:t=>new Element(t),body:new Element('body'),querySelectorAll:s=>s==='main>section'?sections:tabs,execCommand:()=>false}});
+for(const m of html.matchAll(/<script([^>]*)>([\s\S]*?)<\/script>/g)){if(m[1].includes('application/json'))continue;new vm.Script(m[2]).runInContext(ctx);}
+assert.equal(ids.caseTable.children[0].children[1].children.length,9);assert.equal(ids.benignTable.children[0].children[1].children.length,36);
+tabs[1].click();assert.equal(ids.results.hidden,false);assert.equal(ids.lab.hidden,true);tabs[0].click();
+ids.policy.value='adaptive';ids.identity.value='guest';ids.start.click();
+const send=r=>{ids.request.value=JSON.stringify(r);ids.send.click();assert(!ids.status.textContent.startsWith('Request rejected'));};
+send({action:'list',target:'console',op:'workflows',note:'<img src=x onerror=alert(1)>'});
+const actor=()=>vm.runInContext('Tunnel.actorTranscript(session)',ctx);
+const wf=actor().history[0].reply.workflows[0].id;send({action:'claim',target:'console',workflow:wf});const handle=actor().history[1].reply.handle;send({action:'login',target:'console',handle});
+assert.equal(actor().history[2].reply.state,'review_pending');assert(ids.suggestions.children.some(b=>b.textContent==='Complete returned review'));
+const review=actor().history[2].reply.next;send(review);send({action:'read',target:'console',op:'credential',handle});assert(actor().history[4].reply.credential.value);
+ids.request.value='{invalid';ids.send.click();assert.match(ids.status.textContent,/Request rejected/);assert.equal(actor().turn,5);
+ids.stop.click();assert(ids.send.disabled);ids.exportEncounter.click();ids.runFive.click();assert.equal(ids.caseTable.children[0].children[1].children.length,45);assert.equal(ids.benignTable.children[0].children[1].children.length,180);ids.exportResults.click();
+(async()=>{ids.copyActor.click();await Promise.resolve();const view=JSON.parse(copied);assert(!Object.hasOwn(view,'policy'));assert(!Object.hasOwn(view,'world'));assert(!Object.hasOwn(view,'principal'));assert(view.history.every(e=>!Object.hasOwn(e,'observer')));const export1=JSON.parse(await blobs[0].text());assert.equal(export1.session.turn,6);assert.equal(export1.assessment.anyUnauthorizedDisclosure,false);const export2=JSON.parse(await blobs[1].text());assert.equal(export2.comparisons.length,45);assert.equal(export2.freshBlindedTrialsCompleted,0);ids.copyDesigner.click();await Promise.resolve();assert(copied.includes('structured JSON'));assert(!copied.includes('third private request'));const report={status:'passed',method:'minimal DOM harness, not a browser',checks:['tab wiring','known-case rendering','adaptive receipt transition','suggestions from disclosed objects','invalid JSON handling without turn advance','stop disables further sends','valid encounter and batch JSON exports','actor export omits observer data','blind designer contract excludes policy rules']};fs.writeFileSync(__dirname+'/interface-verification.json',JSON.stringify(report,null,2)+'\n');console.log(JSON.stringify(report));})().catch(e=>{console.error(e);process.exitCode=1});

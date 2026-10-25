@@ -1,6 +1,6 @@
 # bbof-starter
 
-**Register: working prototype, dormant.** Runnable code, untouched since February 2026.
+**Register: original Python prototype plus an active local research archive.** The Python runtime remains the February 2026 version; the Painted Tunnel studies and current roadmap were consolidated on 25 October 2026.
 
 **Thesis:** the Bugs Bunny Optimization Framework — `the-ODS`'s Bugs Bunny Protocol built
 out as an active-defense prototype for LLMs. Classifier + policy router + tarpit tactics +
@@ -20,6 +20,13 @@ safety governor + replay harness.
 
 > Lineage: `the-ODS` (protocol) → **`bbof-starter`** (prototype) → `crownfull` (architecture)
 > → `alignment-friction-gda` (measurement).
+
+## Current research track
+
+- See `research/painted-tunnel/README.md` and the current `ROADMAP.md`.
+- Frozen v0.2 and observer 0.3 must remain byte-for-byte intact. Run historical tests in temporary copies with `python3 tools/reproduce.py`.
+- New spending stays $0. No real model integration, live targets, or fresh blinded actor conversations have occurred.
+- New candidates belong in separate directories with protocols and disconfirming controls. Keep scripted simulation findings distinct from model beliefs or defensive effectiveness.
 
 ## The harness
 

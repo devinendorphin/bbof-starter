@@ -1,0 +1,29 @@
+{
+  "version": "measurement-audit-1",
+  "freeze_date": "2026-10-24",
+  "timezone": "America/New_York",
+  "new_spending_USD": 0,
+  "files": {
+    "audit-results.json": "4b27929d89567518d265ceb5917c75ebc637360361ec46196c7838a12e453c76",
+    "REPORT.md": "7c5a8591d4b1ee839b56057e61f2918deefb827a7044abe29693304188aa2aa6",
+    "channel-observation.json": "389854bdca77c622a564ce6bb8e81cc6e9b3f9ff2fcb83e36aa96c1762b03145",
+    "audit.cjs": "b70a483907fe3c18f771d92dc18545b82903a1fdcfaac15594f75b559a450eb6"
+  },
+  "frozen-v0.2": {
+    "interface-verification.json": "77d8a774a64f0a1bfef1b9bda0f02fe15f7c59df2c9f42c79cb3acbefb85f626",
+    "verification.json": "f0b4a968da4a17d8ee74b6e51ca940d9a627ca76fc709969121376d7ed1b6195",
+    "test.cjs": "13e9bff181abdc409f32b6ff041dc7449580e150af6b4d34328bedda237d72d2",
+    "painted-tunnel-v0.2.html": "55c2b6ee5073f7628a2bf1e8afc7ac5d35c6d25b14730e9f4ffa401d5beb1262",
+    "theme.css": "e93fba28183e79d9e92da38e370cd5a4946aed22c6380352174f5c7b9436e82d",
+    "build.py": "58f9d430a0b17976681352027bce972b48af6d9eb025d8a3186906e317bb23df",
+    "README.md": "835ac754117aaa3381d9ffd90329aefd30e157d44f0bae31d6d2d433d25b8167",
+    "ui.template.html": "dc5aa7f0aa8be91bd6169aa74910a00c9d65b05ef784f220318c0bfd6173b4de",
+    "evaluator.js": "fb0dd6be67ce4ad836437b1f5cf49f907238f3622dbe128ba0a3035852292c03",
+    "manifest.json": "0861f48b779f844a102a5da65c2905e75180594f98e809f7e7967c0ad5be415a",
+    "engine.js": "62d0943218194e7c3c56ebdc01440394b9de578221a11b17ac16cf807128a907",
+    "regressions.js": "fea06b49143c4b1d45cbd5fccedb5fd397d6b277abdd82f46d9bfb02ab9412f5",
+    "astra-specifications.md": "faccc2b8834dcc9c981605ea197e746b0327acc84e4f1001466cd04dac60420c",
+    "interface-test.cjs": "a515a3fe7dcc99113d5c9c1b5b92ee0abb582375e7f6d07569616903550bc16b",
+    "results.json": "3d0d01e48192dee3a62a990f77acd593aab6196041e788d58a6b449ed9bd068d"
+  }
+}

@@ -1,0 +1,15 @@
+{
+  "status": "passed",
+  "method": "minimal DOM harness, not a browser",
+  "checks": [
+    "tab wiring",
+    "known-case rendering",
+    "adaptive receipt transition",
+    "suggestions from disclosed objects",
+    "invalid JSON handling without turn advance",
+    "stop disables further sends",
+    "valid encounter and batch JSON exports",
+    "actor export omits observer data",
+    "blind designer contract excludes policy rules"
+  ]
+}

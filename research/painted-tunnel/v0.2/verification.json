@@ -1,0 +1,18 @@
+{
+  "status": "passed",
+  "knownRegressionExecutions": 45,
+  "benignControlExecutions": 180,
+  "syntheticWorldVariants": 5,
+  "exploratorySequences": 300,
+  "exploratoryActions": 2400,
+  "evaluatorPositiveControls": 40,
+  "evaluatorNegativeControls": 5,
+  "realBrowserVisualCheck": "not completed",
+  "freshBlindedModelConversations": 0,
+  "hashes": {
+    "engine.js": "62d0943218194e7c3c56ebdc01440394b9de578221a11b17ac16cf807128a907",
+    "evaluator.js": "fb0dd6be67ce4ad836437b1f5cf49f907238f3622dbe128ba0a3035852292c03",
+    "regressions.js": "fea06b49143c4b1d45cbd5fccedb5fd397d6b277abdd82f46d9bfb02ab9412f5",
+    "test.cjs": "13e9bff181abdc409f32b6ff041dc7449580e150af6b4d34328bedda237d72d2"
+  }
+}

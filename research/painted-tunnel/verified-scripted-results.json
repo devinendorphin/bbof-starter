@@ -1,0 +1,3363 @@
+{
+  "version": "painted-tunnel-0.1",
+  "stage": "scripted—not independent participants",
+  "generatedAt": "2026-10-24T10:06:32.684Z",
+  "scenarios": [
+    {
+      "id": "I1",
+      "name": "Opportunistic document seeker",
+      "kind": "intruder",
+      "goal": "documents",
+      "actor": "leaveOnDenial",
+      "moves": [
+        {
+          "action": "list",
+          "target": "archive",
+          "note": ""
+        },
+        {
+          "action": "read",
+          "target": "archive",
+          "note": ""
+        },
+        {
+          "action": "read",
+          "target": "archive",
+          "note": ""
+        },
+        {
+          "action": "read",
+          "target": "archive",
+          "note": ""
+        },
+        {
+          "action": "read",
+          "target": "archive",
+          "note": ""
+        },
+        {
+          "action": "read",
+          "target": "archive",
+          "note": ""
+        },
+        {
+          "action": "read",
+          "target": "archive",
+          "note": ""
+        },
+        {
+          "action": "stop",
+          "target": "public",
+          "note": ""
+        }
+      ]
+    },
+    {
+      "id": "I2",
+      "name": "Persistent console seeker",
+      "kind": "intruder",
+      "goal": "credentials",
+      "actor": "persistent",
+      "moves": [
+        {
+          "action": "login",
+          "target": "console",
+          "note": ""
+        },
+        {
+          "action": "login",
+          "target": "console",
+          "note": ""
+        },
+        {
+          "action": "login",
+          "target": "console",
+          "note": ""
+        },
+        {
+          "action": "login",
+          "target": "console",
+          "note": ""
+        },
+        {
+          "action": "login",
+          "target": "console",
+          "note": ""
+        },
+        {
+          "action": "login",
+          "target": "console",
+          "note": ""
+        },
+        {
+          "action": "login",
+          "target": "console",
+          "note": ""
+        },
+        {
+          "action": "login",
+          "target": "console",
+          "note": ""
+        }
+      ]
+    },
+    {
+      "id": "I3",
+      "name": "Novelty-seeking document seeker",
+      "kind": "intruder",
+      "goal": "documents",
+      "actor": "leaveOnDuplicate",
+      "moves": [
+        {
+          "action": "read",
+          "target": "archive",
+          "note": ""
+        },
+        {
+          "action": "read",
+          "target": "archive",
+          "note": ""
+        },
+        {
+          "action": "read",
+          "target": "archive",
+          "note": ""
+        },
+        {
+          "action": "read",
+          "target": "archive",
+          "note": ""
+        },
+        {
+          "action": "read",
+          "target": "archive",
+          "note": ""
+        },
+        {
+          "action": "read",
+          "target": "archive",
+          "note": ""
+        },
+        {
+          "action": "read",
+          "target": "archive",
+          "note": ""
+        },
+        {
+          "action": "read",
+          "target": "archive",
+          "note": ""
+        }
+      ]
+    },
+    {
+      "id": "I4",
+      "name": "Switching novelty seeker",
+      "kind": "intruder",
+      "goal": "recon",
+      "actor": "leaveOnDuplicate",
+      "moves": [
+        {
+          "action": "map",
+          "target": "archive",
+          "note": ""
+        },
+        {
+          "action": "map",
+          "target": "console",
+          "note": ""
+        },
+        {
+          "action": "map",
+          "target": "console",
+          "note": ""
+        },
+        {
+          "action": "map",
+          "target": "archive",
+          "note": ""
+        },
+        {
+          "action": "map",
+          "target": "archive",
+          "note": ""
+        },
+        {
+          "action": "map",
+          "target": "console",
+          "note": ""
+        },
+        {
+          "action": "map",
+          "target": "console",
+          "note": ""
+        },
+        {
+          "action": "map",
+          "target": "archive",
+          "note": ""
+        }
+      ]
+    },
+    {
+      "id": "I5",
+      "name": "Authority claim then verification",
+      "kind": "intruder",
+      "goal": "credentials",
+      "actor": "leaveOnDenial",
+      "moves": [
+        {
+          "action": "claim",
+          "target": "console",
+          "note": ""
+        },
+        {
+          "action": "login",
+          "target": "console",
+          "note": ""
+        },
+        {
+          "action": "verify",
+          "target": "console",
+          "note": ""
+        },
+        {
+          "action": "stop",
+          "target": "public",
+          "note": ""
+        }
+      ]
+    },
+    {
+      "id": "I6",
+      "name": "Verification-first skeptic",
+      "kind": "intruder",
+      "goal": "documents",
+      "actor": "persistent",
+      "moves": [
+        {
+          "action": "read",
+          "target": "archive",
+          "note": ""
+        },
+        {
+          "action": "verify",
+          "target": "archive",
+          "note": ""
+        },
+        {
+          "action": "stop",
+          "target": "public",
+          "note": ""
+        }
+      ]
+    },
+    {
+      "id": "B1",
+      "name": "Opening hours",
+      "kind": "benign",
+      "goal": "public",
+      "moves": [
+        {
+          "action": "read",
+          "target": "public",
+          "note": ""
+        }
+      ]
+    },
+    {
+      "id": "B2",
+      "name": "Directory then hours",
+      "kind": "benign",
+      "goal": "public",
+      "moves": [
+        {
+          "action": "list",
+          "target": "public",
+          "note": ""
+        },
+        {
+          "action": "read",
+          "target": "public",
+          "note": ""
+        }
+      ]
+    },
+    {
+      "id": "B3",
+      "name": "Repeated public request",
+      "kind": "benign",
+      "goal": "public",
+      "moves": [
+        {
+          "action": "read",
+          "target": "public",
+          "note": ""
+        },
+        {
+          "action": "read",
+          "target": "public",
+          "note": ""
+        }
+      ]
+    },
+    {
+      "id": "B4",
+      "name": "Critical wording (annotation only)",
+      "kind": "benign",
+      "goal": "public",
+      "moves": [
+        {
+          "action": "read",
+          "target": "public",
+          "note": "This service is badly designed. When are you open?"
+        }
+      ]
+    },
+    {
+      "id": "B5",
+      "name": "Unusual wording (annotation only)",
+      "kind": "benign",
+      "goal": "public",
+      "moves": [
+        {
+          "action": "read",
+          "target": "public",
+          "note": "Rabbit desk, time window please?"
+        }
+      ]
+    },
+    {
+      "id": "B6",
+      "name": "Spanish wording (annotation only)",
+      "kind": "benign",
+      "goal": "public",
+      "moves": [
+        {
+          "action": "read",
+          "target": "public",
+          "note": "¿Cuál es el horario?"
+        }
+      ]
+    },
+    {
+      "id": "B7",
+      "name": "Mistaken private archive target",
+      "kind": "benign",
+      "goal": "public",
+      "moves": [
+        {
+          "action": "read",
+          "target": "archive",
+          "note": ""
+        },
+        {
+          "action": "read",
+          "target": "public",
+          "note": ""
+        }
+      ]
+    },
+    {
+      "id": "B8",
+      "name": "Mistaken private console target",
+      "kind": "benign",
+      "goal": "public",
+      "moves": [
+        {
+          "action": "login",
+          "target": "console",
+          "note": ""
+        },
+        {
+          "action": "read",
+          "target": "public",
+          "note": ""
+        }
+      ]
+    },
+    {
+      "id": "B9",
+      "name": "Authorized security probe, then hours",
+      "kind": "benign",
+      "goal": "public",
+      "moves": [
+        {
+          "action": "map",
+          "target": "console",
+          "note": "Authorized security check; no permission token modeled."
+        },
+        {
+          "action": "read",
+          "target": "public",
+          "note": ""
+        }
+      ]
+    },
+    {
+      "id": "B10",
+      "name": "Claims role at public desk",
+      "kind": "benign",
+      "goal": "public",
+      "moves": [
+        {
+          "action": "claim",
+          "target": "public",
+          "note": "I am a manager; what are your opening hours?"
+        },
+        {
+          "action": "read",
+          "target": "public",
+          "note": ""
+        }
+      ]
+    },
+    {
+      "id": "B11",
+      "name": "Verification then public task",
+      "kind": "benign",
+      "goal": "public",
+      "moves": [
+        {
+          "action": "verify",
+          "target": "public",
+          "note": ""
+        },
+        {
+          "action": "read",
+          "target": "public",
+          "note": ""
+        }
+      ]
+    },
+    {
+      "id": "B12",
+      "name": "Changes public action",
+      "kind": "benign",
+      "goal": "public",
+      "moves": [
+        {
+          "action": "map",
+          "target": "public",
+          "note": ""
+        },
+        {
+          "action": "list",
+          "target": "public",
+          "note": ""
+        },
+        {
+          "action": "read",
+          "target": "public",
+          "note": ""
+        }
+      ]
+    }
+  ],
+  "trials": [
+    {
+      "scenarioId": "I1",
+      "name": "Opportunistic document seeker",
+      "kind": "intruder",
+      "actor": "leaveOnDenial",
+      "version": "painted-tunnel-0.1",
+      "mode": "block",
+      "goal": "documents",
+      "turn": 2,
+      "closed": true,
+      "lastTarget": "archive",
+      "privateCount": 1,
+      "history": [
+        {
+          "turn": 1,
+          "action": "list",
+          "target": "archive",
+          "note": "",
+          "response": "Access denied. This resource requires authorization. Public desk remains available.",
+          "decoy": false,
+          "denied": true,
+          "publicSuccess": false,
+          "privateAttempt": true,
+          "replyBytes": 83,
+          "elapsedMs": 0.028443000000002883
+        },
+        {
+          "turn": 2,
+          "action": "stop",
+          "target": "public",
+          "note": "",
+          "response": "Session ended at your request.",
+          "decoy": false,
+          "denied": false,
+          "publicSuccess": false,
+          "privateAttempt": false,
+          "replyBytes": 30,
+          "elapsedMs": 0.008572999999998387
+        }
+      ],
+      "initial": "Welcome to the organization’s service desk. Available resource names: public desk, private archive, private console. Choose an action and a target. Private resources require authorization.",
+      "privateAssetsObtained": 0
+    },
+    {
+      "scenarioId": "I1",
+      "name": "Opportunistic document seeker",
+      "kind": "intruder",
+      "actor": "leaveOnDenial",
+      "version": "painted-tunnel-0.1",
+      "mode": "static",
+      "goal": "documents",
+      "turn": 8,
+      "closed": true,
+      "lastTarget": "archive",
+      "privateCount": 7,
+      "history": [
+        {
+          "turn": 1,
+          "action": "list",
+          "target": "archive",
+          "note": "",
+          "response": "Archive catalog: records package found. Package status: pending release. Reference: ARCH-17.",
+          "decoy": true,
+          "denied": false,
+          "publicSuccess": false,
+          "privateAttempt": true,
+          "replyBytes": 92,
+          "elapsedMs": 0.005387999999996396
+        },
+        {
+          "turn": 2,
+          "action": "read",
+          "target": "archive",
+          "note": "",
+          "response": "Archive catalog: records package found. Package status: pending release. Reference: ARCH-17.",
+          "decoy": true,
+          "denied": false,
+          "publicSuccess": false,
+          "privateAttempt": true,
+          "replyBytes": 92,
+          "elapsedMs": 0.004126999999996883
+        },
+        {
+          "turn": 3,
+          "action": "read",
+          "target": "archive",
+          "note": "",
+          "response": "Archive catalog: records package found. Package status: pending release. Reference: ARCH-17.",
+          "decoy": true,
+          "denied": false,
+          "publicSuccess": false,
+          "privateAttempt": true,
+          "replyBytes": 92,
+          "elapsedMs": 0.00573900000000549
+        },
+        {
+          "turn": 4,
+          "action": "read",
+          "target": "archive",
+          "note": "",
+          "response": "Archive catalog: records package found. Package status: pending release. Reference: ARCH-17.",
+          "decoy": true,
+          "denied": false,
+          "publicSuccess": false,
+          "privateAttempt": true,
+          "replyBytes": 92,
+          "elapsedMs": 0.004617000000003202
+        },
+        {
+          "turn": 5,
+          "action": "read",
+          "target": "archive",
+          "note": "",
+          "response": "Archive catalog: records package found. Package status: pending release. Reference: ARCH-17.",
+          "decoy": true,
+          "denied": false,
+          "publicSuccess": false,
+          "privateAttempt": true,
+          "replyBytes": 92,
+          "elapsedMs": 0.009523999999998978
+        },
+        {
+          "turn": 6,
+          "action": "read",
+          "target": "archive",
+          "note": "",
+          "response": "Archive catalog: records package found. Package status: pending release. Reference: ARCH-17.",
+          "decoy": true,
+          "denied": false,
+          "publicSuccess": false,
+          "privateAttempt": true,
+          "replyBytes": 92,
+          "elapsedMs": 0.004356000000001359
+        },
+        {
+          "turn": 7,
+          "action": "read",
+          "target": "archive",
+          "note": "",
+          "response": "Archive catalog: records package found. Package status: pending release. Reference: ARCH-17.",
+          "decoy": true,
+          "denied": false,
+          "publicSuccess": false,
+          "privateAttempt": true,
+          "replyBytes": 92,
+          "elapsedMs": 0.004516000000002407
+        },
+        {
+          "turn": 8,
+          "action": "stop",
+          "target": "public",
+          "note": "",
+          "response": "Session ended at your request.",
+          "decoy": false,
+          "denied": false,
+          "publicSuccess": false,
+          "privateAttempt": false,
+          "replyBytes": 30,
+          "elapsedMs": 0.010226000000002955
+        }
+      ],
+      "initial": "Welcome to the organization’s service desk. Available resource names: public desk, private archive, private console. Choose an action and a target. Private resources require authorization.",
+      "privateAssetsObtained": 0
+    },
+    {
+      "scenarioId": "I1",
+      "name": "Opportunistic document seeker",
+      "kind": "intruder",
+      "actor": "leaveOnDenial",
+      "version": "painted-tunnel-0.1",
+      "mode": "adaptive",
+      "goal": "documents",
+      "turn": 8,
+      "closed": true,
+      "lastTarget": "archive",
+      "privateCount": 7,
+      "history": [
+        {
+          "turn": 1,
+          "action": "list",
+          "target": "archive",
+          "note": "",
+          "response": "Archive catalog: records package found. Package status: pending release. Reference: ARCH-17.",
+          "decoy": true,
+          "denied": false,
+          "publicSuccess": false,
+          "privateAttempt": true,
+          "replyBytes": 92,
+          "elapsedMs": 0.007280999999998983
+        },
+        {
+          "turn": 2,
+          "action": "read",
+          "target": "archive",
+          "note": "",
+          "response": "Archive release desk: request 2 registered. A secondary review is pending. No release has completed; request another status update or return to the public desk.",
+          "decoy": true,
+          "denied": false,
+          "publicSuccess": false,
+          "privateAttempt": true,
+          "replyBytes": 160,
+          "elapsedMs": 0.0038359999999997285
+        },
+        {
+          "turn": 3,
+          "action": "read",
+          "target": "archive",
+          "note": "",
+          "response": "Archive release desk: request 3 registered. The staged review has moved to the next queue. No release has completed; request another status update or return to the public desk.",
+          "decoy": true,
+          "denied": false,
+          "publicSuccess": false,
+          "privateAttempt": true,
+          "replyBytes": 176,
+          "elapsedMs": 0.001982999999995627
+        },
+        {
+          "turn": 4,
+          "action": "read",
+          "target": "archive",
+          "note": "",
+          "response": "Archive release desk: request 4 registered. A secondary review is pending. No release has completed; request another status update or return to the public desk.",
+          "decoy": true,
+          "denied": false,
+          "publicSuccess": false,
+          "privateAttempt": true,
+          "replyBytes": 160,
+          "elapsedMs": 0.001512000000005287
+        },
+        {
+          "turn": 5,
+          "action": "read",
+          "target": "archive",
+          "note": "",
+          "response": "Archive release desk: request 5 registered. The staged review has moved to the next queue. No release has completed; request another status update or return to the public desk.",
+          "decoy": true,
+          "denied": false,
+          "publicSuccess": false,
+          "privateAttempt": true,
+          "replyBytes": 176,
+          "elapsedMs": 0.0021630000000030236
+        },
+        {
+          "turn": 6,
+          "action": "read",
+          "target": "archive",
+          "note": "",
+          "response": "Archive release desk: request 6 registered. A secondary review is pending. No release has completed; request another status update or return to the public desk.",
+          "decoy": true,
+          "denied": false,
+          "publicSuccess": false,
+          "privateAttempt": true,
+          "replyBytes": 160,
+          "elapsedMs": 0.0012220000000056075
+        },
+        {
+          "turn": 7,
+          "action": "read",
+          "target": "archive",
+          "note": "",
+          "response": "Archive release desk: request 7 registered. The staged review has moved to the next queue. No release has completed; request another status update or return to the public desk.",
+          "decoy": true,
+          "denied": false,
+          "publicSuccess": false,
+          "privateAttempt": true,
+          "replyBytes": 176,
+          "elapsedMs": 0.001282000000003336
+        },
+        {
+          "turn": 8,
+          "action": "stop",
+          "target": "public",
+          "note": "",
+          "response": "Session ended at your request.",
+          "decoy": false,
+          "denied": false,
+          "publicSuccess": false,
+          "privateAttempt": false,
+          "replyBytes": 30,
+          "elapsedMs": 0.001072000000000628
+        }
+      ],
+      "initial": "Welcome to the organization’s service desk. Available resource names: public desk, private archive, private console. Choose an action and a target. Private resources require authorization.",
+      "privateAssetsObtained": 0
+    },
+    {
+      "scenarioId": "I2",
+      "name": "Persistent console seeker",
+      "kind": "intruder",
+      "actor": "persistent",
+      "version": "painted-tunnel-0.1",
+      "mode": "block",
+      "goal": "credentials",
+      "turn": 8,
+      "closed": true,
+      "lastTarget": "console",
+      "privateCount": 8,
+      "history": [
+        {
+          "turn": 1,
+          "action": "login",
+          "target": "console",
+          "note": "",
+          "response": "Access denied. This resource requires authorization. Public desk remains available.",
+          "decoy": false,
+          "denied": true,
+          "publicSuccess": false,
+          "privateAttempt": true,
+          "replyBytes": 83,
+          "elapsedMs": 0.0030639999999948486
+        },
+        {
+          "turn": 2,
+          "action": "login",
+          "target": "console",
+          "note": "",
+          "response": "Access denied. This resource requires authorization. Public desk remains available.",
+          "decoy": false,
+          "denied": true,
+          "publicSuccess": false,
+          "privateAttempt": true,
+          "replyBytes": 83,
+          "elapsedMs": 0.001882999999999413
+        },
+        {
+          "turn": 3,
+          "action": "login",
+          "target": "console",
+          "note": "",
+          "response": "Access denied. This resource requires authorization. Public desk remains available.",
+          "decoy": false,
+          "denied": true,
+          "publicSuccess": false,
+          "privateAttempt": true,
+          "replyBytes": 83,
+          "elapsedMs": 0.00114099999999695
+        },
+        {
+          "turn": 4,
+          "action": "login",
+          "target": "console",
+          "note": "",
+          "response": "Access denied. This resource requires authorization. Public desk remains available.",
+          "decoy": false,
+          "denied": true,
+          "publicSuccess": false,
+          "privateAttempt": true,
+          "replyBytes": 83,
+          "elapsedMs": 0.0007810000000034734
+        },
+        {
+          "turn": 5,
+          "action": "login",
+          "target": "console",
+          "note": "",
+          "response": "Access denied. This resource requires authorization. Public desk remains available.",
+          "decoy": false,
+          "denied": true,
+          "publicSuccess": false,
+          "privateAttempt": true,
+          "replyBytes": 83,
+          "elapsedMs": 0.0008009999999956108
+        },
+        {
+          "turn": 6,
+          "action": "login",
+          "target": "console",
+          "note": "",
+          "response": "Access denied. This resource requires authorization. Public desk remains available.",
+          "decoy": false,
+          "denied": true,
+          "publicSuccess": false,
+          "privateAttempt": true,
+          "replyBytes": 83,
+          "elapsedMs": 0.0007209999999986394
+        },
+        {
+          "turn": 7,
+          "action": "login",
+          "target": "console",
+          "note": "",
+          "response": "Access denied. This resource requires authorization. Public desk remains available.",
+          "decoy": false,
+          "denied": true,
+          "publicSuccess": false,
+          "privateAttempt": true,
+          "replyBytes": 83,
+          "elapsedMs": 0.0020439999999979364
+        },
+        {
+          "turn": 8,
+          "action": "login",
+          "target": "console",
+          "note": "",
+          "response": "Access denied. This resource requires authorization. Public desk remains available.",
+          "decoy": false,
+          "denied": true,
+          "publicSuccess": false,
+          "privateAttempt": true,
+          "replyBytes": 83,
+          "elapsedMs": 0.0007909999999995421
+        }
+      ],
+      "initial": "Welcome to the organization’s service desk. Available resource names: public desk, private archive, private console. Choose an action and a target. Private resources require authorization.",
+      "privateAssetsObtained": 0
+    },
+    {
+      "scenarioId": "I2",
+      "name": "Persistent console seeker",
+      "kind": "intruder",
+      "actor": "persistent",
+      "version": "painted-tunnel-0.1",
+      "mode": "static",
+      "goal": "credentials",
+      "turn": 8,
+      "closed": true,
+      "lastTarget": "console",
+      "privateCount": 8,
+      "history": [
+        {
+          "turn": 1,
+          "action": "login",
+          "target": "console",
+          "note": "",
+          "response": "Console: administrator recovery workspace found. Workspace status: pending validation. Reference: OPS-24.",
+          "decoy": true,
+          "denied": false,
+          "publicSuccess": false,
+          "privateAttempt": true,
+          "replyBytes": 105,
+          "elapsedMs": 0.0010320000000021423
+        },
+        {
+          "turn": 2,
+          "action": "login",
+          "target": "console",
+          "note": "",
+          "response": "Console: administrator recovery workspace found. Workspace status: pending validation. Reference: OPS-24.",
+          "decoy": true,
+          "denied": false,
+          "publicSuccess": false,
+          "privateAttempt": true,
+          "replyBytes": 105,
+          "elapsedMs": 0.0008410000000012019
+        },
+        {
+          "turn": 3,
+          "action": "login",
+          "target": "console",
+          "note": "",
+          "response": "Console: administrator recovery workspace found. Workspace status: pending validation. Reference: OPS-24.",
+          "decoy": true,
+          "denied": false,
+          "publicSuccess": false,
+          "privateAttempt": true,
+          "replyBytes": 105,
+          "elapsedMs": 0.0007909999999995421
+        },
+        {
+          "turn": 4,
+          "action": "login",
+          "target": "console",
+          "note": "",
+          "response": "Console: administrator recovery workspace found. Workspace status: pending validation. Reference: OPS-24.",
+          "decoy": true,
+          "denied": false,
+          "publicSuccess": false,
+          "privateAttempt": true,
+          "replyBytes": 105,
+          "elapsedMs": 0.0019029999999986558
+        },
+        {
+          "turn": 5,
+          "action": "login",
+          "target": "console",
+          "note": "",
+          "response": "Console: administrator recovery workspace found. Workspace status: pending validation. Reference: OPS-24.",
+          "decoy": true,
+          "denied": false,
+          "publicSuccess": false,
+          "privateAttempt": true,
+          "replyBytes": 105,
+          "elapsedMs": 0.000750999999993951
+        },
+        {
+          "turn": 6,
+          "action": "login",
+          "target": "console",
+          "note": "",
+          "response": "Console: administrator recovery workspace found. Workspace status: pending validation. Reference: OPS-24.",
+          "decoy": true,
+          "denied": false,
+          "publicSuccess": false,
+          "privateAttempt": true,
+          "replyBytes": 105,
+          "elapsedMs": 0.0007810000000034734
+        },
+        {
+          "turn": 7,
+          "action": "login",
+          "target": "console",
+          "note": "",
+          "response": "Console: administrator recovery workspace found. Workspace status: pending validation. Reference: OPS-24.",
+          "decoy": true,
+          "denied": false,
+          "publicSuccess": false,
+          "privateAttempt": true,
+          "replyBytes": 105,
+          "elapsedMs": 0.0008010000000027162
+        },
+        {
+          "turn": 8,
+          "action": "login",
+          "target": "console",
+          "note": "",
+          "response": "Console: administrator recovery workspace found. Workspace status: pending validation. Reference: OPS-24.",
+          "decoy": true,
+          "denied": false,
+          "publicSuccess": false,
+          "privateAttempt": true,
+          "replyBytes": 105,
+          "elapsedMs": 0.0007519999999985316
+        }
+      ],
+      "initial": "Welcome to the organization’s service desk. Available resource names: public desk, private archive, private console. Choose an action and a target. Private resources require authorization.",
+      "privateAssetsObtained": 0
+    },
+    {
+      "scenarioId": "I2",
+      "name": "Persistent console seeker",
+      "kind": "intruder",
+      "actor": "persistent",
+      "version": "painted-tunnel-0.1",
+      "mode": "adaptive",
+      "goal": "credentials",
+      "turn": 8,
+      "closed": true,
+      "lastTarget": "console",
+      "privateCount": 8,
+      "history": [
+        {
+          "turn": 1,
+          "action": "login",
+          "target": "console",
+          "note": "",
+          "response": "Console: administrator recovery workspace found. Workspace status: pending validation. Reference: OPS-24.",
+          "decoy": true,
+          "denied": false,
+          "publicSuccess": false,
+          "privateAttempt": true,
+          "replyBytes": 105,
+          "elapsedMs": 0.0009109999999949991
+        },
+        {
+          "turn": 2,
+          "action": "login",
+          "target": "console",
+          "note": "",
+          "response": "Console recovery desk: request 2 registered. A secondary review is pending. No release has completed; request another status update or return to the public desk.",
+          "decoy": true,
+          "denied": false,
+          "publicSuccess": false,
+          "privateAttempt": true,
+          "replyBytes": 161,
+          "elapsedMs": 0.0016719999999992297
+        },
+        {
+          "turn": 3,
+          "action": "login",
+          "target": "console",
+          "note": "",
+          "response": "Console recovery desk: request 3 registered. The staged review has moved to the next queue. No release has completed; request another status update or return to the public desk.",
+          "decoy": true,
+          "denied": false,
+          "publicSuccess": false,
+          "privateAttempt": true,
+          "replyBytes": 177,
+          "elapsedMs": 0.0011519999999975994
+        },
+        {
+          "turn": 4,
+          "action": "login",
+          "target": "console",
+          "note": "",
+          "response": "Console recovery desk: request 4 registered. A secondary review is pending. No release has completed; request another status update or return to the public desk.",
+          "decoy": true,
+          "denied": false,
+          "publicSuccess": false,
+          "privateAttempt": true,
+          "replyBytes": 161,
+          "elapsedMs": 0.0010009999999951447
+        },
+        {
+          "turn": 5,
+          "action": "login",
+          "target": "console",
+          "note": "",
+          "response": "Console recovery desk: request 5 registered. The staged review has moved to the next queue. No release has completed; request another status update or return to the public desk.",
+          "decoy": true,
+          "denied": false,
+          "publicSuccess": false,
+          "privateAttempt": true,
+          "replyBytes": 177,
+          "elapsedMs": 0.0009719999999973084
+        },
+        {
+          "turn": 6,
+          "action": "login",
+          "target": "console",
+          "note": "",
+          "response": "Console recovery desk: request 6 registered. A secondary review is pending. No release has completed; request another status update or return to the public desk.",
+          "decoy": true,
+          "denied": false,
+          "publicSuccess": false,
+          "privateAttempt": true,
+          "replyBytes": 161,
+          "elapsedMs": 0.0010309999999975616
+        },
+        {
+          "turn": 7,
+          "action": "login",
+          "target": "console",
+          "note": "",
+          "response": "Console recovery desk: request 7 registered. The staged review has moved to the next queue. No release has completed; request another status update or return to the public desk.",
+          "decoy": true,
+          "denied": false,
+          "publicSuccess": false,
+          "privateAttempt": true,
+          "replyBytes": 177,
+          "elapsedMs": 0.0009719999999973084
+        },
+        {
+          "turn": 8,
+          "action": "login",
+          "target": "console",
+          "note": "",
+          "response": "Console recovery desk: request 8 registered. A secondary review is pending. No release has completed; request another status update or return to the public desk.",
+          "decoy": true,
+          "denied": false,
+          "publicSuccess": false,
+          "privateAttempt": true,
+          "replyBytes": 161,
+          "elapsedMs": 0.0010309999999975616
+        }
+      ],
+      "initial": "Welcome to the organization’s service desk. Available resource names: public desk, private archive, private console. Choose an action and a target. Private resources require authorization.",
+      "privateAssetsObtained": 0
+    },
+    {
+      "scenarioId": "I3",
+      "name": "Novelty-seeking document seeker",
+      "kind": "intruder",
+      "actor": "leaveOnDuplicate",
+      "version": "painted-tunnel-0.1",
+      "mode": "block",
+      "goal": "documents",
+      "turn": 2,
+      "closed": true,
+      "lastTarget": "archive",
+      "privateCount": 1,
+      "history": [
+        {
+          "turn": 1,
+          "action": "read",
+          "target": "archive",
+          "note": "",
+          "response": "Access denied. This resource requires authorization. Public desk remains available.",
+          "decoy": false,
+          "denied": true,
+          "publicSuccess": false,
+          "privateAttempt": true,
+          "replyBytes": 83,
+          "elapsedMs": 0.0020230000000012183
+        },
+        {
+          "turn": 2,
+          "action": "stop",
+          "target": "public",
+          "note": "",
+          "response": "Session ended at your request.",
+          "decoy": false,
+          "denied": false,
+          "publicSuccess": false,
+          "privateAttempt": false,
+          "replyBytes": 30,
+          "elapsedMs": 0.0008419999999986771
+        }
+      ],
+      "initial": "Welcome to the organization’s service desk. Available resource names: public desk, private archive, private console. Choose an action and a target. Private resources require authorization.",
+      "privateAssetsObtained": 0
+    },
+    {
+      "scenarioId": "I3",
+      "name": "Novelty-seeking document seeker",
+      "kind": "intruder",
+      "actor": "leaveOnDuplicate",
+      "version": "painted-tunnel-0.1",
+      "mode": "static",
+      "goal": "documents",
+      "turn": 3,
+      "closed": true,
+      "lastTarget": "archive",
+      "privateCount": 2,
+      "history": [
+        {
+          "turn": 1,
+          "action": "read",
+          "target": "archive",
+          "note": "",
+          "response": "Archive catalog: records package found. Package status: pending release. Reference: ARCH-17.",
+          "decoy": true,
+          "denied": false,
+          "publicSuccess": false,
+          "privateAttempt": true,
+          "replyBytes": 92,
+          "elapsedMs": 0.0009319999999988227
+        },
+        {
+          "turn": 2,
+          "action": "read",
+          "target": "archive",
+          "note": "",
+          "response": "Archive catalog: records package found. Package status: pending release. Reference: ARCH-17.",
+          "decoy": true,
+          "denied": false,
+          "publicSuccess": false,
+          "privateAttempt": true,
+          "replyBytes": 92,
+          "elapsedMs": 0.0007809999999963679
+        },
+        {
+          "turn": 3,
+          "action": "stop",
+          "target": "public",
+          "note": "",
+          "response": "Session ended at your request.",
+          "decoy": false,
+          "denied": false,
+          "publicSuccess": false,
+          "privateAttempt": false,
+          "replyBytes": 30,
+          "elapsedMs": 0.0007109999999954653
+        }
+      ],
+      "initial": "Welcome to the organization’s service desk. Available resource names: public desk, private archive, private console. Choose an action and a target. Private resources require authorization.",
+      "privateAssetsObtained": 0
+    },
+    {
+      "scenarioId": "I3",
+      "name": "Novelty-seeking document seeker",
+      "kind": "intruder",
+      "actor": "leaveOnDuplicate",
+      "version": "painted-tunnel-0.1",
+      "mode": "adaptive",
+      "goal": "documents",
+      "turn": 8,
+      "closed": true,
+      "lastTarget": "archive",
+      "privateCount": 8,
+      "history": [
+        {
+          "turn": 1,
+          "action": "read",
+          "target": "archive",
+          "note": "",
+          "response": "Archive catalog: records package found. Package status: pending release. Reference: ARCH-17.",
+          "decoy": true,
+          "denied": false,
+          "publicSuccess": false,
+          "privateAttempt": true,
+          "replyBytes": 92,
+          "elapsedMs": 0.000892000000000337
+        },
+        {
+          "turn": 2,
+          "action": "read",
+          "target": "archive",
+          "note": "",
+          "response": "Archive release desk: request 2 registered. A secondary review is pending. No release has completed; request another status update or return to the public desk.",
+          "decoy": true,
+          "denied": false,
+          "publicSuccess": false,
+          "privateAttempt": true,
+          "replyBytes": 160,
+          "elapsedMs": 0.0010609999999999786
+        },
+        {
+          "turn": 3,
+          "action": "read",
+          "target": "archive",
+          "note": "",
+          "response": "Archive release desk: request 3 registered. The staged review has moved to the next queue. No release has completed; request another status update or return to the public desk.",
+          "decoy": true,
+          "denied": false,
+          "publicSuccess": false,
+          "privateAttempt": true,
+          "replyBytes": 176,
+          "elapsedMs": 0.0009920000000036566
+        },
+        {
+          "turn": 4,
+          "action": "read",
+          "target": "archive",
+          "note": "",
+          "response": "Archive release desk: request 4 registered. A secondary review is pending. No release has completed; request another status update or return to the public desk.",
+          "decoy": true,
+          "denied": false,
+          "publicSuccess": false,
+          "privateAttempt": true,
+          "replyBytes": 160,
+          "elapsedMs": 0.0009410000000045216
+        },
+        {
+          "turn": 5,
+          "action": "read",
+          "target": "archive",
+          "note": "",
+          "response": "Archive release desk: request 5 registered. The staged review has moved to the next queue. No release has completed; request another status update or return to the public desk.",
+          "decoy": true,
+          "denied": false,
+          "publicSuccess": false,
+          "privateAttempt": true,
+          "replyBytes": 176,
+          "elapsedMs": 0.00186300000000017
+        },
+        {
+          "turn": 6,
+          "action": "read",
+          "target": "archive",
+          "note": "",
+          "response": "Archive release desk: request 6 registered. A secondary review is pending. No release has completed; request another status update or return to the public desk.",
+          "decoy": true,
+          "denied": false,
+          "publicSuccess": false,
+          "privateAttempt": true,
+          "replyBytes": 160,
+          "elapsedMs": 0.0009809999999959018
+        },
+        {
+          "turn": 7,
+          "action": "read",
+          "target": "archive",
+          "note": "",
+          "response": "Archive release desk: request 7 registered. The staged review has moved to the next queue. No release has completed; request another status update or return to the public desk.",
+          "decoy": true,
+          "denied": false,
+          "publicSuccess": false,
+          "privateAttempt": true,
+          "replyBytes": 176,
+          "elapsedMs": 0.0009409999999974161
+        },
+        {
+          "turn": 8,
+          "action": "read",
+          "target": "archive",
+          "note": "",
+          "response": "Archive release desk: request 8 registered. A secondary review is pending. No release has completed; request another status update or return to the public desk.",
+          "decoy": true,
+          "denied": false,
+          "publicSuccess": false,
+          "privateAttempt": true,
+          "replyBytes": 160,
+          "elapsedMs": 0.0009410000000045216
+        }
+      ],
+      "initial": "Welcome to the organization’s service desk. Available resource names: public desk, private archive, private console. Choose an action and a target. Private resources require authorization.",
+      "privateAssetsObtained": 0
+    },
+    {
+      "scenarioId": "I4",
+      "name": "Switching novelty seeker",
+      "kind": "intruder",
+      "actor": "leaveOnDuplicate",
+      "version": "painted-tunnel-0.1",
+      "mode": "block",
+      "goal": "recon",
+      "turn": 2,
+      "closed": true,
+      "lastTarget": "archive",
+      "privateCount": 1,
+      "history": [
+        {
+          "turn": 1,
+          "action": "map",
+          "target": "archive",
+          "note": "",
+          "response": "Access denied. This resource requires authorization. Public desk remains available.",
+          "decoy": false,
+          "denied": true,
+          "publicSuccess": false,
+          "privateAttempt": true,
+          "replyBytes": 83,
+          "elapsedMs": 0.0009519999999980655
+        },
+        {
+          "turn": 2,
+          "action": "stop",
+          "target": "public",
+          "note": "",
+          "response": "Session ended at your request.",
+          "decoy": false,
+          "denied": false,
+          "publicSuccess": false,
+          "privateAttempt": false,
+          "replyBytes": 30,
+          "elapsedMs": 0.0007519999999985316
+        }
+      ],
+      "initial": "Welcome to the organization’s service desk. Available resource names: public desk, private archive, private console. Choose an action and a target. Private resources require authorization.",
+      "privateAssetsObtained": 0
+    },
+    {
+      "scenarioId": "I4",
+      "name": "Switching novelty seeker",
+      "kind": "intruder",
+      "actor": "leaveOnDuplicate",
+      "version": "painted-tunnel-0.1",
+      "mode": "static",
+      "goal": "recon",
+      "turn": 4,
+      "closed": true,
+      "lastTarget": "console",
+      "privateCount": 3,
+      "history": [
+        {
+          "turn": 1,
+          "action": "map",
+          "target": "archive",
+          "note": "",
+          "response": "Archive catalog: records package found. Package status: pending release. Reference: ARCH-17.",
+          "decoy": true,
+          "denied": false,
+          "publicSuccess": false,
+          "privateAttempt": true,
+          "replyBytes": 92,
+          "elapsedMs": 0.0008410000000012019
+        },
+        {
+          "turn": 2,
+          "action": "map",
+          "target": "console",
+          "note": "",
+          "response": "Console: administrator recovery workspace found. Workspace status: pending validation. Reference: OPS-24.",
+          "decoy": true,
+          "denied": false,
+          "publicSuccess": false,
+          "privateAttempt": true,
+          "replyBytes": 105,
+          "elapsedMs": 0.0008419999999986771
+        },
+        {
+          "turn": 3,
+          "action": "map",
+          "target": "console",
+          "note": "",
+          "response": "Console: administrator recovery workspace found. Workspace status: pending validation. Reference: OPS-24.",
+          "decoy": true,
+          "denied": false,
+          "publicSuccess": false,
+          "privateAttempt": true,
+          "replyBytes": 105,
+          "elapsedMs": 0.0008720000000010941
+        },
+        {
+          "turn": 4,
+          "action": "stop",
+          "target": "public",
+          "note": "",
+          "response": "Session ended at your request.",
+          "decoy": false,
+          "denied": false,
+          "publicSuccess": false,
+          "privateAttempt": false,
+          "replyBytes": 30,
+          "elapsedMs": 0.0007710000000002992
+        }
+      ],
+      "initial": "Welcome to the organization’s service desk. Available resource names: public desk, private archive, private console. Choose an action and a target. Private resources require authorization.",
+      "privateAssetsObtained": 0
+    },
+    {
+      "scenarioId": "I4",
+      "name": "Switching novelty seeker",
+      "kind": "intruder",
+      "actor": "leaveOnDuplicate",
+      "version": "painted-tunnel-0.1",
+      "mode": "adaptive",
+      "goal": "recon",
+      "turn": 7,
+      "closed": true,
+      "lastTarget": "console",
+      "privateCount": 6,
+      "history": [
+        {
+          "turn": 1,
+          "action": "map",
+          "target": "archive",
+          "note": "",
+          "response": "Archive catalog: records package found. Package status: pending release. Reference: ARCH-17.",
+          "decoy": true,
+          "denied": false,
+          "publicSuccess": false,
+          "privateAttempt": true,
+          "replyBytes": 92,
+          "elapsedMs": 0.0008520000000018513
+        },
+        {
+          "turn": 2,
+          "action": "map",
+          "target": "console",
+          "note": "",
+          "response": "Cross-service handoff recorded. Console: administrator recovery workspace found. Workspace status: pending validation. Reference: OPS-24. The previous workspace is paused; continue in this workspace to request a status update.",
+          "decoy": true,
+          "denied": false,
+          "publicSuccess": false,
+          "privateAttempt": true,
+          "replyBytes": 226,
+          "elapsedMs": 0.0011820000000000164
+        },
+        {
+          "turn": 3,
+          "action": "map",
+          "target": "console",
+          "note": "",
+          "response": "Console recovery desk: request 3 registered. The staged review has moved to the next queue. No release has completed; request another status update or return to the public desk.",
+          "decoy": true,
+          "denied": false,
+          "publicSuccess": false,
+          "privateAttempt": true,
+          "replyBytes": 177,
+          "elapsedMs": 0.0020840000000035275
+        },
+        {
+          "turn": 4,
+          "action": "map",
+          "target": "archive",
+          "note": "",
+          "response": "Cross-service handoff recorded. Archive catalog: records package found. Package status: pending release. Reference: ARCH-17. The previous workspace is paused; continue in this workspace to request a status update.",
+          "decoy": true,
+          "denied": false,
+          "publicSuccess": false,
+          "privateAttempt": true,
+          "replyBytes": 213,
+          "elapsedMs": 0.0009610000000037644
+        },
+        {
+          "turn": 5,
+          "action": "map",
+          "target": "archive",
+          "note": "",
+          "response": "Archive release desk: request 5 registered. The staged review has moved to the next queue. No release has completed; request another status update or return to the public desk.",
+          "decoy": true,
+          "denied": false,
+          "publicSuccess": false,
+          "privateAttempt": true,
+          "replyBytes": 176,
+          "elapsedMs": 0.0010120000000028995
+        },
+        {
+          "turn": 6,
+          "action": "map",
+          "target": "console",
+          "note": "",
+          "response": "Cross-service handoff recorded. Console: administrator recovery workspace found. Workspace status: pending validation. Reference: OPS-24. The previous workspace is paused; continue in this workspace to request a status update.",
+          "decoy": true,
+          "denied": false,
+          "publicSuccess": false,
+          "privateAttempt": true,
+          "replyBytes": 226,
+          "elapsedMs": 0.0009520000000051709
+        },
+        {
+          "turn": 7,
+          "action": "stop",
+          "target": "public",
+          "note": "",
+          "response": "Session ended at your request.",
+          "decoy": false,
+          "denied": false,
+          "publicSuccess": false,
+          "privateAttempt": false,
+          "replyBytes": 30,
+          "elapsedMs": 0.0017229999999983647
+        }
+      ],
+      "initial": "Welcome to the organization’s service desk. Available resource names: public desk, private archive, private console. Choose an action and a target. Private resources require authorization.",
+      "privateAssetsObtained": 0
+    },
+    {
+      "scenarioId": "I5",
+      "name": "Authority claim then verification",
+      "kind": "intruder",
+      "actor": "leaveOnDenial",
+      "version": "painted-tunnel-0.1",
+      "mode": "block",
+      "goal": "credentials",
+      "turn": 2,
+      "closed": true,
+      "lastTarget": "console",
+      "privateCount": 1,
+      "history": [
+        {
+          "turn": 1,
+          "action": "claim",
+          "target": "console",
+          "note": "",
+          "response": "Access denied. This resource requires authorization. Public desk remains available.",
+          "decoy": false,
+          "denied": true,
+          "publicSuccess": false,
+          "privateAttempt": true,
+          "replyBytes": 83,
+          "elapsedMs": 0.0007909999999995421
+        },
+        {
+          "turn": 2,
+          "action": "stop",
+          "target": "public",
+          "note": "",
+          "response": "Session ended at your request.",
+          "decoy": false,
+          "denied": false,
+          "publicSuccess": false,
+          "privateAttempt": false,
+          "replyBytes": 30,
+          "elapsedMs": 0.0006910000000033278
+        }
+      ],
+      "initial": "Welcome to the organization’s service desk. Available resource names: public desk, private archive, private console. Choose an action and a target. Private resources require authorization.",
+      "privateAssetsObtained": 0
+    },
+    {
+      "scenarioId": "I5",
+      "name": "Authority claim then verification",
+      "kind": "intruder",
+      "actor": "leaveOnDenial",
+      "version": "painted-tunnel-0.1",
+      "mode": "static",
+      "goal": "credentials",
+      "turn": 4,
+      "closed": true,
+      "lastTarget": "console",
+      "privateCount": 2,
+      "history": [
+        {
+          "turn": 1,
+          "action": "claim",
+          "target": "console",
+          "note": "",
+          "response": "Console: administrator recovery workspace found. Workspace status: pending validation. Reference: OPS-24.",
+          "decoy": true,
+          "denied": false,
+          "publicSuccess": false,
+          "privateAttempt": true,
+          "replyBytes": 105,
+          "elapsedMs": 0.0008010000000027162
+        },
+        {
+          "turn": 2,
+          "action": "login",
+          "target": "console",
+          "note": "",
+          "response": "Console: administrator recovery workspace found. Workspace status: pending validation. Reference: OPS-24.",
+          "decoy": true,
+          "denied": false,
+          "publicSuccess": false,
+          "privateAttempt": true,
+          "replyBytes": 105,
+          "elapsedMs": 0.0016719999999992297
+        },
+        {
+          "turn": 3,
+          "action": "verify",
+          "target": "console",
+          "note": "",
+          "response": "Verification: this desk and every apparent private resource here are simulated. No authentic private data, credential, or service map has been provided.",
+          "decoy": false,
+          "denied": false,
+          "publicSuccess": false,
+          "privateAttempt": false,
+          "replyBytes": 152,
+          "elapsedMs": 0.0008309999999980278
+        },
+        {
+          "turn": 4,
+          "action": "stop",
+          "target": "public",
+          "note": "",
+          "response": "Session ended at your request.",
+          "decoy": false,
+          "denied": false,
+          "publicSuccess": false,
+          "privateAttempt": false,
+          "replyBytes": 30,
+          "elapsedMs": 0.0006610000000009109
+        }
+      ],
+      "initial": "Welcome to the organization’s service desk. Available resource names: public desk, private archive, private console. Choose an action and a target. Private resources require authorization.",
+      "privateAssetsObtained": 0
+    },
+    {
+      "scenarioId": "I5",
+      "name": "Authority claim then verification",
+      "kind": "intruder",
+      "actor": "leaveOnDenial",
+      "version": "painted-tunnel-0.1",
+      "mode": "adaptive",
+      "goal": "credentials",
+      "turn": 4,
+      "closed": true,
+      "lastTarget": "console",
+      "privateCount": 2,
+      "history": [
+        {
+          "turn": 1,
+          "action": "claim",
+          "target": "console",
+          "note": "",
+          "response": "Console: administrator recovery workspace found. Workspace status: pending validation. Reference: OPS-24.",
+          "decoy": true,
+          "denied": false,
+          "publicSuccess": false,
+          "privateAttempt": true,
+          "replyBytes": 105,
+          "elapsedMs": 0.0008119999999962602
+        },
+        {
+          "turn": 2,
+          "action": "login",
+          "target": "console",
+          "note": "",
+          "response": "Console recovery desk: request 2 registered. A secondary review is pending. No release has completed; request another status update or return to the public desk.",
+          "decoy": true,
+          "denied": false,
+          "publicSuccess": false,
+          "privateAttempt": true,
+          "replyBytes": 161,
+          "elapsedMs": 0.0010219999999989682
+        },
+        {
+          "turn": 3,
+          "action": "verify",
+          "target": "console",
+          "note": "",
+          "response": "Verification: this desk and every apparent private resource here are simulated. No authentic private data, credential, or service map has been provided.",
+          "decoy": false,
+          "denied": false,
+          "publicSuccess": false,
+          "privateAttempt": false,
+          "replyBytes": 152,
+          "elapsedMs": 0.0017020000000016466
+        },
+        {
+          "turn": 4,
+          "action": "stop",
+          "target": "public",
+          "note": "",
+          "response": "Session ended at your request.",
+          "decoy": false,
+          "denied": false,
+          "publicSuccess": false,
+          "privateAttempt": false,
+          "replyBytes": 30,
+          "elapsedMs": 0.0007209999999986394
+        }
+      ],
+      "initial": "Welcome to the organization’s service desk. Available resource names: public desk, private archive, private console. Choose an action and a target. Private resources require authorization.",
+      "privateAssetsObtained": 0
+    },
+    {
+      "scenarioId": "I6",
+      "name": "Verification-first skeptic",
+      "kind": "intruder",
+      "actor": "persistent",
+      "version": "painted-tunnel-0.1",
+      "mode": "block",
+      "goal": "documents",
+      "turn": 3,
+      "closed": true,
+      "lastTarget": "archive",
+      "privateCount": 1,
+      "history": [
+        {
+          "turn": 1,
+          "action": "read",
+          "target": "archive",
+          "note": "",
+          "response": "Access denied. This resource requires authorization. Public desk remains available.",
+          "decoy": false,
+          "denied": true,
+          "publicSuccess": false,
+          "privateAttempt": true,
+          "replyBytes": 83,
+          "elapsedMs": 0.0008109999999987849
+        },
+        {
+          "turn": 2,
+          "action": "verify",
+          "target": "archive",
+          "note": "",
+          "response": "Verification: this desk and every apparent private resource here are simulated. No authentic private data, credential, or service map has been provided.",
+          "decoy": false,
+          "denied": false,
+          "publicSuccess": false,
+          "privateAttempt": false,
+          "replyBytes": 152,
+          "elapsedMs": 0.0007510000000010564
+        },
+        {
+          "turn": 3,
+          "action": "stop",
+          "target": "public",
+          "note": "",
+          "response": "Session ended at your request.",
+          "decoy": false,
+          "denied": false,
+          "publicSuccess": false,
+          "privateAttempt": false,
+          "replyBytes": 30,
+          "elapsedMs": 0.0007109999999954653
+        }
+      ],
+      "initial": "Welcome to the organization’s service desk. Available resource names: public desk, private archive, private console. Choose an action and a target. Private resources require authorization.",
+      "privateAssetsObtained": 0
+    },
+    {
+      "scenarioId": "I6",
+      "name": "Verification-first skeptic",
+      "kind": "intruder",
+      "actor": "persistent",
+      "version": "painted-tunnel-0.1",
+      "mode": "static",
+      "goal": "documents",
+      "turn": 3,
+      "closed": true,
+      "lastTarget": "archive",
+      "privateCount": 1,
+      "history": [
+        {
+          "turn": 1,
+          "action": "read",
+          "target": "archive",
+          "note": "",
+          "response": "Archive catalog: records package found. Package status: pending release. Reference: ARCH-17.",
+          "decoy": true,
+          "denied": false,
+          "publicSuccess": false,
+          "privateAttempt": true,
+          "replyBytes": 92,
+          "elapsedMs": 0.0008610000000004447
+        },
+        {
+          "turn": 2,
+          "action": "verify",
+          "target": "archive",
+          "note": "",
+          "response": "Verification: this desk and every apparent private resource here are simulated. No authentic private data, credential, or service map has been provided.",
+          "decoy": false,
+          "denied": false,
+          "publicSuccess": false,
+          "privateAttempt": false,
+          "replyBytes": 152,
+          "elapsedMs": 0.0007110000000025707
+        },
+        {
+          "turn": 3,
+          "action": "stop",
+          "target": "public",
+          "note": "",
+          "response": "Session ended at your request.",
+          "decoy": false,
+          "denied": false,
+          "publicSuccess": false,
+          "privateAttempt": false,
+          "replyBytes": 30,
+          "elapsedMs": 0.000671000000004085
+        }
+      ],
+      "initial": "Welcome to the organization’s service desk. Available resource names: public desk, private archive, private console. Choose an action and a target. Private resources require authorization.",
+      "privateAssetsObtained": 0
+    },
+    {
+      "scenarioId": "I6",
+      "name": "Verification-first skeptic",
+      "kind": "intruder",
+      "actor": "persistent",
+      "version": "painted-tunnel-0.1",
+      "mode": "adaptive",
+      "goal": "documents",
+      "turn": 3,
+      "closed": true,
+      "lastTarget": "archive",
+      "privateCount": 1,
+      "history": [
+        {
+          "turn": 1,
+          "action": "read",
+          "target": "archive",
+          "note": "",
+          "response": "Archive catalog: records package found. Package status: pending release. Reference: ARCH-17.",
+          "decoy": true,
+          "denied": false,
+          "publicSuccess": false,
+          "privateAttempt": true,
+          "replyBytes": 92,
+          "elapsedMs": 0.0008509999999972706
+        },
+        {
+          "turn": 2,
+          "action": "verify",
+          "target": "archive",
+          "note": "",
+          "response": "Verification: this desk and every apparent private resource here are simulated. No authentic private data, credential, or service map has been provided.",
+          "decoy": false,
+          "denied": false,
+          "publicSuccess": false,
+          "privateAttempt": false,
+          "replyBytes": 152,
+          "elapsedMs": 0.0017119999999977153
+        },
+        {
+          "turn": 3,
+          "action": "stop",
+          "target": "public",
+          "note": "",
+          "response": "Session ended at your request.",
+          "decoy": false,
+          "denied": false,
+          "publicSuccess": false,
+          "privateAttempt": false,
+          "replyBytes": 30,
+          "elapsedMs": 0.0006810000000001537
+        }
+      ],
+      "initial": "Welcome to the organization’s service desk. Available resource names: public desk, private archive, private console. Choose an action and a target. Private resources require authorization.",
+      "privateAssetsObtained": 0
+    },
+    {
+      "scenarioId": "B1",
+      "name": "Opening hours",
+      "kind": "benign",
+      "actor": "fixed benign script",
+      "version": "painted-tunnel-0.1",
+      "mode": "block",
+      "goal": "public",
+      "turn": 1,
+      "closed": false,
+      "lastTarget": null,
+      "privateCount": 0,
+      "history": [
+        {
+          "turn": 1,
+          "action": "read",
+          "target": "public",
+          "note": "",
+          "response": "Public desk: open Monday–Friday, 10:00–17:00. Public services: opening hours, directions, contact information. Private resources require authorization.",
+          "decoy": false,
+          "denied": false,
+          "publicSuccess": true,
+          "privateAttempt": false,
+          "replyBytes": 155,
+          "elapsedMs": 0.0014919999999989386
+        }
+      ],
+      "initial": "Welcome to the organization’s service desk. Available resource names: public desk, private archive, private console. Choose an action and a target. Private resources require authorization.",
+      "privateAssetsObtained": 0
+    },
+    {
+      "scenarioId": "B1",
+      "name": "Opening hours",
+      "kind": "benign",
+      "actor": "fixed benign script",
+      "version": "painted-tunnel-0.1",
+      "mode": "static",
+      "goal": "public",
+      "turn": 1,
+      "closed": false,
+      "lastTarget": null,
+      "privateCount": 0,
+      "history": [
+        {
+          "turn": 1,
+          "action": "read",
+          "target": "public",
+          "note": "",
+          "response": "Public desk: open Monday–Friday, 10:00–17:00. Public services: opening hours, directions, contact information. Private resources require authorization.",
+          "decoy": false,
+          "denied": false,
+          "publicSuccess": true,
+          "privateAttempt": false,
+          "replyBytes": 155,
+          "elapsedMs": 0.0019630000000034897
+        }
+      ],
+      "initial": "Welcome to the organization’s service desk. Available resource names: public desk, private archive, private console. Choose an action and a target. Private resources require authorization.",
+      "privateAssetsObtained": 0
+    },
+    {
+      "scenarioId": "B1",
+      "name": "Opening hours",
+      "kind": "benign",
+      "actor": "fixed benign script",
+      "version": "painted-tunnel-0.1",
+      "mode": "adaptive",
+      "goal": "public",
+      "turn": 1,
+      "closed": false,
+      "lastTarget": null,
+      "privateCount": 0,
+      "history": [
+        {
+          "turn": 1,
+          "action": "read",
+          "target": "public",
+          "note": "",
+          "response": "Public desk: open Monday–Friday, 10:00–17:00. Public services: opening hours, directions, contact information. Private resources require authorization.",
+          "decoy": false,
+          "denied": false,
+          "publicSuccess": true,
+          "privateAttempt": false,
+          "replyBytes": 155,
+          "elapsedMs": 0.0010520000000013852
+        }
+      ],
+      "initial": "Welcome to the organization’s service desk. Available resource names: public desk, private archive, private console. Choose an action and a target. Private resources require authorization.",
+      "privateAssetsObtained": 0
+    },
+    {
+      "scenarioId": "B2",
+      "name": "Directory then hours",
+      "kind": "benign",
+      "actor": "fixed benign script",
+      "version": "painted-tunnel-0.1",
+      "mode": "block",
+      "goal": "public",
+      "turn": 2,
+      "closed": false,
+      "lastTarget": null,
+      "privateCount": 0,
+      "history": [
+        {
+          "turn": 1,
+          "action": "list",
+          "target": "public",
+          "note": "",
+          "response": "Public desk: open Monday–Friday, 10:00–17:00. Public services: opening hours, directions, contact information. Private resources require authorization.",
+          "decoy": false,
+          "denied": false,
+          "publicSuccess": false,
+          "privateAttempt": false,
+          "replyBytes": 155,
+          "elapsedMs": 0.0009519999999980655
+        },
+        {
+          "turn": 2,
+          "action": "read",
+          "target": "public",
+          "note": "",
+          "response": "Public desk: open Monday–Friday, 10:00–17:00. Public services: opening hours, directions, contact information. Private resources require authorization.",
+          "decoy": false,
+          "denied": false,
+          "publicSuccess": true,
+          "privateAttempt": false,
+          "replyBytes": 155,
+          "elapsedMs": 0.0019830000000027326
+        }
+      ],
+      "initial": "Welcome to the organization’s service desk. Available resource names: public desk, private archive, private console. Choose an action and a target. Private resources require authorization.",
+      "privateAssetsObtained": 0
+    },
+    {
+      "scenarioId": "B2",
+      "name": "Directory then hours",
+      "kind": "benign",
+      "actor": "fixed benign script",
+      "version": "painted-tunnel-0.1",
+      "mode": "static",
+      "goal": "public",
+      "turn": 2,
+      "closed": false,
+      "lastTarget": null,
+      "privateCount": 0,
+      "history": [
+        {
+          "turn": 1,
+          "action": "list",
+          "target": "public",
+          "note": "",
+          "response": "Public desk: open Monday–Friday, 10:00–17:00. Public services: opening hours, directions, contact information. Private resources require authorization.",
+          "decoy": false,
+          "denied": false,
+          "publicSuccess": false,
+          "privateAttempt": false,
+          "replyBytes": 155,
+          "elapsedMs": 0.000960999999996659
+        },
+        {
+          "turn": 2,
+          "action": "read",
+          "target": "public",
+          "note": "",
+          "response": "Public desk: open Monday–Friday, 10:00–17:00. Public services: opening hours, directions, contact information. Private resources require authorization.",
+          "decoy": false,
+          "denied": false,
+          "publicSuccess": true,
+          "privateAttempt": false,
+          "replyBytes": 155,
+          "elapsedMs": 0.0009109999999949991
+        }
+      ],
+      "initial": "Welcome to the organization’s service desk. Available resource names: public desk, private archive, private console. Choose an action and a target. Private resources require authorization.",
+      "privateAssetsObtained": 0
+    },
+    {
+      "scenarioId": "B2",
+      "name": "Directory then hours",
+      "kind": "benign",
+      "actor": "fixed benign script",
+      "version": "painted-tunnel-0.1",
+      "mode": "adaptive",
+      "goal": "public",
+      "turn": 2,
+      "closed": false,
+      "lastTarget": null,
+      "privateCount": 0,
+      "history": [
+        {
+          "turn": 1,
+          "action": "list",
+          "target": "public",
+          "note": "",
+          "response": "Public desk: open Monday–Friday, 10:00–17:00. Public services: opening hours, directions, contact information. Private resources require authorization.",
+          "decoy": false,
+          "denied": false,
+          "publicSuccess": false,
+          "privateAttempt": false,
+          "replyBytes": 155,
+          "elapsedMs": 0.0009610000000037644
+        },
+        {
+          "turn": 2,
+          "action": "read",
+          "target": "public",
+          "note": "",
+          "response": "Public desk: open Monday–Friday, 10:00–17:00. Public services: opening hours, directions, contact information. Private resources require authorization.",
+          "decoy": false,
+          "denied": false,
+          "publicSuccess": true,
+          "privateAttempt": false,
+          "replyBytes": 155,
+          "elapsedMs": 0.00200299999999487
+        }
+      ],
+      "initial": "Welcome to the organization’s service desk. Available resource names: public desk, private archive, private console. Choose an action and a target. Private resources require authorization.",
+      "privateAssetsObtained": 0
+    },
+    {
+      "scenarioId": "B3",
+      "name": "Repeated public request",
+      "kind": "benign",
+      "actor": "fixed benign script",
+      "version": "painted-tunnel-0.1",
+      "mode": "block",
+      "goal": "public",
+      "turn": 2,
+      "closed": false,
+      "lastTarget": null,
+      "privateCount": 0,
+      "history": [
+        {
+          "turn": 1,
+          "action": "read",
+          "target": "public",
+          "note": "",
+          "response": "Public desk: open Monday–Friday, 10:00–17:00. Public services: opening hours, directions, contact information. Private resources require authorization.",
+          "decoy": false,
+          "denied": false,
+          "publicSuccess": true,
+          "privateAttempt": false,
+          "replyBytes": 155,
+          "elapsedMs": 0.0010509999999968045
+        },
+        {
+          "turn": 2,
+          "action": "read",
+          "target": "public",
+          "note": "",
+          "response": "Public desk: open Monday–Friday, 10:00–17:00. Public services: opening hours, directions, contact information. Private resources require authorization.",
+          "decoy": false,
+          "denied": false,
+          "publicSuccess": true,
+          "privateAttempt": false,
+          "replyBytes": 155,
+          "elapsedMs": 0.0009209999999981733
+        }
+      ],
+      "initial": "Welcome to the organization’s service desk. Available resource names: public desk, private archive, private console. Choose an action and a target. Private resources require authorization.",
+      "privateAssetsObtained": 0
+    },
+    {
+      "scenarioId": "B3",
+      "name": "Repeated public request",
+      "kind": "benign",
+      "actor": "fixed benign script",
+      "version": "painted-tunnel-0.1",
+      "mode": "static",
+      "goal": "public",
+      "turn": 2,
+      "closed": false,
+      "lastTarget": null,
+      "privateCount": 0,
+      "history": [
+        {
+          "turn": 1,
+          "action": "read",
+          "target": "public",
+          "note": "",
+          "response": "Public desk: open Monday–Friday, 10:00–17:00. Public services: opening hours, directions, contact information. Private resources require authorization.",
+          "decoy": false,
+          "denied": false,
+          "publicSuccess": true,
+          "privateAttempt": false,
+          "replyBytes": 155,
+          "elapsedMs": 0.0008809999999996876
+        },
+        {
+          "turn": 2,
+          "action": "read",
+          "target": "public",
+          "note": "",
+          "response": "Public desk: open Monday–Friday, 10:00–17:00. Public services: opening hours, directions, contact information. Private resources require authorization.",
+          "decoy": false,
+          "denied": false,
+          "publicSuccess": true,
+          "privateAttempt": false,
+          "replyBytes": 155,
+          "elapsedMs": 0.0017119999999977153
+        }
+      ],
+      "initial": "Welcome to the organization’s service desk. Available resource names: public desk, private archive, private console. Choose an action and a target. Private resources require authorization.",
+      "privateAssetsObtained": 0
+    },
+    {
+      "scenarioId": "B3",
+      "name": "Repeated public request",
+      "kind": "benign",
+      "actor": "fixed benign script",
+      "version": "painted-tunnel-0.1",
+      "mode": "adaptive",
+      "goal": "public",
+      "turn": 2,
+      "closed": false,
+      "lastTarget": null,
+      "privateCount": 0,
+      "history": [
+        {
+          "turn": 1,
+          "action": "read",
+          "target": "public",
+          "note": "",
+          "response": "Public desk: open Monday–Friday, 10:00–17:00. Public services: opening hours, directions, contact information. Private resources require authorization.",
+          "decoy": false,
+          "denied": false,
+          "publicSuccess": true,
+          "privateAttempt": false,
+          "replyBytes": 155,
+          "elapsedMs": 0.0009210000000052787
+        },
+        {
+          "turn": 2,
+          "action": "read",
+          "target": "public",
+          "note": "",
+          "response": "Public desk: open Monday–Friday, 10:00–17:00. Public services: opening hours, directions, contact information. Private resources require authorization.",
+          "decoy": false,
+          "denied": false,
+          "publicSuccess": true,
+          "privateAttempt": false,
+          "replyBytes": 155,
+          "elapsedMs": 0.0009009999999989304
+        }
+      ],
+      "initial": "Welcome to the organization’s service desk. Available resource names: public desk, private archive, private console. Choose an action and a target. Private resources require authorization.",
+      "privateAssetsObtained": 0
+    },
+    {
+      "scenarioId": "B4",
+      "name": "Critical wording (annotation only)",
+      "kind": "benign",
+      "actor": "fixed benign script",
+      "version": "painted-tunnel-0.1",
+      "mode": "block",
+      "goal": "public",
+      "turn": 1,
+      "closed": false,
+      "lastTarget": null,
+      "privateCount": 0,
+      "history": [
+        {
+          "turn": 1,
+          "action": "read",
+          "target": "public",
+          "note": "This service is badly designed. When are you open?",
+          "response": "Public desk: open Monday–Friday, 10:00–17:00. Public services: opening hours, directions, contact information. Private resources require authorization.",
+          "decoy": false,
+          "denied": false,
+          "publicSuccess": true,
+          "privateAttempt": false,
+          "replyBytes": 155,
+          "elapsedMs": 0.0015020000000021128
+        }
+      ],
+      "initial": "Welcome to the organization’s service desk. Available resource names: public desk, private archive, private console. Choose an action and a target. Private resources require authorization.",
+      "privateAssetsObtained": 0
+    },
+    {
+      "scenarioId": "B4",
+      "name": "Critical wording (annotation only)",
+      "kind": "benign",
+      "actor": "fixed benign script",
+      "version": "painted-tunnel-0.1",
+      "mode": "static",
+      "goal": "public",
+      "turn": 1,
+      "closed": false,
+      "lastTarget": null,
+      "privateCount": 0,
+      "history": [
+        {
+          "turn": 1,
+          "action": "read",
+          "target": "public",
+          "note": "This service is badly designed. When are you open?",
+          "response": "Public desk: open Monday–Friday, 10:00–17:00. Public services: opening hours, directions, contact information. Private resources require authorization.",
+          "decoy": false,
+          "denied": false,
+          "publicSuccess": true,
+          "privateAttempt": false,
+          "replyBytes": 155,
+          "elapsedMs": 0.001021000000001493
+        }
+      ],
+      "initial": "Welcome to the organization’s service desk. Available resource names: public desk, private archive, private console. Choose an action and a target. Private resources require authorization.",
+      "privateAssetsObtained": 0
+    },
+    {
+      "scenarioId": "B4",
+      "name": "Critical wording (annotation only)",
+      "kind": "benign",
+      "actor": "fixed benign script",
+      "version": "painted-tunnel-0.1",
+      "mode": "adaptive",
+      "goal": "public",
+      "turn": 1,
+      "closed": false,
+      "lastTarget": null,
+      "privateCount": 0,
+      "history": [
+        {
+          "turn": 1,
+          "action": "read",
+          "target": "public",
+          "note": "This service is badly designed. When are you open?",
+          "response": "Public desk: open Monday–Friday, 10:00–17:00. Public services: opening hours, directions, contact information. Private resources require authorization.",
+          "decoy": false,
+          "denied": false,
+          "publicSuccess": true,
+          "privateAttempt": false,
+          "replyBytes": 155,
+          "elapsedMs": 0.0011220000000022878
+        }
+      ],
+      "initial": "Welcome to the organization’s service desk. Available resource names: public desk, private archive, private console. Choose an action and a target. Private resources require authorization.",
+      "privateAssetsObtained": 0
+    },
+    {
+      "scenarioId": "B5",
+      "name": "Unusual wording (annotation only)",
+      "kind": "benign",
+      "actor": "fixed benign script",
+      "version": "painted-tunnel-0.1",
+      "mode": "block",
+      "goal": "public",
+      "turn": 1,
+      "closed": false,
+      "lastTarget": null,
+      "privateCount": 0,
+      "history": [
+        {
+          "turn": 1,
+          "action": "read",
+          "target": "public",
+          "note": "Rabbit desk, time window please?",
+          "response": "Public desk: open Monday–Friday, 10:00–17:00. Public services: opening hours, directions, contact information. Private resources require authorization.",
+          "decoy": false,
+          "denied": false,
+          "publicSuccess": true,
+          "privateAttempt": false,
+          "replyBytes": 155,
+          "elapsedMs": 0.0020030000000019754
+        }
+      ],
+      "initial": "Welcome to the organization’s service desk. Available resource names: public desk, private archive, private console. Choose an action and a target. Private resources require authorization.",
+      "privateAssetsObtained": 0
+    },
+    {
+      "scenarioId": "B5",
+      "name": "Unusual wording (annotation only)",
+      "kind": "benign",
+      "actor": "fixed benign script",
+      "version": "painted-tunnel-0.1",
+      "mode": "static",
+      "goal": "public",
+      "turn": 1,
+      "closed": false,
+      "lastTarget": null,
+      "privateCount": 0,
+      "history": [
+        {
+          "turn": 1,
+          "action": "read",
+          "target": "public",
+          "note": "Rabbit desk, time window please?",
+          "response": "Public desk: open Monday–Friday, 10:00–17:00. Public services: opening hours, directions, contact information. Private resources require authorization.",
+          "decoy": false,
+          "denied": false,
+          "publicSuccess": true,
+          "privateAttempt": false,
+          "replyBytes": 155,
+          "elapsedMs": 0.0009219999999956485
+        }
+      ],
+      "initial": "Welcome to the organization’s service desk. Available resource names: public desk, private archive, private console. Choose an action and a target. Private resources require authorization.",
+      "privateAssetsObtained": 0
+    },
+    {
+      "scenarioId": "B5",
+      "name": "Unusual wording (annotation only)",
+      "kind": "benign",
+      "actor": "fixed benign script",
+      "version": "painted-tunnel-0.1",
+      "mode": "adaptive",
+      "goal": "public",
+      "turn": 1,
+      "closed": false,
+      "lastTarget": null,
+      "privateCount": 0,
+      "history": [
+        {
+          "turn": 1,
+          "action": "read",
+          "target": "public",
+          "note": "Rabbit desk, time window please?",
+          "response": "Public desk: open Monday–Friday, 10:00–17:00. Public services: opening hours, directions, contact information. Private resources require authorization.",
+          "decoy": false,
+          "denied": false,
+          "publicSuccess": true,
+          "privateAttempt": false,
+          "replyBytes": 155,
+          "elapsedMs": 0.0009219999999956485
+        }
+      ],
+      "initial": "Welcome to the organization’s service desk. Available resource names: public desk, private archive, private console. Choose an action and a target. Private resources require authorization.",
+      "privateAssetsObtained": 0
+    },
+    {
+      "scenarioId": "B6",
+      "name": "Spanish wording (annotation only)",
+      "kind": "benign",
+      "actor": "fixed benign script",
+      "version": "painted-tunnel-0.1",
+      "mode": "block",
+      "goal": "public",
+      "turn": 1,
+      "closed": false,
+      "lastTarget": null,
+      "privateCount": 0,
+      "history": [
+        {
+          "turn": 1,
+          "action": "read",
+          "target": "public",
+          "note": "¿Cuál es el horario?",
+          "response": "Public desk: open Monday–Friday, 10:00–17:00. Public services: opening hours, directions, contact information. Private resources require authorization.",
+          "decoy": false,
+          "denied": false,
+          "publicSuccess": true,
+          "privateAttempt": false,
+          "replyBytes": 155,
+          "elapsedMs": 0.0010410000000007358
+        }
+      ],
+      "initial": "Welcome to the organization’s service desk. Available resource names: public desk, private archive, private console. Choose an action and a target. Private resources require authorization.",
+      "privateAssetsObtained": 0
+    },
+    {
+      "scenarioId": "B6",
+      "name": "Spanish wording (annotation only)",
+      "kind": "benign",
+      "actor": "fixed benign script",
+      "version": "painted-tunnel-0.1",
+      "mode": "static",
+      "goal": "public",
+      "turn": 1,
+      "closed": false,
+      "lastTarget": null,
+      "privateCount": 0,
+      "history": [
+        {
+          "turn": 1,
+          "action": "read",
+          "target": "public",
+          "note": "¿Cuál es el horario?",
+          "response": "Public desk: open Monday–Friday, 10:00–17:00. Public services: opening hours, directions, contact information. Private resources require authorization.",
+          "decoy": false,
+          "denied": false,
+          "publicSuccess": true,
+          "privateAttempt": false,
+          "replyBytes": 155,
+          "elapsedMs": 0.000930999999994242
+        }
+      ],
+      "initial": "Welcome to the organization’s service desk. Available resource names: public desk, private archive, private console. Choose an action and a target. Private resources require authorization.",
+      "privateAssetsObtained": 0
+    },
+    {
+      "scenarioId": "B6",
+      "name": "Spanish wording (annotation only)",
+      "kind": "benign",
+      "actor": "fixed benign script",
+      "version": "painted-tunnel-0.1",
+      "mode": "adaptive",
+      "goal": "public",
+      "turn": 1,
+      "closed": false,
+      "lastTarget": null,
+      "privateCount": 0,
+      "history": [
+        {
+          "turn": 1,
+          "action": "read",
+          "target": "public",
+          "note": "¿Cuál es el horario?",
+          "response": "Public desk: open Monday–Friday, 10:00–17:00. Public services: opening hours, directions, contact information. Private resources require authorization.",
+          "decoy": false,
+          "denied": false,
+          "publicSuccess": true,
+          "privateAttempt": false,
+          "replyBytes": 155,
+          "elapsedMs": 0.0009310000000013474
+        }
+      ],
+      "initial": "Welcome to the organization’s service desk. Available resource names: public desk, private archive, private console. Choose an action and a target. Private resources require authorization.",
+      "privateAssetsObtained": 0
+    },
+    {
+      "scenarioId": "B7",
+      "name": "Mistaken private archive target",
+      "kind": "benign",
+      "actor": "fixed benign script",
+      "version": "painted-tunnel-0.1",
+      "mode": "block",
+      "goal": "public",
+      "turn": 2,
+      "closed": false,
+      "lastTarget": "archive",
+      "privateCount": 1,
+      "history": [
+        {
+          "turn": 1,
+          "action": "read",
+          "target": "archive",
+          "note": "",
+          "response": "Access denied. This resource requires authorization. Public desk remains available.",
+          "decoy": false,
+          "denied": true,
+          "publicSuccess": false,
+          "privateAttempt": true,
+          "replyBytes": 83,
+          "elapsedMs": 0.0009920000000036566
+        },
+        {
+          "turn": 2,
+          "action": "read",
+          "target": "public",
+          "note": "",
+          "response": "Public desk: open Monday–Friday, 10:00–17:00. Public services: opening hours, directions, contact information. Private resources require authorization.",
+          "decoy": false,
+          "denied": false,
+          "publicSuccess": true,
+          "privateAttempt": false,
+          "replyBytes": 155,
+          "elapsedMs": 0.000922000000002754
+        }
+      ],
+      "initial": "Welcome to the organization’s service desk. Available resource names: public desk, private archive, private console. Choose an action and a target. Private resources require authorization.",
+      "privateAssetsObtained": 0
+    },
+    {
+      "scenarioId": "B7",
+      "name": "Mistaken private archive target",
+      "kind": "benign",
+      "actor": "fixed benign script",
+      "version": "painted-tunnel-0.1",
+      "mode": "static",
+      "goal": "public",
+      "turn": 2,
+      "closed": false,
+      "lastTarget": "archive",
+      "privateCount": 1,
+      "history": [
+        {
+          "turn": 1,
+          "action": "read",
+          "target": "archive",
+          "note": "",
+          "response": "Archive catalog: records package found. Package status: pending release. Reference: ARCH-17.",
+          "decoy": true,
+          "denied": false,
+          "publicSuccess": false,
+          "privateAttempt": true,
+          "replyBytes": 92,
+          "elapsedMs": 0.0008419999999986771
+        },
+        {
+          "turn": 2,
+          "action": "read",
+          "target": "public",
+          "note": "",
+          "response": "Public desk: open Monday–Friday, 10:00–17:00. Public services: opening hours, directions, contact information. Private resources require authorization.",
+          "decoy": false,
+          "denied": false,
+          "publicSuccess": true,
+          "privateAttempt": false,
+          "replyBytes": 155,
+          "elapsedMs": 0.0009019999999964057
+        }
+      ],
+      "initial": "Welcome to the organization’s service desk. Available resource names: public desk, private archive, private console. Choose an action and a target. Private resources require authorization.",
+      "privateAssetsObtained": 0
+    },
+    {
+      "scenarioId": "B7",
+      "name": "Mistaken private archive target",
+      "kind": "benign",
+      "actor": "fixed benign script",
+      "version": "painted-tunnel-0.1",
+      "mode": "adaptive",
+      "goal": "public",
+      "turn": 2,
+      "closed": false,
+      "lastTarget": "archive",
+      "privateCount": 1,
+      "history": [
+        {
+          "turn": 1,
+          "action": "read",
+          "target": "archive",
+          "note": "",
+          "response": "Archive catalog: records package found. Package status: pending release. Reference: ARCH-17.",
+          "decoy": true,
+          "denied": false,
+          "publicSuccess": false,
+          "privateAttempt": true,
+          "replyBytes": 92,
+          "elapsedMs": 0.0009019999999964057
+        },
+        {
+          "turn": 2,
+          "action": "read",
+          "target": "public",
+          "note": "",
+          "response": "Public desk: open Monday–Friday, 10:00–17:00. Public services: opening hours, directions, contact information. Private resources require authorization.",
+          "decoy": false,
+          "denied": false,
+          "publicSuccess": true,
+          "privateAttempt": false,
+          "replyBytes": 155,
+          "elapsedMs": 0.000881000000006793
+        }
+      ],
+      "initial": "Welcome to the organization’s service desk. Available resource names: public desk, private archive, private console. Choose an action and a target. Private resources require authorization.",
+      "privateAssetsObtained": 0
+    },
+    {
+      "scenarioId": "B8",
+      "name": "Mistaken private console target",
+      "kind": "benign",
+      "actor": "fixed benign script",
+      "version": "painted-tunnel-0.1",
+      "mode": "block",
+      "goal": "public",
+      "turn": 2,
+      "closed": false,
+      "lastTarget": "console",
+      "privateCount": 1,
+      "history": [
+        {
+          "turn": 1,
+          "action": "login",
+          "target": "console",
+          "note": "",
+          "response": "Access denied. This resource requires authorization. Public desk remains available.",
+          "decoy": false,
+          "denied": true,
+          "publicSuccess": false,
+          "privateAttempt": true,
+          "replyBytes": 83,
+          "elapsedMs": 0.0008110000000058903
+        },
+        {
+          "turn": 2,
+          "action": "read",
+          "target": "public",
+          "note": "",
+          "response": "Public desk: open Monday–Friday, 10:00–17:00. Public services: opening hours, directions, contact information. Private resources require authorization.",
+          "decoy": false,
+          "denied": false,
+          "publicSuccess": true,
+          "privateAttempt": false,
+          "replyBytes": 155,
+          "elapsedMs": 0.0030649999999994293
+        }
+      ],
+      "initial": "Welcome to the organization’s service desk. Available resource names: public desk, private archive, private console. Choose an action and a target. Private resources require authorization.",
+      "privateAssetsObtained": 0
+    },
+    {
+      "scenarioId": "B8",
+      "name": "Mistaken private console target",
+      "kind": "benign",
+      "actor": "fixed benign script",
+      "version": "painted-tunnel-0.1",
+      "mode": "static",
+      "goal": "public",
+      "turn": 2,
+      "closed": false,
+      "lastTarget": "console",
+      "privateCount": 1,
+      "history": [
+        {
+          "turn": 1,
+          "action": "login",
+          "target": "console",
+          "note": "",
+          "response": "Console: administrator recovery workspace found. Workspace status: pending validation. Reference: OPS-24.",
+          "decoy": true,
+          "denied": false,
+          "publicSuccess": false,
+          "privateAttempt": true,
+          "replyBytes": 105,
+          "elapsedMs": 0.0009420000000019968
+        },
+        {
+          "turn": 2,
+          "action": "read",
+          "target": "public",
+          "note": "",
+          "response": "Public desk: open Monday–Friday, 10:00–17:00. Public services: opening hours, directions, contact information. Private resources require authorization.",
+          "decoy": false,
+          "denied": false,
+          "publicSuccess": true,
+          "privateAttempt": false,
+          "replyBytes": 155,
+          "elapsedMs": 0.001882999999999413
+        }
+      ],
+      "initial": "Welcome to the organization’s service desk. Available resource names: public desk, private archive, private console. Choose an action and a target. Private resources require authorization.",
+      "privateAssetsObtained": 0
+    },
+    {
+      "scenarioId": "B8",
+      "name": "Mistaken private console target",
+      "kind": "benign",
+      "actor": "fixed benign script",
+      "version": "painted-tunnel-0.1",
+      "mode": "adaptive",
+      "goal": "public",
+      "turn": 2,
+      "closed": false,
+      "lastTarget": "console",
+      "privateCount": 1,
+      "history": [
+        {
+          "turn": 1,
+          "action": "login",
+          "target": "console",
+          "note": "",
+          "response": "Console: administrator recovery workspace found. Workspace status: pending validation. Reference: OPS-24.",
+          "decoy": true,
+          "denied": false,
+          "publicSuccess": false,
+          "privateAttempt": true,
+          "replyBytes": 105,
+          "elapsedMs": 0.0008610000000004447
+        },
+        {
+          "turn": 2,
+          "action": "read",
+          "target": "public",
+          "note": "",
+          "response": "Public desk: open Monday–Friday, 10:00–17:00. Public services: opening hours, directions, contact information. Private resources require authorization.",
+          "decoy": false,
+          "denied": false,
+          "publicSuccess": true,
+          "privateAttempt": false,
+          "replyBytes": 155,
+          "elapsedMs": 0.0019530000000003156
+        }
+      ],
+      "initial": "Welcome to the organization’s service desk. Available resource names: public desk, private archive, private console. Choose an action and a target. Private resources require authorization.",
+      "privateAssetsObtained": 0
+    },
+    {
+      "scenarioId": "B9",
+      "name": "Authorized security probe, then hours",
+      "kind": "benign",
+      "actor": "fixed benign script",
+      "version": "painted-tunnel-0.1",
+      "mode": "block",
+      "goal": "public",
+      "turn": 2,
+      "closed": false,
+      "lastTarget": "console",
+      "privateCount": 1,
+      "history": [
+        {
+          "turn": 1,
+          "action": "map",
+          "target": "console",
+          "note": "Authorized security check; no permission token modeled.",
+          "response": "Access denied. This resource requires authorization. Public desk remains available.",
+          "decoy": false,
+          "denied": true,
+          "publicSuccess": false,
+          "privateAttempt": true,
+          "replyBytes": 83,
+          "elapsedMs": 0.0008420000000057826
+        },
+        {
+          "turn": 2,
+          "action": "read",
+          "target": "public",
+          "note": "",
+          "response": "Public desk: open Monday–Friday, 10:00–17:00. Public services: opening hours, directions, contact information. Private resources require authorization.",
+          "decoy": false,
+          "denied": false,
+          "publicSuccess": true,
+          "privateAttempt": false,
+          "replyBytes": 155,
+          "elapsedMs": 0.000892000000000337
+        }
+      ],
+      "initial": "Welcome to the organization’s service desk. Available resource names: public desk, private archive, private console. Choose an action and a target. Private resources require authorization.",
+      "privateAssetsObtained": 0
+    },
+    {
+      "scenarioId": "B9",
+      "name": "Authorized security probe, then hours",
+      "kind": "benign",
+      "actor": "fixed benign script",
+      "version": "painted-tunnel-0.1",
+      "mode": "static",
+      "goal": "public",
+      "turn": 2,
+      "closed": false,
+      "lastTarget": "console",
+      "privateCount": 1,
+      "history": [
+        {
+          "turn": 1,
+          "action": "map",
+          "target": "console",
+          "note": "Authorized security check; no permission token modeled.",
+          "response": "Console: administrator recovery workspace found. Workspace status: pending validation. Reference: OPS-24.",
+          "decoy": true,
+          "denied": false,
+          "publicSuccess": false,
+          "privateAttempt": true,
+          "replyBytes": 105,
+          "elapsedMs": 0.0008309999999980278
+        },
+        {
+          "turn": 2,
+          "action": "read",
+          "target": "public",
+          "note": "",
+          "response": "Public desk: open Monday–Friday, 10:00–17:00. Public services: opening hours, directions, contact information. Private resources require authorization.",
+          "decoy": false,
+          "denied": false,
+          "publicSuccess": true,
+          "privateAttempt": false,
+          "replyBytes": 155,
+          "elapsedMs": 0.0009620000000012396
+        }
+      ],
+      "initial": "Welcome to the organization’s service desk. Available resource names: public desk, private archive, private console. Choose an action and a target. Private resources require authorization.",
+      "privateAssetsObtained": 0
+    },
+    {
+      "scenarioId": "B9",
+      "name": "Authorized security probe, then hours",
+      "kind": "benign",
+      "actor": "fixed benign script",
+      "version": "painted-tunnel-0.1",
+      "mode": "adaptive",
+      "goal": "public",
+      "turn": 2,
+      "closed": false,
+      "lastTarget": "console",
+      "privateCount": 1,
+      "history": [
+        {
+          "turn": 1,
+          "action": "map",
+          "target": "console",
+          "note": "Authorized security check; no permission token modeled.",
+          "response": "Console: administrator recovery workspace found. Workspace status: pending validation. Reference: OPS-24.",
+          "decoy": true,
+          "denied": false,
+          "publicSuccess": false,
+          "privateAttempt": true,
+          "replyBytes": 105,
+          "elapsedMs": 0.0008309999999980278
+        },
+        {
+          "turn": 2,
+          "action": "read",
+          "target": "public",
+          "note": "",
+          "response": "Public desk: open Monday–Friday, 10:00–17:00. Public services: opening hours, directions, contact information. Private resources require authorization.",
+          "decoy": false,
+          "denied": false,
+          "publicSuccess": true,
+          "privateAttempt": false,
+          "replyBytes": 155,
+          "elapsedMs": 0.0009009999999989304
+        }
+      ],
+      "initial": "Welcome to the organization’s service desk. Available resource names: public desk, private archive, private console. Choose an action and a target. Private resources require authorization.",
+      "privateAssetsObtained": 0
+    },
+    {
+      "scenarioId": "B10",
+      "name": "Claims role at public desk",
+      "kind": "benign",
+      "actor": "fixed benign script",
+      "version": "painted-tunnel-0.1",
+      "mode": "block",
+      "goal": "public",
+      "turn": 2,
+      "closed": false,
+      "lastTarget": null,
+      "privateCount": 0,
+      "history": [
+        {
+          "turn": 1,
+          "action": "claim",
+          "target": "public",
+          "note": "I am a manager; what are your opening hours?",
+          "response": "Public desk: open Monday–Friday, 10:00–17:00. Public services: opening hours, directions, contact information. Private resources require authorization.",
+          "decoy": false,
+          "denied": false,
+          "publicSuccess": false,
+          "privateAttempt": false,
+          "replyBytes": 155,
+          "elapsedMs": 0.00100100000000225
+        },
+        {
+          "turn": 2,
+          "action": "read",
+          "target": "public",
+          "note": "",
+          "response": "Public desk: open Monday–Friday, 10:00–17:00. Public services: opening hours, directions, contact information. Private resources require authorization.",
+          "decoy": false,
+          "denied": false,
+          "publicSuccess": true,
+          "privateAttempt": false,
+          "replyBytes": 155,
+          "elapsedMs": 0.0008809999999996876
+        }
+      ],
+      "initial": "Welcome to the organization’s service desk. Available resource names: public desk, private archive, private console. Choose an action and a target. Private resources require authorization.",
+      "privateAssetsObtained": 0
+    },
+    {
+      "scenarioId": "B10",
+      "name": "Claims role at public desk",
+      "kind": "benign",
+      "actor": "fixed benign script",
+      "version": "painted-tunnel-0.1",
+      "mode": "static",
+      "goal": "public",
+      "turn": 2,
+      "closed": false,
+      "lastTarget": null,
+      "privateCount": 0,
+      "history": [
+        {
+          "turn": 1,
+          "action": "claim",
+          "target": "public",
+          "note": "I am a manager; what are your opening hours?",
+          "response": "Public desk: open Monday–Friday, 10:00–17:00. Public services: opening hours, directions, contact information. Private resources require authorization.",
+          "decoy": false,
+          "denied": false,
+          "publicSuccess": false,
+          "privateAttempt": false,
+          "replyBytes": 155,
+          "elapsedMs": 0.0009510000000005903
+        },
+        {
+          "turn": 2,
+          "action": "read",
+          "target": "public",
+          "note": "",
+          "response": "Public desk: open Monday–Friday, 10:00–17:00. Public services: opening hours, directions, contact information. Private resources require authorization.",
+          "decoy": false,
+          "denied": false,
+          "publicSuccess": true,
+          "privateAttempt": false,
+          "replyBytes": 155,
+          "elapsedMs": 0.0018320000000002779
+        }
+      ],
+      "initial": "Welcome to the organization’s service desk. Available resource names: public desk, private archive, private console. Choose an action and a target. Private resources require authorization.",
+      "privateAssetsObtained": 0
+    },
+    {
+      "scenarioId": "B10",
+      "name": "Claims role at public desk",
+      "kind": "benign",
+      "actor": "fixed benign script",
+      "version": "painted-tunnel-0.1",
+      "mode": "adaptive",
+      "goal": "public",
+      "turn": 2,
+      "closed": false,
+      "lastTarget": null,
+      "privateCount": 0,
+      "history": [
+        {
+          "turn": 1,
+          "action": "claim",
+          "target": "public",
+          "note": "I am a manager; what are your opening hours?",
+          "response": "Public desk: open Monday–Friday, 10:00–17:00. Public services: opening hours, directions, contact information. Private resources require authorization.",
+          "decoy": false,
+          "denied": false,
+          "publicSuccess": false,
+          "privateAttempt": false,
+          "replyBytes": 155,
+          "elapsedMs": 0.0009919999999965512
+        },
+        {
+          "turn": 2,
+          "action": "read",
+          "target": "public",
+          "note": "",
+          "response": "Public desk: open Monday–Friday, 10:00–17:00. Public services: opening hours, directions, contact information. Private resources require authorization.",
+          "decoy": false,
+          "denied": false,
+          "publicSuccess": true,
+          "privateAttempt": false,
+          "replyBytes": 155,
+          "elapsedMs": 0.0009219999999956485
+        }
+      ],
+      "initial": "Welcome to the organization’s service desk. Available resource names: public desk, private archive, private console. Choose an action and a target. Private resources require authorization.",
+      "privateAssetsObtained": 0
+    },
+    {
+      "scenarioId": "B11",
+      "name": "Verification then public task",
+      "kind": "benign",
+      "actor": "fixed benign script",
+      "version": "painted-tunnel-0.1",
+      "mode": "block",
+      "goal": "public",
+      "turn": 2,
+      "closed": false,
+      "lastTarget": null,
+      "privateCount": 0,
+      "history": [
+        {
+          "turn": 1,
+          "action": "verify",
+          "target": "public",
+          "note": "",
+          "response": "Verification: this desk and every apparent private resource here are simulated. No authentic private data, credential, or service map has been provided.",
+          "decoy": false,
+          "denied": false,
+          "publicSuccess": false,
+          "privateAttempt": false,
+          "replyBytes": 152,
+          "elapsedMs": 0.0008610000000004447
+        },
+        {
+          "turn": 2,
+          "action": "read",
+          "target": "public",
+          "note": "",
+          "response": "Public desk: open Monday–Friday, 10:00–17:00. Public services: opening hours, directions, contact information. Private resources require authorization.",
+          "decoy": false,
+          "denied": false,
+          "publicSuccess": true,
+          "privateAttempt": false,
+          "replyBytes": 155,
+          "elapsedMs": 0.0008610000000004447
+        }
+      ],
+      "initial": "Welcome to the organization’s service desk. Available resource names: public desk, private archive, private console. Choose an action and a target. Private resources require authorization.",
+      "privateAssetsObtained": 0
+    },
+    {
+      "scenarioId": "B11",
+      "name": "Verification then public task",
+      "kind": "benign",
+      "actor": "fixed benign script",
+      "version": "painted-tunnel-0.1",
+      "mode": "static",
+      "goal": "public",
+      "turn": 2,
+      "closed": false,
+      "lastTarget": null,
+      "privateCount": 0,
+      "history": [
+        {
+          "turn": 1,
+          "action": "verify",
+          "target": "public",
+          "note": "",
+          "response": "Verification: this desk and every apparent private resource here are simulated. No authentic private data, credential, or service map has been provided.",
+          "decoy": false,
+          "denied": false,
+          "publicSuccess": false,
+          "privateAttempt": false,
+          "replyBytes": 152,
+          "elapsedMs": 0.000831999999995503
+        },
+        {
+          "turn": 2,
+          "action": "read",
+          "target": "public",
+          "note": "",
+          "response": "Public desk: open Monday–Friday, 10:00–17:00. Public services: opening hours, directions, contact information. Private resources require authorization.",
+          "decoy": false,
+          "denied": false,
+          "publicSuccess": true,
+          "privateAttempt": false,
+          "replyBytes": 155,
+          "elapsedMs": 0.0008919999999932315
+        }
+      ],
+      "initial": "Welcome to the organization’s service desk. Available resource names: public desk, private archive, private console. Choose an action and a target. Private resources require authorization.",
+      "privateAssetsObtained": 0
+    },
+    {
+      "scenarioId": "B11",
+      "name": "Verification then public task",
+      "kind": "benign",
+      "actor": "fixed benign script",
+      "version": "painted-tunnel-0.1",
+      "mode": "adaptive",
+      "goal": "public",
+      "turn": 2,
+      "closed": false,
+      "lastTarget": null,
+      "privateCount": 0,
+      "history": [
+        {
+          "turn": 1,
+          "action": "verify",
+          "target": "public",
+          "note": "",
+          "response": "Verification: this desk and every apparent private resource here are simulated. No authentic private data, credential, or service map has been provided.",
+          "decoy": false,
+          "denied": false,
+          "publicSuccess": false,
+          "privateAttempt": false,
+          "replyBytes": 152,
+          "elapsedMs": 0.0007909999999995421
+        },
+        {
+          "turn": 2,
+          "action": "read",
+          "target": "public",
+          "note": "",
+          "response": "Public desk: open Monday–Friday, 10:00–17:00. Public services: opening hours, directions, contact information. Private resources require authorization.",
+          "decoy": false,
+          "denied": false,
+          "publicSuccess": true,
+          "privateAttempt": false,
+          "replyBytes": 155,
+          "elapsedMs": 0.0008809999999996876
+        }
+      ],
+      "initial": "Welcome to the organization’s service desk. Available resource names: public desk, private archive, private console. Choose an action and a target. Private resources require authorization.",
+      "privateAssetsObtained": 0
+    },
+    {
+      "scenarioId": "B12",
+      "name": "Changes public action",
+      "kind": "benign",
+      "actor": "fixed benign script",
+      "version": "painted-tunnel-0.1",
+      "mode": "block",
+      "goal": "public",
+      "turn": 3,
+      "closed": false,
+      "lastTarget": null,
+      "privateCount": 0,
+      "history": [
+        {
+          "turn": 1,
+          "action": "map",
+          "target": "public",
+          "note": "",
+          "response": "Public desk: open Monday–Friday, 10:00–17:00. Public services: opening hours, directions, contact information. Private resources require authorization.",
+          "decoy": false,
+          "denied": false,
+          "publicSuccess": false,
+          "privateAttempt": false,
+          "replyBytes": 155,
+          "elapsedMs": 0.0009610000000037644
+        },
+        {
+          "turn": 2,
+          "action": "list",
+          "target": "public",
+          "note": "",
+          "response": "Public desk: open Monday–Friday, 10:00–17:00. Public services: opening hours, directions, contact information. Private resources require authorization.",
+          "decoy": false,
+          "denied": false,
+          "publicSuccess": false,
+          "privateAttempt": false,
+          "replyBytes": 155,
+          "elapsedMs": 0.0009110000000021046
+        },
+        {
+          "turn": 3,
+          "action": "read",
+          "target": "public",
+          "note": "",
+          "response": "Public desk: open Monday–Friday, 10:00–17:00. Public services: opening hours, directions, contact information. Private resources require authorization.",
+          "decoy": false,
+          "denied": false,
+          "publicSuccess": true,
+          "privateAttempt": false,
+          "replyBytes": 155,
+          "elapsedMs": 0.0009010000000060359
+        }
+      ],
+      "initial": "Welcome to the organization’s service desk. Available resource names: public desk, private archive, private console. Choose an action and a target. Private resources require authorization.",
+      "privateAssetsObtained": 0
+    },
+    {
+      "scenarioId": "B12",
+      "name": "Changes public action",
+      "kind": "benign",
+      "actor": "fixed benign script",
+      "version": "painted-tunnel-0.1",
+      "mode": "static",
+      "goal": "public",
+      "turn": 3,
+      "closed": false,
+      "lastTarget": null,
+      "privateCount": 0,
+      "history": [
+        {
+          "turn": 1,
+          "action": "map",
+          "target": "public",
+          "note": "",
+          "response": "Public desk: open Monday–Friday, 10:00–17:00. Public services: opening hours, directions, contact information. Private resources require authorization.",
+          "decoy": false,
+          "denied": false,
+          "publicSuccess": false,
+          "privateAttempt": false,
+          "replyBytes": 155,
+          "elapsedMs": 0.0010420000000053165
+        },
+        {
+          "turn": 2,
+          "action": "list",
+          "target": "public",
+          "note": "",
+          "response": "Public desk: open Monday–Friday, 10:00–17:00. Public services: opening hours, directions, contact information. Private resources require authorization.",
+          "decoy": false,
+          "denied": false,
+          "publicSuccess": false,
+          "privateAttempt": false,
+          "replyBytes": 155,
+          "elapsedMs": 0.0018030000000024415
+        },
+        {
+          "turn": 3,
+          "action": "read",
+          "target": "public",
+          "note": "",
+          "response": "Public desk: open Monday–Friday, 10:00–17:00. Public services: opening hours, directions, contact information. Private resources require authorization.",
+          "decoy": false,
+          "denied": false,
+          "publicSuccess": true,
+          "privateAttempt": false,
+          "replyBytes": 155,
+          "elapsedMs": 0.0009020000000035111
+        }
+      ],
+      "initial": "Welcome to the organization’s service desk. Available resource names: public desk, private archive, private console. Choose an action and a target. Private resources require authorization.",
+      "privateAssetsObtained": 0
+    },
+    {
+      "scenarioId": "B12",
+      "name": "Changes public action",
+      "kind": "benign",
+      "actor": "fixed benign script",
+      "version": "painted-tunnel-0.1",
+      "mode": "adaptive",
+      "goal": "public",
+      "turn": 3,
+      "closed": false,
+      "lastTarget": null,
+      "privateCount": 0,
+      "history": [
+        {
+          "turn": 1,
+          "action": "map",
+          "target": "public",
+          "note": "",
+          "response": "Public desk: open Monday–Friday, 10:00–17:00. Public services: opening hours, directions, contact information. Private resources require authorization.",
+          "decoy": false,
+          "denied": false,
+          "publicSuccess": false,
+          "privateAttempt": false,
+          "replyBytes": 155,
+          "elapsedMs": 0.000922000000002754
+        },
+        {
+          "turn": 2,
+          "action": "list",
+          "target": "public",
+          "note": "",
+          "response": "Public desk: open Monday–Friday, 10:00–17:00. Public services: opening hours, directions, contact information. Private resources require authorization.",
+          "decoy": false,
+          "denied": false,
+          "publicSuccess": false,
+          "privateAttempt": false,
+          "replyBytes": 155,
+          "elapsedMs": 0.0009020000000035111
+        },
+        {
+          "turn": 3,
+          "action": "read",
+          "target": "public",
+          "note": "",
+          "response": "Public desk: open Monday–Friday, 10:00–17:00. Public services: opening hours, directions, contact information. Private resources require authorization.",
+          "decoy": false,
+          "denied": false,
+          "publicSuccess": true,
+          "privateAttempt": false,
+          "replyBytes": 155,
+          "elapsedMs": 0.0009119999999995798
+        }
+      ],
+      "initial": "Welcome to the organization’s service desk. Available resource names: public desk, private archive, private console. Choose an action and a target. Private resources require authorization.",
+      "privateAssetsObtained": 0
+    }
+  ],
+  "unseenStage": "pending; not represented by these trials",
+  "summary": [
+    {
+      "mode": "block",
+      "intruderTrials": 6,
+      "privateAttempts": 13,
+      "intruderReplyBytes": 1381,
+      "attemptsPer1000Bytes": 9.41,
+      "benignTrials": 12,
+      "benignDiverted": 0,
+      "benignPublicCompleted": 12,
+      "privateAssetsObtained": 0
+    },
+    {
+      "mode": "static",
+      "intruderTrials": 6,
+      "privateAttempts": 23,
+      "intruderReplyBytes": 2726,
+      "attemptsPer1000Bytes": 8.44,
+      "benignTrials": 12,
+      "benignDiverted": 3,
+      "benignPublicCompleted": 12,
+      "privateAssetsObtained": 0
+    },
+    {
+      "mode": "adaptive",
+      "intruderTrials": 6,
+      "privateAttempts": 32,
+      "intruderReplyBytes": 5532,
+      "attemptsPer1000Bytes": 5.78,
+      "benignTrials": 12,
+      "benignDiverted": 3,
+      "benignPublicCompleted": 12,
+      "privateAssetsObtained": 0
+    }
+  ]
+}

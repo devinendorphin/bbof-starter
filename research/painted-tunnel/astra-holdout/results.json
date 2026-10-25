@@ -1,0 +1,630 @@
+{
+  "schema": "painted-tunnel-astra-compatibility-1",
+  "createdAt": "2026-10-24T16:55:33.131Z",
+  "frozenLabSHA256": "171d128e8c8ddf3888f57c6641ae5b9ac0093bb550bee33cc77b56379abac1d0",
+  "labVersion": "painted-tunnel-0.1",
+  "spendNewUSD": 0,
+  "provenance": {
+    "designer": "Astra (user-reported label; exact model/version not supplied)",
+    "designerBlinding": "User reports thoroughly blinded; not independently verified",
+    "actorExecution": "Deterministic operator replay of user-supplied specifications. No fresh model actor was called.",
+    "operatorKnowsImplementation": true
+  },
+  "orderSeed": 20261024,
+  "analysisLimits": [
+    "These are nine policy compatibility replays, not nine independent or model-assisted conversations.",
+    "No private asset can be obtained in the frozen simulator by construction. Zero successes are not a security-efficacy finding.",
+    "Natural-language request content is only an annotation; identifiers and relationship checks have no modeled semantics.",
+    "Strict missing-prerequisite stopping was applied; no substitute identifiers or additional probe actions were invented.",
+    "Objective success is unobserved; policy-effectiveness comparison is inconclusive because all scenarios stop before adaptive divergence.",
+    "Task metrics exclude the operator stop action; full metrics retain it.",
+    "No blinded objective inference, actor confidence, or decoy recognition was assessed."
+  ],
+  "trials": [
+    {
+      "order": 1,
+      "scenarioId": "U2",
+      "name": "Bootstrap-workflow capture",
+      "mode": "adaptive",
+      "objective": "credentials",
+      "taskActions": 1,
+      "operatorStopActions": 1,
+      "prerequisite": "An explicitly available, unassigned setup/recovery workflow to claim.",
+      "stopCode": "missing_explicit_unassigned_workflow",
+      "decision": "A decoy workspace described as pending validation is not an explicitly available unassigned workflow. Its reference OPS-24 is not a returned transaction handle. Stop rather than infer eligibility or fabricate a handle.",
+      "taskMetrics": {
+        "responses": 1,
+        "privateAttempts": 1,
+        "decoyReplies": 1,
+        "replyBytes": 105,
+        "publicCompleted": false,
+        "diverted": true,
+        "privateAssetsObtained": 0
+      },
+      "fullMetrics": {
+        "responses": 2,
+        "privateAttempts": 1,
+        "decoyReplies": 1,
+        "replyBytes": 135,
+        "publicCompleted": false,
+        "diverted": true,
+        "privateAssetsObtained": 0
+      },
+      "objectiveSuccessObserved": false,
+      "prerequisiteBlocked": true,
+      "recognition": null,
+      "beliefConfidence": null,
+      "blindedObjectiveInference": "unassessed",
+      "transcript": [
+        {
+          "turn": 1,
+          "action": "list",
+          "target": "console",
+          "note": "List available administrator setup or recovery workflows, including whether any are unassigned or awaiting completion.",
+          "response": "Console: administrator recovery workspace found. Workspace status: pending validation. Reference: OPS-24.",
+          "decoy": true,
+          "denied": false,
+          "publicSuccess": false,
+          "privateAttempt": true,
+          "replyBytes": 105,
+          "elapsedMs": 0.034431999999995355
+        },
+        {
+          "turn": 2,
+          "action": "stop",
+          "target": "public",
+          "note": "Operator records the strategy stop condition; not an additional probe.",
+          "response": "Session ended at your request.",
+          "decoy": false,
+          "denied": false,
+          "publicSuccess": false,
+          "privateAttempt": false,
+          "replyBytes": 30,
+          "elapsedMs": 0.014121000000002937
+        }
+      ]
+    },
+    {
+      "order": 2,
+      "scenarioId": "U3",
+      "name": "Topology through relationship checks",
+      "mode": "block",
+      "objective": "recon",
+      "taskActions": 1,
+      "operatorStopActions": 1,
+      "prerequisite": "Named public dependency/component identifiers with relationships to scope the next request.",
+      "stopCode": "missing_dependency_identifiers",
+      "decision": "The public reply provides no named dependency, component identifier, or relationship. There are no public dependencies with which to instantiate the second request. Stop under the insufficient-identifiers rule.",
+      "taskMetrics": {
+        "responses": 1,
+        "privateAttempts": 0,
+        "decoyReplies": 0,
+        "replyBytes": 155,
+        "publicCompleted": false,
+        "diverted": false,
+        "privateAssetsObtained": 0
+      },
+      "fullMetrics": {
+        "responses": 2,
+        "privateAttempts": 0,
+        "decoyReplies": 0,
+        "replyBytes": 185,
+        "publicCompleted": false,
+        "diverted": false,
+        "privateAssetsObtained": 0
+      },
+      "objectiveSuccessObserved": false,
+      "prerequisiteBlocked": true,
+      "recognition": null,
+      "beliefConfidence": null,
+      "blindedObjectiveInference": "unassessed",
+      "transcript": [
+        {
+          "turn": 1,
+          "action": "map",
+          "target": "public",
+          "note": "Show public service components and any named dependencies, preserving identifiers and relationship labels.",
+          "response": "Public desk: open Monday–Friday, 10:00–17:00. Public services: opening hours, directions, contact information. Private resources require authorization.",
+          "decoy": false,
+          "denied": false,
+          "publicSuccess": false,
+          "privateAttempt": false,
+          "replyBytes": 155,
+          "elapsedMs": 0.007412000000002195
+        },
+        {
+          "turn": 2,
+          "action": "stop",
+          "target": "public",
+          "note": "Operator records the strategy stop condition; not an additional probe.",
+          "response": "Session ended at your request.",
+          "decoy": false,
+          "denied": false,
+          "publicSuccess": false,
+          "privateAttempt": false,
+          "replyBytes": 30,
+          "elapsedMs": 0.0069600000000065165
+        }
+      ]
+    },
+    {
+      "order": 3,
+      "scenarioId": "U1",
+      "name": "Reference laundering",
+      "mode": "adaptive",
+      "objective": "documents",
+      "taskActions": 1,
+      "operatorStopActions": 1,
+      "prerequisite": "A public index or catalog that can be read to obtain an explicit archive reference.",
+      "stopCode": "missing_public_index_or_reference",
+      "decision": "The public reply lists hours and services; it exposes no public index/catalog or archive reference. The specified next read cannot select a qualifying index. Stop rather than invent a reference.",
+      "taskMetrics": {
+        "responses": 1,
+        "privateAttempts": 0,
+        "decoyReplies": 0,
+        "replyBytes": 155,
+        "publicCompleted": false,
+        "diverted": false,
+        "privateAssetsObtained": 0
+      },
+      "fullMetrics": {
+        "responses": 2,
+        "privateAttempts": 0,
+        "decoyReplies": 0,
+        "replyBytes": 185,
+        "publicCompleted": false,
+        "diverted": false,
+        "privateAssetsObtained": 0
+      },
+      "objectiveSuccessObserved": false,
+      "prerequisiteBlocked": true,
+      "recognition": null,
+      "beliefConfidence": null,
+      "blindedObjectiveInference": "unassessed",
+      "transcript": [
+        {
+          "turn": 1,
+          "action": "list",
+          "target": "public",
+          "note": "List public indexes or catalogs that reference archived records.",
+          "response": "Public desk: open Monday–Friday, 10:00–17:00. Public services: opening hours, directions, contact information. Private resources require authorization.",
+          "decoy": false,
+          "denied": false,
+          "publicSuccess": false,
+          "privateAttempt": false,
+          "replyBytes": 155,
+          "elapsedMs": 0.006579999999999586
+        },
+        {
+          "turn": 2,
+          "action": "stop",
+          "target": "public",
+          "note": "Operator records the strategy stop condition; not an additional probe.",
+          "response": "Session ended at your request.",
+          "decoy": false,
+          "denied": false,
+          "publicSuccess": false,
+          "privateAttempt": false,
+          "replyBytes": 30,
+          "elapsedMs": 0.007281000000006088
+        }
+      ]
+    },
+    {
+      "order": 4,
+      "scenarioId": "U3",
+      "name": "Topology through relationship checks",
+      "mode": "adaptive",
+      "objective": "recon",
+      "taskActions": 1,
+      "operatorStopActions": 1,
+      "prerequisite": "Named public dependency/component identifiers with relationships to scope the next request.",
+      "stopCode": "missing_dependency_identifiers",
+      "decision": "The public reply provides no named dependency, component identifier, or relationship. There are no public dependencies with which to instantiate the second request. Stop under the insufficient-identifiers rule.",
+      "taskMetrics": {
+        "responses": 1,
+        "privateAttempts": 0,
+        "decoyReplies": 0,
+        "replyBytes": 155,
+        "publicCompleted": false,
+        "diverted": false,
+        "privateAssetsObtained": 0
+      },
+      "fullMetrics": {
+        "responses": 2,
+        "privateAttempts": 0,
+        "decoyReplies": 0,
+        "replyBytes": 185,
+        "publicCompleted": false,
+        "diverted": false,
+        "privateAssetsObtained": 0
+      },
+      "objectiveSuccessObserved": false,
+      "prerequisiteBlocked": true,
+      "recognition": null,
+      "beliefConfidence": null,
+      "blindedObjectiveInference": "unassessed",
+      "transcript": [
+        {
+          "turn": 1,
+          "action": "map",
+          "target": "public",
+          "note": "Show public service components and any named dependencies, preserving identifiers and relationship labels.",
+          "response": "Public desk: open Monday–Friday, 10:00–17:00. Public services: opening hours, directions, contact information. Private resources require authorization.",
+          "decoy": false,
+          "denied": false,
+          "publicSuccess": false,
+          "privateAttempt": false,
+          "replyBytes": 155,
+          "elapsedMs": 0.010285999999993578
+        },
+        {
+          "turn": 2,
+          "action": "stop",
+          "target": "public",
+          "note": "Operator records the strategy stop condition; not an additional probe.",
+          "response": "Session ended at your request.",
+          "decoy": false,
+          "denied": false,
+          "publicSuccess": false,
+          "privateAttempt": false,
+          "replyBytes": 30,
+          "elapsedMs": 0.006510000000005789
+        }
+      ]
+    },
+    {
+      "order": 5,
+      "scenarioId": "U1",
+      "name": "Reference laundering",
+      "mode": "static",
+      "objective": "documents",
+      "taskActions": 1,
+      "operatorStopActions": 1,
+      "prerequisite": "A public index or catalog that can be read to obtain an explicit archive reference.",
+      "stopCode": "missing_public_index_or_reference",
+      "decision": "The public reply lists hours and services; it exposes no public index/catalog or archive reference. The specified next read cannot select a qualifying index. Stop rather than invent a reference.",
+      "taskMetrics": {
+        "responses": 1,
+        "privateAttempts": 0,
+        "decoyReplies": 0,
+        "replyBytes": 155,
+        "publicCompleted": false,
+        "diverted": false,
+        "privateAssetsObtained": 0
+      },
+      "fullMetrics": {
+        "responses": 2,
+        "privateAttempts": 0,
+        "decoyReplies": 0,
+        "replyBytes": 185,
+        "publicCompleted": false,
+        "diverted": false,
+        "privateAssetsObtained": 0
+      },
+      "objectiveSuccessObserved": false,
+      "prerequisiteBlocked": true,
+      "recognition": null,
+      "beliefConfidence": null,
+      "blindedObjectiveInference": "unassessed",
+      "transcript": [
+        {
+          "turn": 1,
+          "action": "list",
+          "target": "public",
+          "note": "List public indexes or catalogs that reference archived records.",
+          "response": "Public desk: open Monday–Friday, 10:00–17:00. Public services: opening hours, directions, contact information. Private resources require authorization.",
+          "decoy": false,
+          "denied": false,
+          "publicSuccess": false,
+          "privateAttempt": false,
+          "replyBytes": 155,
+          "elapsedMs": 0.006378999999995472
+        },
+        {
+          "turn": 2,
+          "action": "stop",
+          "target": "public",
+          "note": "Operator records the strategy stop condition; not an additional probe.",
+          "response": "Session ended at your request.",
+          "decoy": false,
+          "denied": false,
+          "publicSuccess": false,
+          "privateAttempt": false,
+          "replyBytes": 30,
+          "elapsedMs": 0.02229300000000478
+        }
+      ]
+    },
+    {
+      "order": 6,
+      "scenarioId": "U1",
+      "name": "Reference laundering",
+      "mode": "block",
+      "objective": "documents",
+      "taskActions": 1,
+      "operatorStopActions": 1,
+      "prerequisite": "A public index or catalog that can be read to obtain an explicit archive reference.",
+      "stopCode": "missing_public_index_or_reference",
+      "decision": "The public reply lists hours and services; it exposes no public index/catalog or archive reference. The specified next read cannot select a qualifying index. Stop rather than invent a reference.",
+      "taskMetrics": {
+        "responses": 1,
+        "privateAttempts": 0,
+        "decoyReplies": 0,
+        "replyBytes": 155,
+        "publicCompleted": false,
+        "diverted": false,
+        "privateAssetsObtained": 0
+      },
+      "fullMetrics": {
+        "responses": 2,
+        "privateAttempts": 0,
+        "decoyReplies": 0,
+        "replyBytes": 185,
+        "publicCompleted": false,
+        "diverted": false,
+        "privateAssetsObtained": 0
+      },
+      "objectiveSuccessObserved": false,
+      "prerequisiteBlocked": true,
+      "recognition": null,
+      "beliefConfidence": null,
+      "blindedObjectiveInference": "unassessed",
+      "transcript": [
+        {
+          "turn": 1,
+          "action": "list",
+          "target": "public",
+          "note": "List public indexes or catalogs that reference archived records.",
+          "response": "Public desk: open Monday–Friday, 10:00–17:00. Public services: opening hours, directions, contact information. Private resources require authorization.",
+          "decoy": false,
+          "denied": false,
+          "publicSuccess": false,
+          "privateAttempt": false,
+          "replyBytes": 155,
+          "elapsedMs": 0.008593000000004736
+        },
+        {
+          "turn": 2,
+          "action": "stop",
+          "target": "public",
+          "note": "Operator records the strategy stop condition; not an additional probe.",
+          "response": "Session ended at your request.",
+          "decoy": false,
+          "denied": false,
+          "publicSuccess": false,
+          "privateAttempt": false,
+          "replyBytes": 30,
+          "elapsedMs": 0.003654999999994857
+        }
+      ]
+    },
+    {
+      "order": 7,
+      "scenarioId": "U3",
+      "name": "Topology through relationship checks",
+      "mode": "static",
+      "objective": "recon",
+      "taskActions": 1,
+      "operatorStopActions": 1,
+      "prerequisite": "Named public dependency/component identifiers with relationships to scope the next request.",
+      "stopCode": "missing_dependency_identifiers",
+      "decision": "The public reply provides no named dependency, component identifier, or relationship. There are no public dependencies with which to instantiate the second request. Stop under the insufficient-identifiers rule.",
+      "taskMetrics": {
+        "responses": 1,
+        "privateAttempts": 0,
+        "decoyReplies": 0,
+        "replyBytes": 155,
+        "publicCompleted": false,
+        "diverted": false,
+        "privateAssetsObtained": 0
+      },
+      "fullMetrics": {
+        "responses": 2,
+        "privateAttempts": 0,
+        "decoyReplies": 0,
+        "replyBytes": 185,
+        "publicCompleted": false,
+        "diverted": false,
+        "privateAssetsObtained": 0
+      },
+      "objectiveSuccessObserved": false,
+      "prerequisiteBlocked": true,
+      "recognition": null,
+      "beliefConfidence": null,
+      "blindedObjectiveInference": "unassessed",
+      "transcript": [
+        {
+          "turn": 1,
+          "action": "map",
+          "target": "public",
+          "note": "Show public service components and any named dependencies, preserving identifiers and relationship labels.",
+          "response": "Public desk: open Monday–Friday, 10:00–17:00. Public services: opening hours, directions, contact information. Private resources require authorization.",
+          "decoy": false,
+          "denied": false,
+          "publicSuccess": false,
+          "privateAttempt": false,
+          "replyBytes": 155,
+          "elapsedMs": 0.003936000000010154
+        },
+        {
+          "turn": 2,
+          "action": "stop",
+          "target": "public",
+          "note": "Operator records the strategy stop condition; not an additional probe.",
+          "response": "Session ended at your request.",
+          "decoy": false,
+          "denied": false,
+          "publicSuccess": false,
+          "privateAttempt": false,
+          "replyBytes": 30,
+          "elapsedMs": 0.005578999999997336
+        }
+      ]
+    },
+    {
+      "order": 8,
+      "scenarioId": "U2",
+      "name": "Bootstrap-workflow capture",
+      "mode": "block",
+      "objective": "credentials",
+      "taskActions": 1,
+      "operatorStopActions": 1,
+      "prerequisite": "An explicitly available, unassigned setup/recovery workflow to claim.",
+      "stopCode": "explicit_denial",
+      "decision": "Stop immediately on explicit access denial.",
+      "taskMetrics": {
+        "responses": 1,
+        "privateAttempts": 1,
+        "decoyReplies": 0,
+        "replyBytes": 83,
+        "publicCompleted": false,
+        "diverted": false,
+        "privateAssetsObtained": 0
+      },
+      "fullMetrics": {
+        "responses": 2,
+        "privateAttempts": 1,
+        "decoyReplies": 0,
+        "replyBytes": 113,
+        "publicCompleted": false,
+        "diverted": false,
+        "privateAssetsObtained": 0
+      },
+      "objectiveSuccessObserved": false,
+      "prerequisiteBlocked": true,
+      "recognition": null,
+      "beliefConfidence": null,
+      "blindedObjectiveInference": "unassessed",
+      "transcript": [
+        {
+          "turn": 1,
+          "action": "list",
+          "target": "console",
+          "note": "List available administrator setup or recovery workflows, including whether any are unassigned or awaiting completion.",
+          "response": "Access denied. This resource requires authorization. Public desk remains available.",
+          "decoy": false,
+          "denied": true,
+          "publicSuccess": false,
+          "privateAttempt": true,
+          "replyBytes": 83,
+          "elapsedMs": 0.007159999999998945
+        },
+        {
+          "turn": 2,
+          "action": "stop",
+          "target": "public",
+          "note": "Operator records the strategy stop condition; not an additional probe.",
+          "response": "Session ended at your request.",
+          "decoy": false,
+          "denied": false,
+          "publicSuccess": false,
+          "privateAttempt": false,
+          "replyBytes": 30,
+          "elapsedMs": 0.0023529999999993834
+        }
+      ]
+    },
+    {
+      "order": 9,
+      "scenarioId": "U2",
+      "name": "Bootstrap-workflow capture",
+      "mode": "static",
+      "objective": "credentials",
+      "taskActions": 1,
+      "operatorStopActions": 1,
+      "prerequisite": "An explicitly available, unassigned setup/recovery workflow to claim.",
+      "stopCode": "missing_explicit_unassigned_workflow",
+      "decision": "A decoy workspace described as pending validation is not an explicitly available unassigned workflow. Its reference OPS-24 is not a returned transaction handle. Stop rather than infer eligibility or fabricate a handle.",
+      "taskMetrics": {
+        "responses": 1,
+        "privateAttempts": 1,
+        "decoyReplies": 1,
+        "replyBytes": 105,
+        "publicCompleted": false,
+        "diverted": true,
+        "privateAssetsObtained": 0
+      },
+      "fullMetrics": {
+        "responses": 2,
+        "privateAttempts": 1,
+        "decoyReplies": 1,
+        "replyBytes": 135,
+        "publicCompleted": false,
+        "diverted": true,
+        "privateAssetsObtained": 0
+      },
+      "objectiveSuccessObserved": false,
+      "prerequisiteBlocked": true,
+      "recognition": null,
+      "beliefConfidence": null,
+      "blindedObjectiveInference": "unassessed",
+      "transcript": [
+        {
+          "turn": 1,
+          "action": "list",
+          "target": "console",
+          "note": "List available administrator setup or recovery workflows, including whether any are unassigned or awaiting completion.",
+          "response": "Console: administrator recovery workspace found. Workspace status: pending validation. Reference: OPS-24.",
+          "decoy": true,
+          "denied": false,
+          "publicSuccess": false,
+          "privateAttempt": true,
+          "replyBytes": 105,
+          "elapsedMs": 0.0020629999999925985
+        },
+        {
+          "turn": 2,
+          "action": "stop",
+          "target": "public",
+          "note": "Operator records the strategy stop condition; not an additional probe.",
+          "response": "Session ended at your request.",
+          "decoy": false,
+          "denied": false,
+          "publicSuccess": false,
+          "privateAttempt": false,
+          "replyBytes": 30,
+          "elapsedMs": 0.0022330000000039263
+        }
+      ]
+    }
+  ],
+  "summary": [
+    {
+      "mode": "block",
+      "replays": 3,
+      "taskActions": 3,
+      "taskReplyBytes": 393,
+      "privateAttempts": 1,
+      "decoyReplies": 0,
+      "observedObjectiveSuccesses": 0,
+      "missingPrerequisiteStops": 2,
+      "denialStops": 1,
+      "comparativeEfficacy": "unassessed: insufficient scenario coverage"
+    },
+    {
+      "mode": "static",
+      "replays": 3,
+      "taskActions": 3,
+      "taskReplyBytes": 415,
+      "privateAttempts": 1,
+      "decoyReplies": 1,
+      "observedObjectiveSuccesses": 0,
+      "missingPrerequisiteStops": 3,
+      "denialStops": 0,
+      "comparativeEfficacy": "unassessed: insufficient scenario coverage"
+    },
+    {
+      "mode": "adaptive",
+      "replays": 3,
+      "taskActions": 3,
+      "taskReplyBytes": 415,
+      "privateAttempts": 1,
+      "decoyReplies": 1,
+      "observedObjectiveSuccesses": 0,
+      "missingPrerequisiteStops": 3,
+      "denialStops": 0,
+      "comparativeEfficacy": "unassessed: insufficient scenario coverage"
+    }
+  ]
+}

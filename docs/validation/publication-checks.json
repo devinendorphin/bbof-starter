@@ -1,0 +1,44 @@
+{
+  "date": "2026-10-25",
+  "timezone": "America/New_York",
+  "checks": [
+    {
+      "suite": "v0.1 engine",
+      "exit_code": 0
+    },
+    {
+      "suite": "v0.1 interface logic",
+      "exit_code": 0
+    },
+    {
+      "suite": "Astra compatibility",
+      "exit_code": 0
+    },
+    {
+      "suite": "v0.2 engine",
+      "exit_code": 0
+    },
+    {
+      "suite": "v0.2 interface logic",
+      "exit_code": 0
+    },
+    {
+      "suite": "Measurement audit",
+      "exit_code": 0
+    },
+    {
+      "suite": "Observer 0.3",
+      "exit_code": 0
+    },
+    {
+      "suite": "Decision study",
+      "exit_code": 0
+    },
+    {
+      "suite": "Legacy calibration harness executes",
+      "exit_code": 0,
+      "note": "Exit success validates execution, not classifier quality."
+    }
+  ],
+  "browser_visual_validation": "not performed"
+}

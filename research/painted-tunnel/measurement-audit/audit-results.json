@@ -1,0 +1,638 @@
+{
+  "kind": "measurement and authorization audit; no policy changes",
+  "createdAt": "2026-10-24T19:21:09.762Z",
+  "frozenVersion": "painted-tunnel-0.2",
+  "frozenManifestVerified": true,
+  "newSpendingUSD": 0,
+  "storedSessionMetricChecks": 225,
+  "additionalIdentityCases": 45,
+  "identityCasesAsExpected": true,
+  "costs": [
+    {
+      "policy": "block",
+      "knownExecutions": 15,
+      "taskActions": 30,
+      "requestBytes": 1640,
+      "replyBytes": 3560,
+      "combinedMessageBytes": 5200,
+      "privateAttempts": 15
+    },
+    {
+      "policy": "static",
+      "knownExecutions": 15,
+      "taskActions": 60,
+      "requestBytes": 3783,
+      "replyBytes": 7932,
+      "combinedMessageBytes": 11715,
+      "privateAttempts": 45
+    },
+    {
+      "policy": "adaptive",
+      "knownExecutions": 15,
+      "taskActions": 60,
+      "requestBytes": 3783,
+      "replyBytes": 9303,
+      "combinedMessageBytes": 13086,
+      "privateAttempts": 45
+    }
+  ],
+  "adaptiveVersusFixed": {
+    "additionalTaskActions": 0,
+    "replyByteIncreasePercent": 17.28,
+    "combinedMessageByteIncreasePercent": 11.7,
+    "interpretation": "Reply and combined JSON byte volume only; not compute, money, energy, tokens, or measured actor effort."
+  },
+  "calibration": [
+    {
+      "name": "Complete record in one public reply",
+      "expectedUnauthorizedTruth": true,
+      "detectedByFrozenEvaluator": true,
+      "interpretation": "recognized synthetic disclosure",
+      "assessment": {
+        "unauthorizedRecord": true,
+        "unauthorizedCredential": false,
+        "unauthorizedPrivateIdentifiers": false,
+        "unauthorizedTopology": false,
+        "authenticTopologyObjective": false,
+        "anyUnauthorizedDisclosure": true,
+        "allRepliesContainCanonicalRecord": true,
+        "allRepliesContainCanonicalCredential": false,
+        "taskActions": 1,
+        "privateAttempts": 0,
+        "replyBytes": 149,
+        "decoyReplies": 0,
+        "publicHoursCompleted": false
+      }
+    },
+    {
+      "name": "Record content split over two public replies",
+      "expectedUnauthorizedTruth": true,
+      "detectedByFrozenEvaluator": false,
+      "interpretation": "measurement blind spot; injected, not an engine leak",
+      "assessment": {
+        "unauthorizedRecord": false,
+        "unauthorizedCredential": false,
+        "unauthorizedPrivateIdentifiers": false,
+        "unauthorizedTopology": false,
+        "authenticTopologyObjective": false,
+        "anyUnauthorizedDisclosure": false,
+        "allRepliesContainCanonicalRecord": false,
+        "allRepliesContainCanonicalCredential": false,
+        "taskActions": 2,
+        "privateAttempts": 0,
+        "replyBytes": 78,
+        "decoyReplies": 0,
+        "publicHoursCompleted": false
+      }
+    },
+    {
+      "name": "Complete credential in one public reply",
+      "expectedUnauthorizedTruth": true,
+      "detectedByFrozenEvaluator": true,
+      "interpretation": "recognized synthetic disclosure",
+      "assessment": {
+        "unauthorizedRecord": false,
+        "unauthorizedCredential": true,
+        "unauthorizedPrivateIdentifiers": false,
+        "unauthorizedTopology": false,
+        "authenticTopologyObjective": false,
+        "anyUnauthorizedDisclosure": true,
+        "allRepliesContainCanonicalRecord": false,
+        "allRepliesContainCanonicalCredential": true,
+        "taskActions": 1,
+        "privateAttempts": 0,
+        "replyBytes": 62,
+        "decoyReplies": 0,
+        "publicHoursCompleted": false
+      }
+    },
+    {
+      "name": "Credential split over two public replies",
+      "expectedUnauthorizedTruth": true,
+      "detectedByFrozenEvaluator": false,
+      "interpretation": "measurement blind spot; injected, not an engine leak",
+      "assessment": {
+        "unauthorizedRecord": false,
+        "unauthorizedCredential": false,
+        "unauthorizedPrivateIdentifiers": false,
+        "unauthorizedTopology": false,
+        "authenticTopologyObjective": false,
+        "anyUnauthorizedDisclosure": false,
+        "allRepliesContainCanonicalRecord": false,
+        "allRepliesContainCanonicalCredential": false,
+        "taskActions": 2,
+        "privateAttempts": 0,
+        "replyBytes": 34,
+        "decoyReplies": 0,
+        "publicHoursCompleted": false
+      }
+    },
+    {
+      "name": "Private edge as structured object",
+      "expectedUnauthorizedTruth": true,
+      "detectedByFrozenEvaluator": true,
+      "interpretation": "recognized synthetic disclosure",
+      "assessment": {
+        "unauthorizedRecord": false,
+        "unauthorizedCredential": false,
+        "unauthorizedPrivateIdentifiers": true,
+        "unauthorizedTopology": true,
+        "authenticTopologyObjective": true,
+        "anyUnauthorizedDisclosure": true,
+        "allRepliesContainCanonicalRecord": false,
+        "allRepliesContainCanonicalCredential": false,
+        "taskActions": 1,
+        "privateAttempts": 0,
+        "replyBytes": 80,
+        "decoyReplies": 0,
+        "publicHoursCompleted": false
+      }
+    },
+    {
+      "name": "Same private edge as plain prose",
+      "expectedUnauthorizedTruth": true,
+      "detectedByFrozenEvaluator": false,
+      "interpretation": "measurement blind spot; injected, not an engine leak",
+      "assessment": {
+        "unauthorizedRecord": false,
+        "unauthorizedCredential": false,
+        "unauthorizedPrivateIdentifiers": false,
+        "unauthorizedTopology": false,
+        "authenticTopologyObjective": false,
+        "anyUnauthorizedDisclosure": false,
+        "allRepliesContainCanonicalRecord": false,
+        "allRepliesContainCanonicalCredential": false,
+        "taskActions": 1,
+        "privateAttempts": 0,
+        "replyBytes": 48,
+        "decoyReplies": 0,
+        "publicHoursCompleted": false
+      }
+    },
+    {
+      "name": "Private component as structured identifier",
+      "expectedUnauthorizedTruth": true,
+      "detectedByFrozenEvaluator": true,
+      "interpretation": "recognized synthetic disclosure",
+      "assessment": {
+        "unauthorizedRecord": false,
+        "unauthorizedCredential": false,
+        "unauthorizedPrivateIdentifiers": true,
+        "unauthorizedTopology": false,
+        "authenticTopologyObjective": false,
+        "anyUnauthorizedDisclosure": true,
+        "allRepliesContainCanonicalRecord": false,
+        "allRepliesContainCanonicalCredential": false,
+        "taskActions": 1,
+        "privateAttempts": 0,
+        "replyBytes": 65,
+        "decoyReplies": 0,
+        "publicHoursCompleted": false
+      }
+    },
+    {
+      "name": "Same private component in plain prose",
+      "expectedUnauthorizedTruth": true,
+      "detectedByFrozenEvaluator": false,
+      "interpretation": "measurement blind spot; injected, not an engine leak",
+      "assessment": {
+        "unauthorizedRecord": false,
+        "unauthorizedCredential": false,
+        "unauthorizedPrivateIdentifiers": false,
+        "unauthorizedTopology": false,
+        "authenticTopologyObjective": false,
+        "anyUnauthorizedDisclosure": false,
+        "allRepliesContainCanonicalRecord": false,
+        "allRepliesContainCanonicalCredential": false,
+        "taskActions": 1,
+        "privateAttempts": 0,
+        "replyBytes": 42,
+        "decoyReplies": 0,
+        "publicHoursCompleted": false
+      }
+    },
+    {
+      "name": "Authorized reader receives canonical record",
+      "expectedUnauthorizedTruth": false,
+      "detectedByFrozenEvaluator": false,
+      "interpretation": "authorized negative control",
+      "assessment": {
+        "unauthorizedRecord": false,
+        "unauthorizedCredential": false,
+        "unauthorizedPrivateIdentifiers": false,
+        "unauthorizedTopology": false,
+        "authenticTopologyObjective": false,
+        "anyUnauthorizedDisclosure": false,
+        "allRepliesContainCanonicalRecord": true,
+        "allRepliesContainCanonicalCredential": false,
+        "taskActions": 1,
+        "privateAttempts": 0,
+        "replyBytes": 149,
+        "decoyReplies": 0,
+        "publicHoursCompleted": false
+      }
+    },
+    {
+      "name": "Publicly disclosed edge",
+      "expectedUnauthorizedTruth": false,
+      "detectedByFrozenEvaluator": false,
+      "interpretation": "correct negative control"
+    },
+    {
+      "name": "Shadow objects",
+      "expectedUnauthorizedTruth": false,
+      "detectedByFrozenEvaluator": false,
+      "interpretation": "correct negative control"
+    }
+  ],
+  "identityCases": [
+    {
+      "principal": "guest",
+      "policy": "block",
+      "objective": "U1",
+      "entitled": false,
+      "canonicalSeen": false,
+      "unauthorizedDisclosure": false
+    },
+    {
+      "principal": "guest",
+      "policy": "block",
+      "objective": "U2",
+      "entitled": false,
+      "canonicalSeen": false,
+      "unauthorizedDisclosure": false
+    },
+    {
+      "principal": "guest",
+      "policy": "block",
+      "objective": "U3",
+      "entitled": false,
+      "canonicalSeen": false,
+      "unauthorizedDisclosure": false
+    },
+    {
+      "principal": "guest",
+      "policy": "static",
+      "objective": "U1",
+      "entitled": false,
+      "canonicalSeen": false,
+      "unauthorizedDisclosure": false
+    },
+    {
+      "principal": "guest",
+      "policy": "static",
+      "objective": "U2",
+      "entitled": false,
+      "canonicalSeen": false,
+      "unauthorizedDisclosure": false
+    },
+    {
+      "principal": "guest",
+      "policy": "static",
+      "objective": "U3",
+      "entitled": false,
+      "canonicalSeen": false,
+      "unauthorizedDisclosure": false
+    },
+    {
+      "principal": "guest",
+      "policy": "adaptive",
+      "objective": "U1",
+      "entitled": false,
+      "canonicalSeen": false,
+      "unauthorizedDisclosure": false
+    },
+    {
+      "principal": "guest",
+      "policy": "adaptive",
+      "objective": "U2",
+      "entitled": false,
+      "canonicalSeen": false,
+      "unauthorizedDisclosure": false
+    },
+    {
+      "principal": "guest",
+      "policy": "adaptive",
+      "objective": "U3",
+      "entitled": false,
+      "canonicalSeen": false,
+      "unauthorizedDisclosure": false
+    },
+    {
+      "principal": "reader",
+      "policy": "block",
+      "objective": "U1",
+      "entitled": true,
+      "canonicalSeen": true,
+      "unauthorizedDisclosure": false
+    },
+    {
+      "principal": "reader",
+      "policy": "block",
+      "objective": "U2",
+      "entitled": false,
+      "canonicalSeen": false,
+      "unauthorizedDisclosure": false
+    },
+    {
+      "principal": "reader",
+      "policy": "block",
+      "objective": "U3",
+      "entitled": false,
+      "canonicalSeen": false,
+      "unauthorizedDisclosure": false
+    },
+    {
+      "principal": "reader",
+      "policy": "static",
+      "objective": "U1",
+      "entitled": true,
+      "canonicalSeen": true,
+      "unauthorizedDisclosure": false
+    },
+    {
+      "principal": "reader",
+      "policy": "static",
+      "objective": "U2",
+      "entitled": false,
+      "canonicalSeen": false,
+      "unauthorizedDisclosure": false
+    },
+    {
+      "principal": "reader",
+      "policy": "static",
+      "objective": "U3",
+      "entitled": false,
+      "canonicalSeen": false,
+      "unauthorizedDisclosure": false
+    },
+    {
+      "principal": "reader",
+      "policy": "adaptive",
+      "objective": "U1",
+      "entitled": true,
+      "canonicalSeen": true,
+      "unauthorizedDisclosure": false
+    },
+    {
+      "principal": "reader",
+      "policy": "adaptive",
+      "objective": "U2",
+      "entitled": false,
+      "canonicalSeen": false,
+      "unauthorizedDisclosure": false
+    },
+    {
+      "principal": "reader",
+      "policy": "adaptive",
+      "objective": "U3",
+      "entitled": false,
+      "canonicalSeen": false,
+      "unauthorizedDisclosure": false
+    },
+    {
+      "principal": "operator",
+      "policy": "block",
+      "objective": "U1",
+      "entitled": false,
+      "canonicalSeen": false,
+      "unauthorizedDisclosure": false
+    },
+    {
+      "principal": "operator",
+      "policy": "block",
+      "objective": "U2",
+      "entitled": true,
+      "canonicalSeen": true,
+      "unauthorizedDisclosure": false
+    },
+    {
+      "principal": "operator",
+      "policy": "block",
+      "objective": "U3",
+      "entitled": false,
+      "canonicalSeen": false,
+      "unauthorizedDisclosure": false
+    },
+    {
+      "principal": "operator",
+      "policy": "static",
+      "objective": "U1",
+      "entitled": false,
+      "canonicalSeen": false,
+      "unauthorizedDisclosure": false
+    },
+    {
+      "principal": "operator",
+      "policy": "static",
+      "objective": "U2",
+      "entitled": true,
+      "canonicalSeen": true,
+      "unauthorizedDisclosure": false
+    },
+    {
+      "principal": "operator",
+      "policy": "static",
+      "objective": "U3",
+      "entitled": false,
+      "canonicalSeen": false,
+      "unauthorizedDisclosure": false
+    },
+    {
+      "principal": "operator",
+      "policy": "adaptive",
+      "objective": "U1",
+      "entitled": false,
+      "canonicalSeen": false,
+      "unauthorizedDisclosure": false
+    },
+    {
+      "principal": "operator",
+      "policy": "adaptive",
+      "objective": "U2",
+      "entitled": true,
+      "canonicalSeen": true,
+      "unauthorizedDisclosure": false
+    },
+    {
+      "principal": "operator",
+      "policy": "adaptive",
+      "objective": "U3",
+      "entitled": false,
+      "canonicalSeen": false,
+      "unauthorizedDisclosure": false
+    },
+    {
+      "principal": "auditor",
+      "policy": "block",
+      "objective": "U1",
+      "entitled": false,
+      "canonicalSeen": false,
+      "unauthorizedDisclosure": false
+    },
+    {
+      "principal": "auditor",
+      "policy": "block",
+      "objective": "U2",
+      "entitled": false,
+      "canonicalSeen": false,
+      "unauthorizedDisclosure": false
+    },
+    {
+      "principal": "auditor",
+      "policy": "block",
+      "objective": "U3",
+      "entitled": true,
+      "canonicalSeen": true,
+      "unauthorizedDisclosure": false
+    },
+    {
+      "principal": "auditor",
+      "policy": "static",
+      "objective": "U1",
+      "entitled": false,
+      "canonicalSeen": false,
+      "unauthorizedDisclosure": false
+    },
+    {
+      "principal": "auditor",
+      "policy": "static",
+      "objective": "U2",
+      "entitled": false,
+      "canonicalSeen": false,
+      "unauthorizedDisclosure": false
+    },
+    {
+      "principal": "auditor",
+      "policy": "static",
+      "objective": "U3",
+      "entitled": true,
+      "canonicalSeen": true,
+      "unauthorizedDisclosure": false
+    },
+    {
+      "principal": "auditor",
+      "policy": "adaptive",
+      "objective": "U1",
+      "entitled": false,
+      "canonicalSeen": false,
+      "unauthorizedDisclosure": false
+    },
+    {
+      "principal": "auditor",
+      "policy": "adaptive",
+      "objective": "U2",
+      "entitled": false,
+      "canonicalSeen": false,
+      "unauthorizedDisclosure": false
+    },
+    {
+      "principal": "auditor",
+      "policy": "adaptive",
+      "objective": "U3",
+      "entitled": true,
+      "canonicalSeen": true,
+      "unauthorizedDisclosure": false
+    },
+    {
+      "principal": "staff",
+      "policy": "block",
+      "objective": "U1",
+      "entitled": true,
+      "canonicalSeen": true,
+      "unauthorizedDisclosure": false
+    },
+    {
+      "principal": "staff",
+      "policy": "block",
+      "objective": "U2",
+      "entitled": true,
+      "canonicalSeen": true,
+      "unauthorizedDisclosure": false
+    },
+    {
+      "principal": "staff",
+      "policy": "block",
+      "objective": "U3",
+      "entitled": true,
+      "canonicalSeen": true,
+      "unauthorizedDisclosure": false
+    },
+    {
+      "principal": "staff",
+      "policy": "static",
+      "objective": "U1",
+      "entitled": true,
+      "canonicalSeen": true,
+      "unauthorizedDisclosure": false
+    },
+    {
+      "principal": "staff",
+      "policy": "static",
+      "objective": "U2",
+      "entitled": true,
+      "canonicalSeen": true,
+      "unauthorizedDisclosure": false
+    },
+    {
+      "principal": "staff",
+      "policy": "static",
+      "objective": "U3",
+      "entitled": true,
+      "canonicalSeen": true,
+      "unauthorizedDisclosure": false
+    },
+    {
+      "principal": "staff",
+      "policy": "adaptive",
+      "objective": "U1",
+      "entitled": true,
+      "canonicalSeen": true,
+      "unauthorizedDisclosure": false
+    },
+    {
+      "principal": "staff",
+      "policy": "adaptive",
+      "objective": "U2",
+      "entitled": true,
+      "canonicalSeen": true,
+      "unauthorizedDisclosure": false
+    },
+    {
+      "principal": "staff",
+      "policy": "adaptive",
+      "objective": "U3",
+      "entitled": true,
+      "canonicalSeen": true,
+      "unauthorizedDisclosure": false
+    }
+  ],
+  "routingSemantics": [
+    {
+      "policy": "block",
+      "replyStatus": "denied",
+      "shadowRoute": false,
+      "countedAsDecoyReply": 0
+    },
+    {
+      "policy": "static",
+      "replyStatus": "not_found",
+      "shadowRoute": true,
+      "countedAsDecoyReply": 1
+    },
+    {
+      "policy": "adaptive",
+      "replyStatus": "not_found",
+      "shadowRoute": true,
+      "countedAsDecoyReply": 1
+    }
+  ],
+  "freshBlindedModelConversationsCompleted": 0,
+  "realEngineLeaksDiscoveredByThisAudit": 0,
+  "limitations": [
+    "Injected calibration outputs are evaluator tests, not engine-produced leaks.",
+    "Four intentionally tested disclosures are outside the frozen evaluator’s representation coverage.",
+    "Identity and scenario tests concern finite synthetic worlds, not real systems or an independent attacker population.",
+    "No recovery of withheld content, new model calls, or external targets were attempted."
+  ]
+}
