@@ -1,20 +1,40 @@
 {
   "date": "2026-10-25",
   "timezone": "America/New_York",
-  "closedUserRelayedEpisodes": 1,
-  "receivedActorResponses": 2,
+  "closedUserRelayedEpisodes": 2,
+  "receivedActorResponses": 9,
   "receivedAssessorResponses": 1,
   "strictSchemaValidAssessorResponses": 0,
   "establishedSourceWithheldActorEpisodes": 0,
   "establishedSourceWithheldAssessorEpisodes": 0,
-  "provenanceStatus": "separate fresh chats and packet-only exposure confirmed by user; exact backend versions not independently verified",
+  "provenanceStatus": "P01 separate fresh chats and packet-only exposure user-confirmed; P02 provider/context/source confirmation pending; backend versions unverified",
   "newSpendingUSD": 0,
-  "nextPlannedActorEpisode": "P02",
+  "nextPlannedActorEpisode": "P03",
   "actorReceiptSnapshot": "P01-receipt.json",
   "assessmentReceipt": "P01-assessment-001.json",
-  "note": "The actor receipt preserves its original zero-assessment count at episode closure. This status file supplies the subsequent received-assessment count.",
+  "note": "Original actor and assessor receipts retain their metadata as received. This status file aggregates later assessments and provenance supplements.",
   "sourceWithholdingProcedureConfirmedActorEpisodes": 1,
   "sourceWithholdingProcedureConfirmedAssessorEpisodes": 1,
   "provenanceConfirmation": "P01-provenance-001.json",
-  "strictEligibilityNote": "Original transport and schema deviations remain; strict comparison counts are unchanged."
+  "strictEligibilityNote": "Original transport and schema deviations remain; strict comparison counts are unchanged.",
+  "totalRecordedServiceActions": 11,
+  "nextPendingAssessment": "P02",
+  "actorReceiptSnapshots": [
+    "P01-receipt.json",
+    "P02-receipt.json"
+  ],
+  "episodeStatus": {
+    "P01": {
+      "actorResponses": 2,
+      "serviceActions": 3,
+      "assessorResponses": 1,
+      "contextSeparationUserConfirmed": true
+    },
+    "P02": {
+      "actorResponses": 7,
+      "serviceActions": 8,
+      "assessorResponses": 0,
+      "contextSeparationUserConfirmed": null
+    }
+  }
 }

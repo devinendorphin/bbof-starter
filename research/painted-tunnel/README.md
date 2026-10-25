@@ -1,6 +1,6 @@
 # Painted Tunnel archive
 
-Compiled into `devinendorphin/bbof-starter` on 25 October 2026. These artifacts were developed on 24 October 2026 unless a study says otherwise. No fresh model-actor conversations have been completed.
+Compiled into `devinendorphin/bbof-starter` on 25 October 2026. These artifacts were developed on 24 October 2026 unless a study says otherwise. Earlier suites used developer-authored scripts. Later user-relayed model episodes are indexed separately below; model labels and context provenance are user-reported.
 
 | Stage | Entry point | Finding / status |
 | --- | --- | --- |
@@ -13,6 +13,7 @@ Compiled into `devinendorphin/bbof-starter` on 25 October 2026. These artifacts 
 | Permission resolution 0.1 · 25 October | [Report](permission-resolution/REPORT.md) | Shared verification path, invalid receipts, event-time scoring; no unique trickster advantage |
 | Overlapping-prefix information 0.1 · 25 October | [Report](overlapping-prefix/REPORT.md), [frozen protocol](overlapping-prefix/PROTOCOL.md) | 675 scripted episodes and 120 authorization controls; no extra final goal information from decoys over helpful blocking |
 | Independent actor pilot 0.1 · 25 October | [Manual kit](independent-pilot/README.md), [first prompt](independent-pilot/START_HERE.md) | Six episodes prepared, recorder checked; zero independent actor/assessor responses |
+| User-relayed pilot episodes · 25 October | [Current records](pilot-relay/README.md) | Two closed episodes, nine actor decisions, one assessor reply; P01 context separation user-confirmed, P02 assessment/provenance pending |
 
 ## Files and reproduction
 
