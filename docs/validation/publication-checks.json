@@ -35,6 +35,10 @@
       "exit_code": 0
     },
     {
+      "suite": "Permission resolution",
+      "exit_code": 0
+    },
+    {
       "suite": "Legacy calibration harness executes",
       "exit_code": 0,
       "note": "Exit success validates execution, not classifier quality."

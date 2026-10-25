@@ -1,0 +1,28 @@
+{
+  "version": "permission-resolution-0.1",
+  "date": "2026-10-25",
+  "timezone": "America/New_York",
+  "new_spending_USD": 0,
+  "files": {
+    "REPORT.md": {
+      "sha256": "706420daed98ebcbaf6611ef31e6b80662ccd8e613318a7b2b37226b78319ff4",
+      "bytes": 7877
+    },
+    "model.cjs": {
+      "sha256": "1eb8ca2d801992459f2d3086b1561eaa0727e046b7d1aed8e24af9eaab25d428",
+      "bytes": 6411
+    },
+    "results.json": {
+      "sha256": "db42410d40ca7c9af92b088783326201fde7bd3e89d52aa471302f31732b08e2",
+      "bytes": 2268
+    },
+    "study.cjs": {
+      "sha256": "a24d7fbb03e7d2271bd2e41bb47df22f3aee515a3a6012b4bb663d435707e390",
+      "bytes": 9340
+    },
+    "traces.json.gz": {
+      "sha256": "ef0a33bd81d7a758a3216dfdfb29e51e79c824b973cba8a962ee6302fa51a01c",
+      "bytes": 32038
+    }
+  }
+}

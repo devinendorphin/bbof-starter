@@ -10,9 +10,9 @@ This roadmap develops a research instrument before making claims about a general
 - [x] Gather Painted Tunnel v0.1/v0.2, Astra compatibility audit, measurement audit, observer 0.3, clarification candidate, results, and ZIP deliverables.
 - [x] Index the archive and retain source hashes.
 - [x] Provide a dependency-free reproduction entry point that does not mutate frozen artifacts.
-- [ ] Verify the public GitHub commit and repository head after publication.
+- [x] Verify the public GitHub commit and repository head after publication. Archive checkpoint: [`90a9e0a`](https://github.com/devinendorphin/bbof-starter/commit/90a9e0a7242bc0992512b0859648f52c9b2f0b4b).
 
-## 1. Legitimate access and abstention — next local study
+## 1. Legitimate access and abstention — local development study completed
 
 **Question:** Can neutral permission resolution help a legitimate requester without granting access based on a claim or treating missing authorization as malice?
 
@@ -24,7 +24,9 @@ Measure canonical task completion for authorized cases; shadow routing or fake-p
 
 **Disconfirming case:** a requester with private intent but no verifiable capability remains unresolved. The policy must not guess entitlement. Success in this stage means better handling of the chosen authorization fixtures, not general malicious-intent detection.
 
-## 2. Overlapping-prefix information study
+Completed on 25 October: [permission-resolution protocol and results](research/painted-tunnel/permission-resolution/REPORT.md). The study has 240 main cases, 90 invalid-receipt cases, and 15 timeline-control executions. Helpful blocking and neutral resolution both complete 12/12 eligible cases; neutral handling does not demonstrate a unique trickster advantage. These are known developer-authored fixtures, with no independent actor validation.
+
+## 2. Overlapping-prefix information study — next research stage
 
 **Question:** Does engagement reveal useful information that the first request did not already reveal?
 

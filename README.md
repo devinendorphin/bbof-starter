@@ -8,7 +8,8 @@ The repository contains the original February 2026 Python prototype and the Octo
 
 - [Research archive and chronology](research/painted-tunnel/README.md)
 - [Current roadmap](ROADMAP.md)
-- [Latest completed decision study](research/painted-tunnel/decision-study/REPORT.md)
+- [Latest permission-resolution study](research/painted-tunnel/permission-resolution/REPORT.md)
+- [Decision and clarification study](research/painted-tunnel/decision-study/REPORT.md)
 - [Observer 0.3 and its remaining limits](research/painted-tunnel/observer-0.3/REPORT.md)
 - [Original concept paper](Brainstorming%20Bugs%20Bunny%20Optimization%20Framework.txt)
 
@@ -22,6 +23,8 @@ Download [the standalone v0.2 HTML lab](research/painted-tunnel/v0.2/painted-tun
 - Observer 0.3 recognizes selected fragmented and prose disclosures missed by the earlier scorer. Known coverage gaps remain explicit; original and revised scores are retained together.
 - A separate clarification candidate reduces shadow routing in the known mistaken-request cases, with extra response volume. It cannot distinguish benign from malicious private intent when the observable traces are identical.
 - Fresh blinded model-actor conversations completed: **0**. A withheld designer response is documented separately from experiment outcomes.
+
+- The new permission model completes eligible tasks with neutral resolution or helpful blocking, rejects the selected invalid receipts, and scores authorization at each reply. This does not establish a unique advantage for trickster behavior.
 
 These findings concern development examples and finite synthetic fixtures. Actor belief, real protection, general intent recognition, useful intelligence gains, and actual operating-cost advantages remain unmeasured.
 

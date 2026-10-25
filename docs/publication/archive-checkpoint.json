@@ -1,0 +1,10 @@
+{
+  "repository": "devinendorphin/bbof-starter",
+  "public": true,
+  "archive_commit": "90a9e0a7242bc0992512b0859648f52c9b2f0b4b",
+  "verified_imported_files": 46,
+  "verified_uploaded_paths": 58,
+  "date": "2026-10-25",
+  "timezone": "America/New_York",
+  "verification": "Remote branch head and every uploaded Git blob hash matched. Original Python source and paper preserved."
+}

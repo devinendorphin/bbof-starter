@@ -17,6 +17,7 @@ steps = [
     ('Measurement audit', 'measurement-audit/audit.cjs'),
     ('Observer 0.3', 'observer-0.3/verify.cjs'),
     ('Decision study', 'decision-study/study.cjs'),
+    ('Permission resolution', 'permission-resolution/study.cjs'),
 ]
 records = []
 for label, script in steps:

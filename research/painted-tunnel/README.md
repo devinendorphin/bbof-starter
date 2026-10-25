@@ -10,6 +10,7 @@ Compiled into `devinendorphin/bbof-starter` on 25 October 2026. These artifacts 
 | Measurement audit | [Report](measurement-audit/REPORT.md) | Stored counts reproduced; scorer misses selected fragmentation/prose; channel restriction recorded separately |
 | Observer 0.3 | [Report](observer-0.3/REPORT.md) | Side-by-side scores, same-field reconstruction and narrow prose coverage, explicit unsupported cases |
 | Decision/clarification study | [Report](decision-study/REPORT.md) | Actor response assumptions change friction; clarification helps known mistakes but cannot establish intent |
+| Permission resolution 0.1 · 25 October | [Report](permission-resolution/REPORT.md) | Shared verification path, invalid receipts, event-time scoring; no unique trickster advantage |
 
 ## Files and reproduction
 

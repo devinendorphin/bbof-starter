@@ -1,0 +1,78 @@
+{
+  "version": "permission-resolution-0.1",
+  "date": "2026-10-25",
+  "timezone": "America/New_York",
+  "newSpendingUSD": 0,
+  "kind": "Developer-authored synthetic state-machine study; not an independent actor test",
+  "summary": [
+    {
+      "policy": "blocking",
+      "cases": 48,
+      "eligibleCases": 12,
+      "eligibleCompleted": 6,
+      "fakePrivateReplies": 0,
+      "unauthorizedDisclosureCases": 0,
+      "actions": 165,
+      "requestBytes": 6159,
+      "replyBytes": 13345
+    },
+    {
+      "policy": "helpful_blocking",
+      "cases": 48,
+      "eligibleCases": 12,
+      "eligibleCompleted": 12,
+      "fakePrivateReplies": 0,
+      "unauthorizedDisclosureCases": 0,
+      "actions": 210,
+      "requestBytes": 8022,
+      "replyBytes": 18434
+    },
+    {
+      "policy": "static_decoy",
+      "cases": 48,
+      "eligibleCases": 12,
+      "eligibleCompleted": 6,
+      "fakePrivateReplies": 24,
+      "unauthorizedDisclosureCases": 0,
+      "actions": 165,
+      "requestBytes": 6159,
+      "replyBytes": 15985
+    },
+    {
+      "policy": "clarify_static",
+      "cases": 48,
+      "eligibleCases": 12,
+      "eligibleCompleted": 6,
+      "fakePrivateReplies": 24,
+      "unauthorizedDisclosureCases": 0,
+      "actions": 189,
+      "requestBytes": 7791,
+      "replyBytes": 20449
+    },
+    {
+      "policy": "neutral_resolution",
+      "cases": 48,
+      "eligibleCases": 12,
+      "eligibleCompleted": 12,
+      "fakePrivateReplies": 0,
+      "unauthorizedDisclosureCases": 0,
+      "actions": 198,
+      "requestBytes": 7698,
+      "replyBytes": 17951
+    }
+  ],
+  "counts": {
+    "mainCases": 240,
+    "invalidReceiptCases": 90,
+    "timelineControls": 15
+  },
+  "freshBlindedModelConversations": 0,
+  "limits": [
+    "Trusted authority correctness is assumed; no real identity proof is implemented.",
+    "Actor choices are scripted; apparent record-shaped output is not evidence of belief.",
+    "Event-time adapter handles complete per-reply records, not cross-turn fragments with changing permissions.",
+    "Helpful blocking is an intentionally strong baseline with the same available verification API."
+  ],
+  "fullTraceFile": "traces.json.gz",
+  "fullTraceSHA256": "ef0a33bd81d7a758a3216dfdfb29e51e79c824b973cba8a962ee6302fa51a01c"
+}
