@@ -1,0 +1,10 @@
+{
+  "protocol_version": 1,
+  "date": "2026-10-25",
+  "timezone": "America/New_York",
+  "status": "development freeze before fixture implementation; no independent preregistration",
+  "files": {
+    "PROTOCOL.md": "85848c5a268b2acdec0a05f157dea6b6705a79941fc248adf8dbe925325c1c55",
+    "observer.cjs": "8da8cb505663a2efcc3728c450f8dee71e4e1837d7d807eb6dcdbcb942d15df4"
+  }
+}
