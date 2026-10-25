@@ -47,6 +47,10 @@
       "exit_code": 0
     },
     {
+      "suite": "User-relayed P01 record (provenance pending)",
+      "exit_code": 0
+    },
+    {
       "suite": "Legacy calibration harness executes",
       "exit_code": 0,
       "note": "Exit success validates execution, not classifier quality."

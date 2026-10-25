@@ -1,0 +1,11 @@
+{
+  "date": "2026-10-25",
+  "algorithm": "SHA-256",
+  "files": {
+    "P01-ASSESS.md": "35d77d4400c0435772c8b5b9141905789f0a67fceed5a0bea3c42a042bda30f0",
+    "P01-assessor-prompt.txt": "f22539cb083d60bca5928506b2aeaefd747824cf6ff4501a337882bab614899c",
+    "P01-receipt.json": "dde94f05f6371f9a5899828902b1a5a96434cba16f3dd9acd9d289cec8874520",
+    "README.md": "86499eabb07a14f8617e786a557547a061d31bbb6341792efec12ad925035996",
+    "verify.cjs": "c8250f0399fa9f35d3c56507f4e5210bba93ef9f6ab5401f56fd1512f28ce742"
+  }
+}
