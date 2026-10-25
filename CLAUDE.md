@@ -27,6 +27,7 @@ safety governor + replay harness.
 - See `research/painted-tunnel/README.md` and the current `ROADMAP.md`.
 - Frozen v0.2 and observer 0.3 must remain byte-for-byte intact. Run historical tests in temporary copies with `python3 tools/reproduce.py`.
 - New spending stays $0. No real model integration, live targets, or fresh blinded actor conversations have occurred.
+- The overlapping-prefix protocol and observer are frozen in `research/painted-tunnel/overlapping-prefix/freeze.json`; preserve them and the snapshot manifest. Its scripted goals are not validated motive labels. The next stage is the independent pilot described in `ROADMAP.md`.
 - New candidates belong in separate directories with protocols and disconfirming controls. Keep scripted simulation findings distinct from model beliefs or defensive effectiveness.
 
 ## The harness

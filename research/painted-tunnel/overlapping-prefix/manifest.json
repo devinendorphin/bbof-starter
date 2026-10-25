@@ -1,0 +1,21 @@
+{
+  "version": "overlapping-prefix-0.1",
+  "date": "2026-10-25",
+  "timezone": "America/New_York",
+  "designFreezeCommit": "e17a77307c0608568381f90ecd48a5ddb8509524",
+  "algorithm": "SHA-256",
+  "files": {
+    "PROTOCOL.md": "85848c5a268b2acdec0a05f157dea6b6705a79941fc248adf8dbe925325c1c55",
+    "observer.cjs": "8da8cb505663a2efcc3728c450f8dee71e4e1837d7d807eb6dcdbcb942d15df4",
+    "freeze.json": "03050d45e613abe0d1cd6519060eb459d485e6c040d56f020488b7bd77fe96d3",
+    "model.cjs": "813b8f8921483fac9eff11fe59adae6955abbfbc1a05b9e0b49803da14046bbb",
+    "actors.cjs": "8f4937d81f951973ac1f31f08c6412c09ececf0354a622d2df30f587d131217d",
+    "study.cjs": "bbbe688dae50499015a2299a519e0c2ad3ce6a10e5a5975c9fe9c868a3a25f57",
+    "verify.cjs": "71fa630c0ea41579b91cbc4b18ca883f3a9a9285222fabe1d09a6d782061f441",
+    "REPORT.md": "2baa57853c6e8a735508526ee1d69f4af595b53f0a1f7837bde1a79ebc1007b3",
+    "results.json": "9a5621df1b428270d115d8964aa514684cbf8f75942d2796fde73810b385342d",
+    "traces.json.gz": "408e4080e5a4034aa3fac15eb33bd8835e25d0ae62aa15967e023ba34ca4d489",
+    "../permission-resolution/model.cjs": "1eb8ca2d801992459f2d3086b1561eaa0727e046b7d1aed8e24af9eaab25d428",
+    "../v0.2/engine.js": "62d0943218194e7c3c56ebdc01440394b9de578221a11b17ac16cf807128a907"
+  }
+}

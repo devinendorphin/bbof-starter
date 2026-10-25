@@ -11,6 +11,7 @@ Compiled into `devinendorphin/bbof-starter` on 25 October 2026. These artifacts 
 | Observer 0.3 | [Report](observer-0.3/REPORT.md) | Side-by-side scores, same-field reconstruction and narrow prose coverage, explicit unsupported cases |
 | Decision/clarification study | [Report](decision-study/REPORT.md) | Actor response assumptions change friction; clarification helps known mistakes but cannot establish intent |
 | Permission resolution 0.1 · 25 October | [Report](permission-resolution/REPORT.md) | Shared verification path, invalid receipts, event-time scoring; no unique trickster advantage |
+| Overlapping-prefix information 0.1 · 25 October | [Report](overlapping-prefix/REPORT.md), [frozen protocol](overlapping-prefix/PROTOCOL.md) | 675 scripted episodes and 120 authorization controls; no extra final goal information from decoys over helpful blocking |
 
 ## Files and reproduction
 

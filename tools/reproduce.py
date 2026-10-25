@@ -18,6 +18,7 @@ steps = [
     ('Observer 0.3', 'observer-0.3/verify.cjs'),
     ('Decision study', 'decision-study/study.cjs'),
     ('Permission resolution', 'permission-resolution/study.cjs'),
+    ('Overlapping-prefix information', 'overlapping-prefix/verify.cjs'),
 ]
 records = []
 for label, script in steps:

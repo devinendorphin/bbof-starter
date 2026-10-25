@@ -8,7 +8,8 @@ The repository contains the original February 2026 Python prototype and the Octo
 
 - [Research archive and chronology](research/painted-tunnel/README.md)
 - [Current roadmap](ROADMAP.md)
-- [Latest permission-resolution study](research/painted-tunnel/permission-resolution/REPORT.md)
+- [Latest overlapping-prefix information study](research/painted-tunnel/overlapping-prefix/REPORT.md)
+- [Permission-resolution study](research/painted-tunnel/permission-resolution/REPORT.md)
 - [Decision and clarification study](research/painted-tunnel/decision-study/REPORT.md)
 - [Observer 0.3 and its remaining limits](research/painted-tunnel/observer-0.3/REPORT.md)
 - [Original concept paper](Brainstorming%20Bugs%20Bunny%20Optimization%20Framework.txt)
@@ -26,7 +27,9 @@ Download [the standalone v0.2 HTML lab](research/painted-tunnel/v0.2/painted-tun
 
 - The new permission model completes eligible tasks with neutral resolution or helpful blocking, rejects the selected invalid receipts, and scores authorization at each reply. This does not establish a unique advantage for trickster behavior.
 
-These findings concern development examples and finite synthetic fixtures. Actor belief, real protection, general intent recognition, useful intelligence gains, and actual operating-cost advantages remain unmeasured.
+The overlapping-prefix study adds 675 scripted episodes and 120 authorization controls. Engagement reveals some assigned resource goals, but both decoys provide the same final goal information as helpful blocking. Misleading requests produce observer errors; identical motive-narrative pairs remain indistinguishable.
+
+These findings concern development examples and finite synthetic fixtures. Actor belief, real protection, general intent recognition, independently validated intelligence gains, and actual operating-cost advantages remain unmeasured.
 
 ## Reproduce without paid services
 

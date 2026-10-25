@@ -1,0 +1,1963 @@
+{
+  "version": "overlapping-prefix-0.1",
+  "date": "2026-10-25",
+  "timezone": "America/New_York",
+  "newSpendingUSD": 0,
+  "freshBlindedModelConversations": 0,
+  "kind": "Developer-authored finite synthetic fixtures; no actor beliefs or generalization measured",
+  "freeze": {
+    "protocol_version": 1,
+    "date": "2026-10-25",
+    "timezone": "America/New_York",
+    "status": "development freeze before fixture implementation; no independent preregistration",
+    "files": {
+      "PROTOCOL.md": "85848c5a268b2acdec0a05f157dea6b6705a79941fc248adf8dbe925325c1c55",
+      "observer.cjs": "8da8cb505663a2efcc3728c450f8dee71e4e1837d7d807eb6dcdbcb942d15df4"
+    }
+  },
+  "counts": {
+    "primaryEpisodes": 450,
+    "legitimateControls": 225,
+    "totalEpisodes": 675,
+    "narrativePairs": 225,
+    "ambiguousGoalGroups": 45,
+    "securityControls": 120,
+    "unitControlGroups": 7
+  },
+  "informationByPolicy": [
+    {
+      "policy": "blocking",
+      "horizons": [
+        {
+          "horizon": 1,
+          "objective": {
+            "priorEntropyBits": 1.584962500721156,
+            "conditionalEntropyBits": 1.584962500721156,
+            "informationBits": 0,
+            "identicalTraceGroups": 1,
+            "majorityCorrectCeiling": 30,
+            "total": 90,
+            "majorityAccuracyCeiling": 0.3333333333333333
+          },
+          "motive": {
+            "priorEntropyBits": 1,
+            "conditionalEntropyBits": 1,
+            "informationBits": 0,
+            "identicalTraceGroups": 1,
+            "majorityCorrectCeiling": 45,
+            "total": 90,
+            "majorityAccuracyCeiling": 0.5
+          },
+          "prediction": {
+            "total": 90,
+            "correct": 0,
+            "incorrect": 0,
+            "abstain": 90,
+            "coverage": 0,
+            "correctPerAll": 0,
+            "conditionalAccuracy": null
+          }
+        },
+        {
+          "horizon": 2,
+          "objective": {
+            "priorEntropyBits": 1.584962500721156,
+            "conditionalEntropyBits": 1.584962500721156,
+            "informationBits": 0,
+            "identicalTraceGroups": 1,
+            "majorityCorrectCeiling": 30,
+            "total": 90,
+            "majorityAccuracyCeiling": 0.3333333333333333
+          },
+          "motive": {
+            "priorEntropyBits": 1,
+            "conditionalEntropyBits": 1,
+            "informationBits": 0,
+            "identicalTraceGroups": 1,
+            "majorityCorrectCeiling": 45,
+            "total": 90,
+            "majorityAccuracyCeiling": 0.5
+          },
+          "prediction": {
+            "total": 90,
+            "correct": 0,
+            "incorrect": 0,
+            "abstain": 90,
+            "coverage": 0,
+            "correctPerAll": 0,
+            "conditionalAccuracy": null
+          }
+        },
+        {
+          "horizon": 3,
+          "objective": {
+            "priorEntropyBits": 1.584962500721156,
+            "conditionalEntropyBits": 1.584962500721156,
+            "informationBits": 0,
+            "identicalTraceGroups": 1,
+            "majorityCorrectCeiling": 30,
+            "total": 90,
+            "majorityAccuracyCeiling": 0.3333333333333333
+          },
+          "motive": {
+            "priorEntropyBits": 1,
+            "conditionalEntropyBits": 1,
+            "informationBits": 0,
+            "identicalTraceGroups": 1,
+            "majorityCorrectCeiling": 45,
+            "total": 90,
+            "majorityAccuracyCeiling": 0.5
+          },
+          "prediction": {
+            "total": 90,
+            "correct": 0,
+            "incorrect": 0,
+            "abstain": 90,
+            "coverage": 0,
+            "correctPerAll": 0,
+            "conditionalAccuracy": null
+          }
+        },
+        {
+          "horizon": 4,
+          "objective": {
+            "priorEntropyBits": 1.584962500721156,
+            "conditionalEntropyBits": 1.584962500721156,
+            "informationBits": 0,
+            "identicalTraceGroups": 1,
+            "majorityCorrectCeiling": 30,
+            "total": 90,
+            "majorityAccuracyCeiling": 0.3333333333333333
+          },
+          "motive": {
+            "priorEntropyBits": 1,
+            "conditionalEntropyBits": 1,
+            "informationBits": 0,
+            "identicalTraceGroups": 1,
+            "majorityCorrectCeiling": 45,
+            "total": 90,
+            "majorityAccuracyCeiling": 0.5
+          },
+          "prediction": {
+            "total": 90,
+            "correct": 0,
+            "incorrect": 0,
+            "abstain": 90,
+            "coverage": 0,
+            "correctPerAll": 0,
+            "conditionalAccuracy": null
+          }
+        },
+        {
+          "horizon": 6,
+          "objective": {
+            "priorEntropyBits": 1.584962500721156,
+            "conditionalEntropyBits": 1.584962500721156,
+            "informationBits": 0,
+            "identicalTraceGroups": 1,
+            "majorityCorrectCeiling": 30,
+            "total": 90,
+            "majorityAccuracyCeiling": 0.3333333333333333
+          },
+          "motive": {
+            "priorEntropyBits": 1,
+            "conditionalEntropyBits": 1,
+            "informationBits": 0,
+            "identicalTraceGroups": 1,
+            "majorityCorrectCeiling": 45,
+            "total": 90,
+            "majorityAccuracyCeiling": 0.5
+          },
+          "prediction": {
+            "total": 90,
+            "correct": 0,
+            "incorrect": 0,
+            "abstain": 90,
+            "coverage": 0,
+            "correctPerAll": 0,
+            "conditionalAccuracy": null
+          }
+        },
+        {
+          "horizon": 8,
+          "objective": {
+            "priorEntropyBits": 1.584962500721156,
+            "conditionalEntropyBits": 1.584962500721156,
+            "informationBits": 0,
+            "identicalTraceGroups": 1,
+            "majorityCorrectCeiling": 30,
+            "total": 90,
+            "majorityAccuracyCeiling": 0.3333333333333333
+          },
+          "motive": {
+            "priorEntropyBits": 1,
+            "conditionalEntropyBits": 1,
+            "informationBits": 0,
+            "identicalTraceGroups": 1,
+            "majorityCorrectCeiling": 45,
+            "total": 90,
+            "majorityAccuracyCeiling": 0.5
+          },
+          "prediction": {
+            "total": 90,
+            "correct": 0,
+            "incorrect": 0,
+            "abstain": 90,
+            "coverage": 0,
+            "correctPerAll": 0,
+            "conditionalAccuracy": null
+          }
+        }
+      ],
+      "perProfile": [
+        {
+          "style": "direct",
+          "prediction": {
+            "total": 18,
+            "correct": 0,
+            "incorrect": 0,
+            "abstain": 18,
+            "coverage": 0,
+            "correctPerAll": 0,
+            "conditionalAccuracy": null
+          },
+          "objective": {
+            "priorEntropyBits": 1.584962500721156,
+            "conditionalEntropyBits": 1.584962500721156,
+            "informationBits": 0,
+            "identicalTraceGroups": 1,
+            "majorityCorrectCeiling": 6,
+            "total": 18,
+            "majorityAccuracyCeiling": 0.3333333333333333
+          }
+        },
+        {
+          "style": "delayed",
+          "prediction": {
+            "total": 18,
+            "correct": 0,
+            "incorrect": 0,
+            "abstain": 18,
+            "coverage": 0,
+            "correctPerAll": 0,
+            "conditionalAccuracy": null
+          },
+          "objective": {
+            "priorEntropyBits": 1.584962500721156,
+            "conditionalEntropyBits": 1.584962500721156,
+            "informationBits": 0,
+            "identicalTraceGroups": 1,
+            "majorityCorrectCeiling": 6,
+            "total": 18,
+            "majorityAccuracyCeiling": 0.3333333333333333
+          }
+        },
+        {
+          "style": "mimic",
+          "prediction": {
+            "total": 18,
+            "correct": 0,
+            "incorrect": 0,
+            "abstain": 18,
+            "coverage": 0,
+            "correctPerAll": 0,
+            "conditionalAccuracy": null
+          },
+          "objective": {
+            "priorEntropyBits": 1.584962500721156,
+            "conditionalEntropyBits": 1.584962500721156,
+            "informationBits": 0,
+            "identicalTraceGroups": 1,
+            "majorityCorrectCeiling": 6,
+            "total": 18,
+            "majorityAccuracyCeiling": 0.3333333333333333
+          }
+        },
+        {
+          "style": "all_resources",
+          "prediction": {
+            "total": 18,
+            "correct": 0,
+            "incorrect": 0,
+            "abstain": 18,
+            "coverage": 0,
+            "correctPerAll": 0,
+            "conditionalAccuracy": null
+          },
+          "objective": {
+            "priorEntropyBits": 1.584962500721156,
+            "conditionalEntropyBits": 1.584962500721156,
+            "informationBits": 0,
+            "identicalTraceGroups": 1,
+            "majorityCorrectCeiling": 6,
+            "total": 18,
+            "majorityAccuracyCeiling": 0.3333333333333333
+          }
+        },
+        {
+          "style": "early_stop",
+          "prediction": {
+            "total": 18,
+            "correct": 0,
+            "incorrect": 0,
+            "abstain": 18,
+            "coverage": 0,
+            "correctPerAll": 0,
+            "conditionalAccuracy": null
+          },
+          "objective": {
+            "priorEntropyBits": 1.584962500721156,
+            "conditionalEntropyBits": 1.584962500721156,
+            "informationBits": 0,
+            "identicalTraceGroups": 1,
+            "majorityCorrectCeiling": 6,
+            "total": 18,
+            "majorityAccuracyCeiling": 0.3333333333333333
+          }
+        }
+      ]
+    },
+    {
+      "policy": "helpful_blocking",
+      "horizons": [
+        {
+          "horizon": 1,
+          "objective": {
+            "priorEntropyBits": 1.584962500721156,
+            "conditionalEntropyBits": 1.584962500721156,
+            "informationBits": 0,
+            "identicalTraceGroups": 1,
+            "majorityCorrectCeiling": 30,
+            "total": 90,
+            "majorityAccuracyCeiling": 0.3333333333333333
+          },
+          "motive": {
+            "priorEntropyBits": 1,
+            "conditionalEntropyBits": 1,
+            "informationBits": 0,
+            "identicalTraceGroups": 1,
+            "majorityCorrectCeiling": 45,
+            "total": 90,
+            "majorityAccuracyCeiling": 0.5
+          },
+          "prediction": {
+            "total": 90,
+            "correct": 0,
+            "incorrect": 0,
+            "abstain": 90,
+            "coverage": 0,
+            "correctPerAll": 0,
+            "conditionalAccuracy": null
+          }
+        },
+        {
+          "horizon": 2,
+          "objective": {
+            "priorEntropyBits": 1.584962500721156,
+            "conditionalEntropyBits": 1.3604247971044465,
+            "informationBits": 0.22453770361670955,
+            "identicalTraceGroups": 5,
+            "majorityCorrectCeiling": 42,
+            "total": 90,
+            "majorityAccuracyCeiling": 0.4666666666666667
+          },
+          "motive": {
+            "priorEntropyBits": 1,
+            "conditionalEntropyBits": 1,
+            "informationBits": 0,
+            "identicalTraceGroups": 5,
+            "majorityCorrectCeiling": 45,
+            "total": 90,
+            "majorityAccuracyCeiling": 0.5
+          },
+          "prediction": {
+            "total": 90,
+            "correct": 30,
+            "incorrect": 24,
+            "abstain": 36,
+            "coverage": 0.6,
+            "correctPerAll": 0.3333333333333333,
+            "conditionalAccuracy": 0.5555555555555556
+          }
+        },
+        {
+          "horizon": 3,
+          "objective": {
+            "priorEntropyBits": 1.584962500721156,
+            "conditionalEntropyBits": 1.0339850002884625,
+            "informationBits": 0.5509775004326936,
+            "identicalTraceGroups": 8,
+            "majorityCorrectCeiling": 54,
+            "total": 90,
+            "majorityAccuracyCeiling": 0.6
+          },
+          "motive": {
+            "priorEntropyBits": 1,
+            "conditionalEntropyBits": 1,
+            "informationBits": 0,
+            "identicalTraceGroups": 8,
+            "majorityCorrectCeiling": 45,
+            "total": 90,
+            "majorityAccuracyCeiling": 0.5
+          },
+          "prediction": {
+            "total": 90,
+            "correct": 42,
+            "incorrect": 12,
+            "abstain": 36,
+            "coverage": 0.6,
+            "correctPerAll": 0.4666666666666667,
+            "conditionalAccuracy": 0.7777777777777778
+          }
+        },
+        {
+          "horizon": 4,
+          "objective": {
+            "priorEntropyBits": 1.584962500721156,
+            "conditionalEntropyBits": 1.0339850002884625,
+            "informationBits": 0.5509775004326936,
+            "identicalTraceGroups": 8,
+            "majorityCorrectCeiling": 54,
+            "total": 90,
+            "majorityAccuracyCeiling": 0.6
+          },
+          "motive": {
+            "priorEntropyBits": 1,
+            "conditionalEntropyBits": 1,
+            "informationBits": 0,
+            "identicalTraceGroups": 8,
+            "majorityCorrectCeiling": 45,
+            "total": 90,
+            "majorityAccuracyCeiling": 0.5
+          },
+          "prediction": {
+            "total": 90,
+            "correct": 42,
+            "incorrect": 12,
+            "abstain": 36,
+            "coverage": 0.6,
+            "correctPerAll": 0.4666666666666667,
+            "conditionalAccuracy": 0.7777777777777778
+          }
+        },
+        {
+          "horizon": 6,
+          "objective": {
+            "priorEntropyBits": 1.584962500721156,
+            "conditionalEntropyBits": 1.0339850002884625,
+            "informationBits": 0.5509775004326936,
+            "identicalTraceGroups": 8,
+            "majorityCorrectCeiling": 54,
+            "total": 90,
+            "majorityAccuracyCeiling": 0.6
+          },
+          "motive": {
+            "priorEntropyBits": 1,
+            "conditionalEntropyBits": 1,
+            "informationBits": 0,
+            "identicalTraceGroups": 8,
+            "majorityCorrectCeiling": 45,
+            "total": 90,
+            "majorityAccuracyCeiling": 0.5
+          },
+          "prediction": {
+            "total": 90,
+            "correct": 42,
+            "incorrect": 12,
+            "abstain": 36,
+            "coverage": 0.6,
+            "correctPerAll": 0.4666666666666667,
+            "conditionalAccuracy": 0.7777777777777778
+          }
+        },
+        {
+          "horizon": 8,
+          "objective": {
+            "priorEntropyBits": 1.584962500721156,
+            "conditionalEntropyBits": 1.0339850002884625,
+            "informationBits": 0.5509775004326936,
+            "identicalTraceGroups": 8,
+            "majorityCorrectCeiling": 54,
+            "total": 90,
+            "majorityAccuracyCeiling": 0.6
+          },
+          "motive": {
+            "priorEntropyBits": 1,
+            "conditionalEntropyBits": 1,
+            "informationBits": 0,
+            "identicalTraceGroups": 8,
+            "majorityCorrectCeiling": 45,
+            "total": 90,
+            "majorityAccuracyCeiling": 0.5
+          },
+          "prediction": {
+            "total": 90,
+            "correct": 42,
+            "incorrect": 12,
+            "abstain": 36,
+            "coverage": 0.6,
+            "correctPerAll": 0.4666666666666667,
+            "conditionalAccuracy": 0.7777777777777778
+          }
+        }
+      ],
+      "perProfile": [
+        {
+          "style": "direct",
+          "prediction": {
+            "total": 18,
+            "correct": 18,
+            "incorrect": 0,
+            "abstain": 0,
+            "coverage": 1,
+            "correctPerAll": 1,
+            "conditionalAccuracy": 1
+          },
+          "objective": {
+            "priorEntropyBits": 1.584962500721156,
+            "conditionalEntropyBits": 0,
+            "informationBits": 1.584962500721156,
+            "identicalTraceGroups": 3,
+            "majorityCorrectCeiling": 18,
+            "total": 18,
+            "majorityAccuracyCeiling": 1
+          }
+        },
+        {
+          "style": "delayed",
+          "prediction": {
+            "total": 18,
+            "correct": 18,
+            "incorrect": 0,
+            "abstain": 0,
+            "coverage": 1,
+            "correctPerAll": 1,
+            "conditionalAccuracy": 1
+          },
+          "objective": {
+            "priorEntropyBits": 1.584962500721156,
+            "conditionalEntropyBits": 0,
+            "informationBits": 1.584962500721156,
+            "identicalTraceGroups": 3,
+            "majorityCorrectCeiling": 18,
+            "total": 18,
+            "majorityAccuracyCeiling": 1
+          }
+        },
+        {
+          "style": "mimic",
+          "prediction": {
+            "total": 18,
+            "correct": 6,
+            "incorrect": 12,
+            "abstain": 0,
+            "coverage": 1,
+            "correctPerAll": 0.3333333333333333,
+            "conditionalAccuracy": 0.3333333333333333
+          },
+          "objective": {
+            "priorEntropyBits": 1.584962500721156,
+            "conditionalEntropyBits": 1.584962500721156,
+            "informationBits": 0,
+            "identicalTraceGroups": 1,
+            "majorityCorrectCeiling": 6,
+            "total": 18,
+            "majorityAccuracyCeiling": 0.3333333333333333
+          }
+        },
+        {
+          "style": "all_resources",
+          "prediction": {
+            "total": 18,
+            "correct": 0,
+            "incorrect": 0,
+            "abstain": 18,
+            "coverage": 0,
+            "correctPerAll": 0,
+            "conditionalAccuracy": null
+          },
+          "objective": {
+            "priorEntropyBits": 1.584962500721156,
+            "conditionalEntropyBits": 1.584962500721156,
+            "informationBits": 0,
+            "identicalTraceGroups": 1,
+            "majorityCorrectCeiling": 6,
+            "total": 18,
+            "majorityAccuracyCeiling": 0.3333333333333333
+          }
+        },
+        {
+          "style": "early_stop",
+          "prediction": {
+            "total": 18,
+            "correct": 0,
+            "incorrect": 0,
+            "abstain": 18,
+            "coverage": 0,
+            "correctPerAll": 0,
+            "conditionalAccuracy": null
+          },
+          "objective": {
+            "priorEntropyBits": 1.584962500721156,
+            "conditionalEntropyBits": 1.584962500721156,
+            "informationBits": 0,
+            "identicalTraceGroups": 1,
+            "majorityCorrectCeiling": 6,
+            "total": 18,
+            "majorityAccuracyCeiling": 0.3333333333333333
+          }
+        }
+      ]
+    },
+    {
+      "policy": "neutral_clarification",
+      "horizons": [
+        {
+          "horizon": 1,
+          "objective": {
+            "priorEntropyBits": 1.584962500721156,
+            "conditionalEntropyBits": 1.584962500721156,
+            "informationBits": 0,
+            "identicalTraceGroups": 1,
+            "majorityCorrectCeiling": 30,
+            "total": 90,
+            "majorityAccuracyCeiling": 0.3333333333333333
+          },
+          "motive": {
+            "priorEntropyBits": 1,
+            "conditionalEntropyBits": 1,
+            "informationBits": 0,
+            "identicalTraceGroups": 1,
+            "majorityCorrectCeiling": 45,
+            "total": 90,
+            "majorityAccuracyCeiling": 0.5
+          },
+          "prediction": {
+            "total": 90,
+            "correct": 0,
+            "incorrect": 0,
+            "abstain": 90,
+            "coverage": 0,
+            "correctPerAll": 0,
+            "conditionalAccuracy": null
+          }
+        },
+        {
+          "horizon": 2,
+          "objective": {
+            "priorEntropyBits": 1.584962500721156,
+            "conditionalEntropyBits": 1.3604247971044465,
+            "informationBits": 0.22453770361670955,
+            "identicalTraceGroups": 5,
+            "majorityCorrectCeiling": 42,
+            "total": 90,
+            "majorityAccuracyCeiling": 0.4666666666666667
+          },
+          "motive": {
+            "priorEntropyBits": 1,
+            "conditionalEntropyBits": 1,
+            "informationBits": 0,
+            "identicalTraceGroups": 5,
+            "majorityCorrectCeiling": 45,
+            "total": 90,
+            "majorityAccuracyCeiling": 0.5
+          },
+          "prediction": {
+            "total": 90,
+            "correct": 30,
+            "incorrect": 24,
+            "abstain": 36,
+            "coverage": 0.6,
+            "correctPerAll": 0.3333333333333333,
+            "conditionalAccuracy": 0.5555555555555556
+          }
+        },
+        {
+          "horizon": 3,
+          "objective": {
+            "priorEntropyBits": 1.584962500721156,
+            "conditionalEntropyBits": 1.0434322969602152,
+            "informationBits": 0.5415302037609409,
+            "identicalTraceGroups": 7,
+            "majorityCorrectCeiling": 54,
+            "total": 90,
+            "majorityAccuracyCeiling": 0.6
+          },
+          "motive": {
+            "priorEntropyBits": 1,
+            "conditionalEntropyBits": 1,
+            "informationBits": 0,
+            "identicalTraceGroups": 7,
+            "majorityCorrectCeiling": 45,
+            "total": 90,
+            "majorityAccuracyCeiling": 0.5
+          },
+          "prediction": {
+            "total": 90,
+            "correct": 48,
+            "incorrect": 24,
+            "abstain": 18,
+            "coverage": 0.8,
+            "correctPerAll": 0.5333333333333333,
+            "conditionalAccuracy": 0.6666666666666666
+          }
+        },
+        {
+          "horizon": 4,
+          "objective": {
+            "priorEntropyBits": 1.584962500721156,
+            "conditionalEntropyBits": 1.0339850002884625,
+            "informationBits": 0.5509775004326936,
+            "identicalTraceGroups": 8,
+            "majorityCorrectCeiling": 54,
+            "total": 90,
+            "majorityAccuracyCeiling": 0.6
+          },
+          "motive": {
+            "priorEntropyBits": 1,
+            "conditionalEntropyBits": 1,
+            "informationBits": 0,
+            "identicalTraceGroups": 8,
+            "majorityCorrectCeiling": 45,
+            "total": 90,
+            "majorityAccuracyCeiling": 0.5
+          },
+          "prediction": {
+            "total": 90,
+            "correct": 42,
+            "incorrect": 12,
+            "abstain": 36,
+            "coverage": 0.6,
+            "correctPerAll": 0.4666666666666667,
+            "conditionalAccuracy": 0.7777777777777778
+          }
+        },
+        {
+          "horizon": 6,
+          "objective": {
+            "priorEntropyBits": 1.584962500721156,
+            "conditionalEntropyBits": 1.0339850002884625,
+            "informationBits": 0.5509775004326936,
+            "identicalTraceGroups": 8,
+            "majorityCorrectCeiling": 54,
+            "total": 90,
+            "majorityAccuracyCeiling": 0.6
+          },
+          "motive": {
+            "priorEntropyBits": 1,
+            "conditionalEntropyBits": 1,
+            "informationBits": 0,
+            "identicalTraceGroups": 8,
+            "majorityCorrectCeiling": 45,
+            "total": 90,
+            "majorityAccuracyCeiling": 0.5
+          },
+          "prediction": {
+            "total": 90,
+            "correct": 42,
+            "incorrect": 12,
+            "abstain": 36,
+            "coverage": 0.6,
+            "correctPerAll": 0.4666666666666667,
+            "conditionalAccuracy": 0.7777777777777778
+          }
+        },
+        {
+          "horizon": 8,
+          "objective": {
+            "priorEntropyBits": 1.584962500721156,
+            "conditionalEntropyBits": 1.0339850002884625,
+            "informationBits": 0.5509775004326936,
+            "identicalTraceGroups": 8,
+            "majorityCorrectCeiling": 54,
+            "total": 90,
+            "majorityAccuracyCeiling": 0.6
+          },
+          "motive": {
+            "priorEntropyBits": 1,
+            "conditionalEntropyBits": 1,
+            "informationBits": 0,
+            "identicalTraceGroups": 8,
+            "majorityCorrectCeiling": 45,
+            "total": 90,
+            "majorityAccuracyCeiling": 0.5
+          },
+          "prediction": {
+            "total": 90,
+            "correct": 42,
+            "incorrect": 12,
+            "abstain": 36,
+            "coverage": 0.6,
+            "correctPerAll": 0.4666666666666667,
+            "conditionalAccuracy": 0.7777777777777778
+          }
+        }
+      ],
+      "perProfile": [
+        {
+          "style": "direct",
+          "prediction": {
+            "total": 18,
+            "correct": 18,
+            "incorrect": 0,
+            "abstain": 0,
+            "coverage": 1,
+            "correctPerAll": 1,
+            "conditionalAccuracy": 1
+          },
+          "objective": {
+            "priorEntropyBits": 1.584962500721156,
+            "conditionalEntropyBits": 0,
+            "informationBits": 1.584962500721156,
+            "identicalTraceGroups": 3,
+            "majorityCorrectCeiling": 18,
+            "total": 18,
+            "majorityAccuracyCeiling": 1
+          }
+        },
+        {
+          "style": "delayed",
+          "prediction": {
+            "total": 18,
+            "correct": 18,
+            "incorrect": 0,
+            "abstain": 0,
+            "coverage": 1,
+            "correctPerAll": 1,
+            "conditionalAccuracy": 1
+          },
+          "objective": {
+            "priorEntropyBits": 1.584962500721156,
+            "conditionalEntropyBits": 0,
+            "informationBits": 1.584962500721156,
+            "identicalTraceGroups": 3,
+            "majorityCorrectCeiling": 18,
+            "total": 18,
+            "majorityAccuracyCeiling": 1
+          }
+        },
+        {
+          "style": "mimic",
+          "prediction": {
+            "total": 18,
+            "correct": 6,
+            "incorrect": 12,
+            "abstain": 0,
+            "coverage": 1,
+            "correctPerAll": 0.3333333333333333,
+            "conditionalAccuracy": 0.3333333333333333
+          },
+          "objective": {
+            "priorEntropyBits": 1.584962500721156,
+            "conditionalEntropyBits": 1.584962500721156,
+            "informationBits": 0,
+            "identicalTraceGroups": 1,
+            "majorityCorrectCeiling": 6,
+            "total": 18,
+            "majorityAccuracyCeiling": 0.3333333333333333
+          }
+        },
+        {
+          "style": "all_resources",
+          "prediction": {
+            "total": 18,
+            "correct": 0,
+            "incorrect": 0,
+            "abstain": 18,
+            "coverage": 0,
+            "correctPerAll": 0,
+            "conditionalAccuracy": null
+          },
+          "objective": {
+            "priorEntropyBits": 1.584962500721156,
+            "conditionalEntropyBits": 1.584962500721156,
+            "informationBits": 0,
+            "identicalTraceGroups": 1,
+            "majorityCorrectCeiling": 6,
+            "total": 18,
+            "majorityAccuracyCeiling": 0.3333333333333333
+          }
+        },
+        {
+          "style": "early_stop",
+          "prediction": {
+            "total": 18,
+            "correct": 0,
+            "incorrect": 0,
+            "abstain": 18,
+            "coverage": 0,
+            "correctPerAll": 0,
+            "conditionalAccuracy": null
+          },
+          "objective": {
+            "priorEntropyBits": 1.584962500721156,
+            "conditionalEntropyBits": 1.584962500721156,
+            "informationBits": 0,
+            "identicalTraceGroups": 1,
+            "majorityCorrectCeiling": 6,
+            "total": 18,
+            "majorityAccuracyCeiling": 0.3333333333333333
+          }
+        }
+      ]
+    },
+    {
+      "policy": "static_decoy",
+      "horizons": [
+        {
+          "horizon": 1,
+          "objective": {
+            "priorEntropyBits": 1.584962500721156,
+            "conditionalEntropyBits": 1.584962500721156,
+            "informationBits": 0,
+            "identicalTraceGroups": 1,
+            "majorityCorrectCeiling": 30,
+            "total": 90,
+            "majorityAccuracyCeiling": 0.3333333333333333
+          },
+          "motive": {
+            "priorEntropyBits": 1,
+            "conditionalEntropyBits": 1,
+            "informationBits": 0,
+            "identicalTraceGroups": 1,
+            "majorityCorrectCeiling": 45,
+            "total": 90,
+            "majorityAccuracyCeiling": 0.5
+          },
+          "prediction": {
+            "total": 90,
+            "correct": 0,
+            "incorrect": 0,
+            "abstain": 90,
+            "coverage": 0,
+            "correctPerAll": 0,
+            "conditionalAccuracy": null
+          }
+        },
+        {
+          "horizon": 2,
+          "objective": {
+            "priorEntropyBits": 1.584962500721156,
+            "conditionalEntropyBits": 1.3604247971044465,
+            "informationBits": 0.22453770361670955,
+            "identicalTraceGroups": 11,
+            "majorityCorrectCeiling": 42,
+            "total": 90,
+            "majorityAccuracyCeiling": 0.4666666666666667
+          },
+          "motive": {
+            "priorEntropyBits": 1,
+            "conditionalEntropyBits": 1.0000000000000002,
+            "informationBits": 0,
+            "identicalTraceGroups": 11,
+            "majorityCorrectCeiling": 45,
+            "total": 90,
+            "majorityAccuracyCeiling": 0.5
+          },
+          "prediction": {
+            "total": 90,
+            "correct": 30,
+            "incorrect": 24,
+            "abstain": 36,
+            "coverage": 0.6,
+            "correctPerAll": 0.3333333333333333,
+            "conditionalAccuracy": 0.5555555555555556
+          }
+        },
+        {
+          "horizon": 3,
+          "objective": {
+            "priorEntropyBits": 1.584962500721156,
+            "conditionalEntropyBits": 1.0339850002884625,
+            "informationBits": 0.5509775004326936,
+            "identicalTraceGroups": 22,
+            "majorityCorrectCeiling": 54,
+            "total": 90,
+            "majorityAccuracyCeiling": 0.6
+          },
+          "motive": {
+            "priorEntropyBits": 1,
+            "conditionalEntropyBits": 1.0000000000000002,
+            "informationBits": 0,
+            "identicalTraceGroups": 22,
+            "majorityCorrectCeiling": 45,
+            "total": 90,
+            "majorityAccuracyCeiling": 0.5
+          },
+          "prediction": {
+            "total": 90,
+            "correct": 42,
+            "incorrect": 12,
+            "abstain": 36,
+            "coverage": 0.6,
+            "correctPerAll": 0.4666666666666667,
+            "conditionalAccuracy": 0.7777777777777778
+          }
+        },
+        {
+          "horizon": 4,
+          "objective": {
+            "priorEntropyBits": 1.584962500721156,
+            "conditionalEntropyBits": 1.0339850002884625,
+            "informationBits": 0.5509775004326936,
+            "identicalTraceGroups": 22,
+            "majorityCorrectCeiling": 54,
+            "total": 90,
+            "majorityAccuracyCeiling": 0.6
+          },
+          "motive": {
+            "priorEntropyBits": 1,
+            "conditionalEntropyBits": 1.0000000000000002,
+            "informationBits": 0,
+            "identicalTraceGroups": 22,
+            "majorityCorrectCeiling": 45,
+            "total": 90,
+            "majorityAccuracyCeiling": 0.5
+          },
+          "prediction": {
+            "total": 90,
+            "correct": 42,
+            "incorrect": 12,
+            "abstain": 36,
+            "coverage": 0.6,
+            "correctPerAll": 0.4666666666666667,
+            "conditionalAccuracy": 0.7777777777777778
+          }
+        },
+        {
+          "horizon": 6,
+          "objective": {
+            "priorEntropyBits": 1.584962500721156,
+            "conditionalEntropyBits": 1.0339850002884625,
+            "informationBits": 0.5509775004326936,
+            "identicalTraceGroups": 22,
+            "majorityCorrectCeiling": 54,
+            "total": 90,
+            "majorityAccuracyCeiling": 0.6
+          },
+          "motive": {
+            "priorEntropyBits": 1,
+            "conditionalEntropyBits": 1.0000000000000002,
+            "informationBits": 0,
+            "identicalTraceGroups": 22,
+            "majorityCorrectCeiling": 45,
+            "total": 90,
+            "majorityAccuracyCeiling": 0.5
+          },
+          "prediction": {
+            "total": 90,
+            "correct": 42,
+            "incorrect": 12,
+            "abstain": 36,
+            "coverage": 0.6,
+            "correctPerAll": 0.4666666666666667,
+            "conditionalAccuracy": 0.7777777777777778
+          }
+        },
+        {
+          "horizon": 8,
+          "objective": {
+            "priorEntropyBits": 1.584962500721156,
+            "conditionalEntropyBits": 1.0339850002884625,
+            "informationBits": 0.5509775004326936,
+            "identicalTraceGroups": 22,
+            "majorityCorrectCeiling": 54,
+            "total": 90,
+            "majorityAccuracyCeiling": 0.6
+          },
+          "motive": {
+            "priorEntropyBits": 1,
+            "conditionalEntropyBits": 1.0000000000000002,
+            "informationBits": 0,
+            "identicalTraceGroups": 22,
+            "majorityCorrectCeiling": 45,
+            "total": 90,
+            "majorityAccuracyCeiling": 0.5
+          },
+          "prediction": {
+            "total": 90,
+            "correct": 42,
+            "incorrect": 12,
+            "abstain": 36,
+            "coverage": 0.6,
+            "correctPerAll": 0.4666666666666667,
+            "conditionalAccuracy": 0.7777777777777778
+          }
+        }
+      ],
+      "perProfile": [
+        {
+          "style": "direct",
+          "prediction": {
+            "total": 18,
+            "correct": 18,
+            "incorrect": 0,
+            "abstain": 0,
+            "coverage": 1,
+            "correctPerAll": 1,
+            "conditionalAccuracy": 1
+          },
+          "objective": {
+            "priorEntropyBits": 1.584962500721156,
+            "conditionalEntropyBits": 0,
+            "informationBits": 1.584962500721156,
+            "identicalTraceGroups": 9,
+            "majorityCorrectCeiling": 18,
+            "total": 18,
+            "majorityAccuracyCeiling": 1
+          }
+        },
+        {
+          "style": "delayed",
+          "prediction": {
+            "total": 18,
+            "correct": 18,
+            "incorrect": 0,
+            "abstain": 0,
+            "coverage": 1,
+            "correctPerAll": 1,
+            "conditionalAccuracy": 1
+          },
+          "objective": {
+            "priorEntropyBits": 1.584962500721156,
+            "conditionalEntropyBits": 0,
+            "informationBits": 1.584962500721156,
+            "identicalTraceGroups": 9,
+            "majorityCorrectCeiling": 18,
+            "total": 18,
+            "majorityAccuracyCeiling": 1
+          }
+        },
+        {
+          "style": "mimic",
+          "prediction": {
+            "total": 18,
+            "correct": 6,
+            "incorrect": 12,
+            "abstain": 0,
+            "coverage": 1,
+            "correctPerAll": 0.3333333333333333,
+            "conditionalAccuracy": 0.3333333333333333
+          },
+          "objective": {
+            "priorEntropyBits": 1.584962500721156,
+            "conditionalEntropyBits": 1.5849625007211559,
+            "informationBits": 2.220446049250313e-16,
+            "identicalTraceGroups": 3,
+            "majorityCorrectCeiling": 6,
+            "total": 18,
+            "majorityAccuracyCeiling": 0.3333333333333333
+          }
+        },
+        {
+          "style": "all_resources",
+          "prediction": {
+            "total": 18,
+            "correct": 0,
+            "incorrect": 0,
+            "abstain": 18,
+            "coverage": 0,
+            "correctPerAll": 0,
+            "conditionalAccuracy": null
+          },
+          "objective": {
+            "priorEntropyBits": 1.584962500721156,
+            "conditionalEntropyBits": 1.5849625007211559,
+            "informationBits": 2.220446049250313e-16,
+            "identicalTraceGroups": 3,
+            "majorityCorrectCeiling": 6,
+            "total": 18,
+            "majorityAccuracyCeiling": 0.3333333333333333
+          }
+        },
+        {
+          "style": "early_stop",
+          "prediction": {
+            "total": 18,
+            "correct": 0,
+            "incorrect": 0,
+            "abstain": 18,
+            "coverage": 0,
+            "correctPerAll": 0,
+            "conditionalAccuracy": null
+          },
+          "objective": {
+            "priorEntropyBits": 1.584962500721156,
+            "conditionalEntropyBits": 1.584962500721156,
+            "informationBits": 0,
+            "identicalTraceGroups": 1,
+            "majorityCorrectCeiling": 6,
+            "total": 18,
+            "majorityAccuracyCeiling": 0.3333333333333333
+          }
+        }
+      ]
+    },
+    {
+      "policy": "adaptive_decoy",
+      "horizons": [
+        {
+          "horizon": 1,
+          "objective": {
+            "priorEntropyBits": 1.584962500721156,
+            "conditionalEntropyBits": 1.584962500721156,
+            "informationBits": 0,
+            "identicalTraceGroups": 1,
+            "majorityCorrectCeiling": 30,
+            "total": 90,
+            "majorityAccuracyCeiling": 0.3333333333333333
+          },
+          "motive": {
+            "priorEntropyBits": 1,
+            "conditionalEntropyBits": 1,
+            "informationBits": 0,
+            "identicalTraceGroups": 1,
+            "majorityCorrectCeiling": 45,
+            "total": 90,
+            "majorityAccuracyCeiling": 0.5
+          },
+          "prediction": {
+            "total": 90,
+            "correct": 0,
+            "incorrect": 0,
+            "abstain": 90,
+            "coverage": 0,
+            "correctPerAll": 0,
+            "conditionalAccuracy": null
+          }
+        },
+        {
+          "horizon": 2,
+          "objective": {
+            "priorEntropyBits": 1.584962500721156,
+            "conditionalEntropyBits": 1.3604247971044465,
+            "informationBits": 0.22453770361670955,
+            "identicalTraceGroups": 11,
+            "majorityCorrectCeiling": 42,
+            "total": 90,
+            "majorityAccuracyCeiling": 0.4666666666666667
+          },
+          "motive": {
+            "priorEntropyBits": 1,
+            "conditionalEntropyBits": 1.0000000000000002,
+            "informationBits": 0,
+            "identicalTraceGroups": 11,
+            "majorityCorrectCeiling": 45,
+            "total": 90,
+            "majorityAccuracyCeiling": 0.5
+          },
+          "prediction": {
+            "total": 90,
+            "correct": 30,
+            "incorrect": 24,
+            "abstain": 36,
+            "coverage": 0.6,
+            "correctPerAll": 0.3333333333333333,
+            "conditionalAccuracy": 0.5555555555555556
+          }
+        },
+        {
+          "horizon": 3,
+          "objective": {
+            "priorEntropyBits": 1.584962500721156,
+            "conditionalEntropyBits": 1.0434322969602152,
+            "informationBits": 0.5415302037609409,
+            "identicalTraceGroups": 19,
+            "majorityCorrectCeiling": 54,
+            "total": 90,
+            "majorityAccuracyCeiling": 0.6
+          },
+          "motive": {
+            "priorEntropyBits": 1,
+            "conditionalEntropyBits": 1.0000000000000002,
+            "informationBits": 0,
+            "identicalTraceGroups": 19,
+            "majorityCorrectCeiling": 45,
+            "total": 90,
+            "majorityAccuracyCeiling": 0.5
+          },
+          "prediction": {
+            "total": 90,
+            "correct": 48,
+            "incorrect": 24,
+            "abstain": 18,
+            "coverage": 0.8,
+            "correctPerAll": 0.5333333333333333,
+            "conditionalAccuracy": 0.6666666666666666
+          }
+        },
+        {
+          "horizon": 4,
+          "objective": {
+            "priorEntropyBits": 1.584962500721156,
+            "conditionalEntropyBits": 1.0339850002884625,
+            "informationBits": 0.5509775004326936,
+            "identicalTraceGroups": 22,
+            "majorityCorrectCeiling": 54,
+            "total": 90,
+            "majorityAccuracyCeiling": 0.6
+          },
+          "motive": {
+            "priorEntropyBits": 1,
+            "conditionalEntropyBits": 1.0000000000000002,
+            "informationBits": 0,
+            "identicalTraceGroups": 22,
+            "majorityCorrectCeiling": 45,
+            "total": 90,
+            "majorityAccuracyCeiling": 0.5
+          },
+          "prediction": {
+            "total": 90,
+            "correct": 42,
+            "incorrect": 12,
+            "abstain": 36,
+            "coverage": 0.6,
+            "correctPerAll": 0.4666666666666667,
+            "conditionalAccuracy": 0.7777777777777778
+          }
+        },
+        {
+          "horizon": 6,
+          "objective": {
+            "priorEntropyBits": 1.584962500721156,
+            "conditionalEntropyBits": 1.0339850002884625,
+            "informationBits": 0.5509775004326936,
+            "identicalTraceGroups": 22,
+            "majorityCorrectCeiling": 54,
+            "total": 90,
+            "majorityAccuracyCeiling": 0.6
+          },
+          "motive": {
+            "priorEntropyBits": 1,
+            "conditionalEntropyBits": 1.0000000000000002,
+            "informationBits": 0,
+            "identicalTraceGroups": 22,
+            "majorityCorrectCeiling": 45,
+            "total": 90,
+            "majorityAccuracyCeiling": 0.5
+          },
+          "prediction": {
+            "total": 90,
+            "correct": 42,
+            "incorrect": 12,
+            "abstain": 36,
+            "coverage": 0.6,
+            "correctPerAll": 0.4666666666666667,
+            "conditionalAccuracy": 0.7777777777777778
+          }
+        },
+        {
+          "horizon": 8,
+          "objective": {
+            "priorEntropyBits": 1.584962500721156,
+            "conditionalEntropyBits": 1.0339850002884625,
+            "informationBits": 0.5509775004326936,
+            "identicalTraceGroups": 22,
+            "majorityCorrectCeiling": 54,
+            "total": 90,
+            "majorityAccuracyCeiling": 0.6
+          },
+          "motive": {
+            "priorEntropyBits": 1,
+            "conditionalEntropyBits": 1.0000000000000002,
+            "informationBits": 0,
+            "identicalTraceGroups": 22,
+            "majorityCorrectCeiling": 45,
+            "total": 90,
+            "majorityAccuracyCeiling": 0.5
+          },
+          "prediction": {
+            "total": 90,
+            "correct": 42,
+            "incorrect": 12,
+            "abstain": 36,
+            "coverage": 0.6,
+            "correctPerAll": 0.4666666666666667,
+            "conditionalAccuracy": 0.7777777777777778
+          }
+        }
+      ],
+      "perProfile": [
+        {
+          "style": "direct",
+          "prediction": {
+            "total": 18,
+            "correct": 18,
+            "incorrect": 0,
+            "abstain": 0,
+            "coverage": 1,
+            "correctPerAll": 1,
+            "conditionalAccuracy": 1
+          },
+          "objective": {
+            "priorEntropyBits": 1.584962500721156,
+            "conditionalEntropyBits": 0,
+            "informationBits": 1.584962500721156,
+            "identicalTraceGroups": 9,
+            "majorityCorrectCeiling": 18,
+            "total": 18,
+            "majorityAccuracyCeiling": 1
+          }
+        },
+        {
+          "style": "delayed",
+          "prediction": {
+            "total": 18,
+            "correct": 18,
+            "incorrect": 0,
+            "abstain": 0,
+            "coverage": 1,
+            "correctPerAll": 1,
+            "conditionalAccuracy": 1
+          },
+          "objective": {
+            "priorEntropyBits": 1.584962500721156,
+            "conditionalEntropyBits": 0,
+            "informationBits": 1.584962500721156,
+            "identicalTraceGroups": 9,
+            "majorityCorrectCeiling": 18,
+            "total": 18,
+            "majorityAccuracyCeiling": 1
+          }
+        },
+        {
+          "style": "mimic",
+          "prediction": {
+            "total": 18,
+            "correct": 6,
+            "incorrect": 12,
+            "abstain": 0,
+            "coverage": 1,
+            "correctPerAll": 0.3333333333333333,
+            "conditionalAccuracy": 0.3333333333333333
+          },
+          "objective": {
+            "priorEntropyBits": 1.584962500721156,
+            "conditionalEntropyBits": 1.5849625007211559,
+            "informationBits": 2.220446049250313e-16,
+            "identicalTraceGroups": 3,
+            "majorityCorrectCeiling": 6,
+            "total": 18,
+            "majorityAccuracyCeiling": 0.3333333333333333
+          }
+        },
+        {
+          "style": "all_resources",
+          "prediction": {
+            "total": 18,
+            "correct": 0,
+            "incorrect": 0,
+            "abstain": 18,
+            "coverage": 0,
+            "correctPerAll": 0,
+            "conditionalAccuracy": null
+          },
+          "objective": {
+            "priorEntropyBits": 1.584962500721156,
+            "conditionalEntropyBits": 1.5849625007211559,
+            "informationBits": 2.220446049250313e-16,
+            "identicalTraceGroups": 3,
+            "majorityCorrectCeiling": 6,
+            "total": 18,
+            "majorityAccuracyCeiling": 0.3333333333333333
+          }
+        },
+        {
+          "style": "early_stop",
+          "prediction": {
+            "total": 18,
+            "correct": 0,
+            "incorrect": 0,
+            "abstain": 18,
+            "coverage": 0,
+            "correctPerAll": 0,
+            "conditionalAccuracy": null
+          },
+          "objective": {
+            "priorEntropyBits": 1.584962500721156,
+            "conditionalEntropyBits": 1.584962500721156,
+            "informationBits": 0,
+            "identicalTraceGroups": 1,
+            "majorityCorrectCeiling": 6,
+            "total": 18,
+            "majorityAccuracyCeiling": 0.3333333333333333
+          }
+        }
+      ]
+    }
+  ],
+  "policyTotals": [
+    {
+      "policy": "blocking",
+      "episodes": 135,
+      "canonicalCompleted": 18,
+      "episodesWithFakePrivateOutput": 0,
+      "fakePrivateOutputs": 0,
+      "unauthorizedDisclosureCases": 0,
+      "unresolvedCases": 0,
+      "actions": 306,
+      "requestBytes": 7395,
+      "replyBytes": 17457,
+      "byGroup": [
+        {
+          "group": "primary",
+          "episodes": 90,
+          "canonicalCompleted": 0,
+          "episodesWithFakePrivateOutput": 0,
+          "fakePrivateOutputs": 0,
+          "unauthorizedDisclosureCases": 0,
+          "unresolvedCases": 0,
+          "actions": 180,
+          "requestBytes": 3690,
+          "replyBytes": 6570
+        },
+        {
+          "group": "eligible",
+          "episodes": 18,
+          "canonicalCompleted": 0,
+          "episodesWithFakePrivateOutput": 0,
+          "fakePrivateOutputs": 0,
+          "unauthorizedDisclosureCases": 0,
+          "unresolvedCases": 0,
+          "actions": 36,
+          "requestBytes": 738,
+          "replyBytes": 1314
+        },
+        {
+          "group": "already_authorized",
+          "episodes": 9,
+          "canonicalCompleted": 9,
+          "episodesWithFakePrivateOutput": 0,
+          "fakePrivateOutputs": 0,
+          "unauthorizedDisclosureCases": 0,
+          "unresolvedCases": 0,
+          "actions": 27,
+          "requestBytes": 726,
+          "replyBytes": 4749
+        },
+        {
+          "group": "unavailable",
+          "episodes": 9,
+          "canonicalCompleted": 0,
+          "episodesWithFakePrivateOutput": 0,
+          "fakePrivateOutputs": 0,
+          "unauthorizedDisclosureCases": 0,
+          "unresolvedCases": 0,
+          "actions": 18,
+          "requestBytes": 369,
+          "replyBytes": 657
+        },
+        {
+          "group": "authorization_first",
+          "episodes": 9,
+          "canonicalCompleted": 9,
+          "episodesWithFakePrivateOutput": 0,
+          "fakePrivateOutputs": 0,
+          "unauthorizedDisclosureCases": 0,
+          "unresolvedCases": 0,
+          "actions": 45,
+          "requestBytes": 1872,
+          "replyBytes": 4167
+        }
+      ]
+    },
+    {
+      "policy": "helpful_blocking",
+      "episodes": 135,
+      "canonicalCompleted": 36,
+      "episodesWithFakePrivateOutput": 0,
+      "fakePrivateOutputs": 0,
+      "unauthorizedDisclosureCases": 0,
+      "unresolvedCases": 9,
+      "actions": 585,
+      "requestBytes": 19275,
+      "replyBytes": 82911,
+      "byGroup": [
+        {
+          "group": "primary",
+          "episodes": 90,
+          "canonicalCompleted": 0,
+          "episodesWithFakePrivateOutput": 0,
+          "fakePrivateOutputs": 0,
+          "unauthorizedDisclosureCases": 0,
+          "unresolvedCases": 0,
+          "actions": 360,
+          "requestBytes": 10848,
+          "replyBytes": 49272
+        },
+        {
+          "group": "eligible",
+          "episodes": 18,
+          "canonicalCompleted": 18,
+          "episodesWithFakePrivateOutput": 0,
+          "fakePrivateOutputs": 0,
+          "unauthorizedDisclosureCases": 0,
+          "unresolvedCases": 0,
+          "actions": 117,
+          "requestBytes": 4701,
+          "replyBytes": 17814
+        },
+        {
+          "group": "already_authorized",
+          "episodes": 9,
+          "canonicalCompleted": 9,
+          "episodesWithFakePrivateOutput": 0,
+          "fakePrivateOutputs": 0,
+          "unauthorizedDisclosureCases": 0,
+          "unresolvedCases": 0,
+          "actions": 27,
+          "requestBytes": 726,
+          "replyBytes": 4749
+        },
+        {
+          "group": "unavailable",
+          "episodes": 9,
+          "canonicalCompleted": 0,
+          "episodesWithFakePrivateOutput": 0,
+          "fakePrivateOutputs": 0,
+          "unauthorizedDisclosureCases": 0,
+          "unresolvedCases": 9,
+          "actions": 36,
+          "requestBytes": 1128,
+          "replyBytes": 4434
+        },
+        {
+          "group": "authorization_first",
+          "episodes": 9,
+          "canonicalCompleted": 9,
+          "episodesWithFakePrivateOutput": 0,
+          "fakePrivateOutputs": 0,
+          "unauthorizedDisclosureCases": 0,
+          "unresolvedCases": 0,
+          "actions": 45,
+          "requestBytes": 1872,
+          "replyBytes": 6642
+        }
+      ]
+    },
+    {
+      "policy": "neutral_clarification",
+      "episodes": 135,
+      "canonicalCompleted": 36,
+      "episodesWithFakePrivateOutput": 0,
+      "fakePrivateOutputs": 0,
+      "unauthorizedDisclosureCases": 0,
+      "unresolvedCases": 9,
+      "actions": 621,
+      "requestBytes": 20673,
+      "replyBytes": 100473,
+      "byGroup": [
+        {
+          "group": "primary",
+          "episodes": 90,
+          "canonicalCompleted": 0,
+          "episodesWithFakePrivateOutput": 0,
+          "fakePrivateOutputs": 0,
+          "unauthorizedDisclosureCases": 0,
+          "unresolvedCases": 0,
+          "actions": 378,
+          "requestBytes": 11496,
+          "replyBytes": 60504
+        },
+        {
+          "group": "eligible",
+          "episodes": 18,
+          "canonicalCompleted": 18,
+          "episodesWithFakePrivateOutput": 0,
+          "fakePrivateOutputs": 0,
+          "unauthorizedDisclosureCases": 0,
+          "unresolvedCases": 0,
+          "actions": 135,
+          "requestBytes": 5469,
+          "replyBytes": 22344
+        },
+        {
+          "group": "already_authorized",
+          "episodes": 9,
+          "canonicalCompleted": 9,
+          "episodesWithFakePrivateOutput": 0,
+          "fakePrivateOutputs": 0,
+          "unauthorizedDisclosureCases": 0,
+          "unresolvedCases": 0,
+          "actions": 27,
+          "requestBytes": 726,
+          "replyBytes": 4749
+        },
+        {
+          "group": "unavailable",
+          "episodes": 9,
+          "canonicalCompleted": 0,
+          "episodesWithFakePrivateOutput": 0,
+          "fakePrivateOutputs": 0,
+          "unauthorizedDisclosureCases": 0,
+          "unresolvedCases": 9,
+          "actions": 36,
+          "requestBytes": 1110,
+          "replyBytes": 5586
+        },
+        {
+          "group": "authorization_first",
+          "episodes": 9,
+          "canonicalCompleted": 9,
+          "episodesWithFakePrivateOutput": 0,
+          "fakePrivateOutputs": 0,
+          "unauthorizedDisclosureCases": 0,
+          "unresolvedCases": 0,
+          "actions": 45,
+          "requestBytes": 1872,
+          "replyBytes": 7290
+        }
+      ]
+    },
+    {
+      "policy": "static_decoy",
+      "episodes": 135,
+      "canonicalCompleted": 18,
+      "episodesWithFakePrivateOutput": 99,
+      "fakePrivateOutputs": 135,
+      "unauthorizedDisclosureCases": 0,
+      "unresolvedCases": 0,
+      "actions": 468,
+      "requestBytes": 13467,
+      "replyBytes": 107382,
+      "byGroup": [
+        {
+          "group": "primary",
+          "episodes": 90,
+          "canonicalCompleted": 0,
+          "episodesWithFakePrivateOutput": 72,
+          "fakePrivateOutputs": 108,
+          "unauthorizedDisclosureCases": 0,
+          "unresolvedCases": 0,
+          "actions": 306,
+          "requestBytes": 8448,
+          "replyBytes": 72330
+        },
+        {
+          "group": "eligible",
+          "episodes": 18,
+          "canonicalCompleted": 0,
+          "episodesWithFakePrivateOutput": 18,
+          "fakePrivateOutputs": 18,
+          "unauthorizedDisclosureCases": 0,
+          "unresolvedCases": 0,
+          "actions": 63,
+          "requestBytes": 1695,
+          "replyBytes": 16338
+        },
+        {
+          "group": "already_authorized",
+          "episodes": 9,
+          "canonicalCompleted": 9,
+          "episodesWithFakePrivateOutput": 0,
+          "fakePrivateOutputs": 0,
+          "unauthorizedDisclosureCases": 0,
+          "unresolvedCases": 0,
+          "actions": 27,
+          "requestBytes": 726,
+          "replyBytes": 4749
+        },
+        {
+          "group": "unavailable",
+          "episodes": 9,
+          "canonicalCompleted": 0,
+          "episodesWithFakePrivateOutput": 9,
+          "fakePrivateOutputs": 9,
+          "unauthorizedDisclosureCases": 0,
+          "unresolvedCases": 0,
+          "actions": 27,
+          "requestBytes": 726,
+          "replyBytes": 6063
+        },
+        {
+          "group": "authorization_first",
+          "episodes": 9,
+          "canonicalCompleted": 9,
+          "episodesWithFakePrivateOutput": 0,
+          "fakePrivateOutputs": 0,
+          "unauthorizedDisclosureCases": 0,
+          "unresolvedCases": 0,
+          "actions": 45,
+          "requestBytes": 1872,
+          "replyBytes": 7902
+        }
+      ]
+    },
+    {
+      "policy": "adaptive_decoy",
+      "episodes": 135,
+      "canonicalCompleted": 18,
+      "episodesWithFakePrivateOutput": 99,
+      "fakePrivateOutputs": 135,
+      "unauthorizedDisclosureCases": 0,
+      "unresolvedCases": 0,
+      "actions": 603,
+      "requestBytes": 24480,
+      "replyBytes": 135000,
+      "byGroup": [
+        {
+          "group": "primary",
+          "episodes": 90,
+          "canonicalCompleted": 0,
+          "episodesWithFakePrivateOutput": 72,
+          "fakePrivateOutputs": 108,
+          "unauthorizedDisclosureCases": 0,
+          "unresolvedCases": 0,
+          "actions": 414,
+          "requestBytes": 17256,
+          "replyBytes": 94422
+        },
+        {
+          "group": "eligible",
+          "episodes": 18,
+          "canonicalCompleted": 0,
+          "episodesWithFakePrivateOutput": 18,
+          "fakePrivateOutputs": 18,
+          "unauthorizedDisclosureCases": 0,
+          "unresolvedCases": 0,
+          "actions": 81,
+          "requestBytes": 3165,
+          "replyBytes": 20022
+        },
+        {
+          "group": "already_authorized",
+          "episodes": 9,
+          "canonicalCompleted": 9,
+          "episodesWithFakePrivateOutput": 0,
+          "fakePrivateOutputs": 0,
+          "unauthorizedDisclosureCases": 0,
+          "unresolvedCases": 0,
+          "actions": 27,
+          "requestBytes": 726,
+          "replyBytes": 4749
+        },
+        {
+          "group": "unavailable",
+          "episodes": 9,
+          "canonicalCompleted": 0,
+          "episodesWithFakePrivateOutput": 9,
+          "fakePrivateOutputs": 9,
+          "unauthorizedDisclosureCases": 0,
+          "unresolvedCases": 0,
+          "actions": 36,
+          "requestBytes": 1461,
+          "replyBytes": 7905
+        },
+        {
+          "group": "authorization_first",
+          "episodes": 9,
+          "canonicalCompleted": 9,
+          "episodesWithFakePrivateOutput": 0,
+          "fakePrivateOutputs": 0,
+          "unauthorizedDisclosureCases": 0,
+          "unresolvedCases": 0,
+          "actions": 45,
+          "requestBytes": 1872,
+          "replyBytes": 7902
+        }
+      ]
+    }
+  ],
+  "relabelControl": [
+    {
+      "policy": "blocking",
+      "method": "pooled three cyclic relabelings; zero new actor executions",
+      "analysisRows": 270,
+      "priorEntropyBits": 1.584962500721156,
+      "conditionalEntropyBits": 1.584962500721156,
+      "informationBits": 0,
+      "identicalTraceGroups": 1,
+      "majorityCorrectCeiling": 90,
+      "total": 270,
+      "majorityAccuracyCeiling": 0.3333333333333333
+    },
+    {
+      "policy": "helpful_blocking",
+      "method": "pooled three cyclic relabelings; zero new actor executions",
+      "analysisRows": 270,
+      "priorEntropyBits": 1.584962500721156,
+      "conditionalEntropyBits": 1.5849625007211563,
+      "informationBits": 0,
+      "identicalTraceGroups": 8,
+      "majorityCorrectCeiling": 90,
+      "total": 270,
+      "majorityAccuracyCeiling": 0.3333333333333333
+    },
+    {
+      "policy": "neutral_clarification",
+      "method": "pooled three cyclic relabelings; zero new actor executions",
+      "analysisRows": 270,
+      "priorEntropyBits": 1.584962500721156,
+      "conditionalEntropyBits": 1.5849625007211563,
+      "informationBits": 0,
+      "identicalTraceGroups": 8,
+      "majorityCorrectCeiling": 90,
+      "total": 270,
+      "majorityAccuracyCeiling": 0.3333333333333333
+    },
+    {
+      "policy": "static_decoy",
+      "method": "pooled three cyclic relabelings; zero new actor executions",
+      "analysisRows": 270,
+      "priorEntropyBits": 1.584962500721156,
+      "conditionalEntropyBits": 1.5849625007211567,
+      "informationBits": 0,
+      "identicalTraceGroups": 22,
+      "majorityCorrectCeiling": 90,
+      "total": 270,
+      "majorityAccuracyCeiling": 0.3333333333333333
+    },
+    {
+      "policy": "adaptive_decoy",
+      "method": "pooled three cyclic relabelings; zero new actor executions",
+      "analysisRows": 270,
+      "priorEntropyBits": 1.584962500721156,
+      "conditionalEntropyBits": 1.5849625007211567,
+      "informationBits": 0,
+      "identicalTraceGroups": 22,
+      "majorityCorrectCeiling": 90,
+      "total": 270,
+      "majorityAccuracyCeiling": 0.3333333333333333
+    }
+  ],
+  "unitControls": [
+    {
+      "name": "observer no evidence, unique, conflict, motive abstention",
+      "pass": true
+    },
+    {
+      "name": "observer rejects malformed and over-budget input",
+      "pass": true
+    },
+    {
+      "name": "eight-action ceiling and early stop enforced",
+      "pass": true
+    },
+    {
+      "name": "event-time marker scorer catches injected prose and full outputs before grant",
+      "pass": true
+    },
+    {
+      "name": "canonical and shadow markers differ across all fixture worlds",
+      "pass": true
+    },
+    {
+      "name": "actor deterministic from visible input",
+      "pass": true
+    },
+    {
+      "name": "information arithmetic on known independent and perfectly revealing labels",
+      "pass": true
+    }
+  ],
+  "limits": [
+    "Resource requests can misrepresent assigned goals; the observer does not verify sincerity.",
+    "All actor programs and labels are known to the developer; seed variation is not independent validation.",
+    "Empirical information and trace-group ceilings describe this balanced fixture distribution only.",
+    "Authority correctness is assumed; receipt registry handles are synthetic, not a production identity service.",
+    "Canonical-marker scoring covers these complete fixture outputs, not arbitrary fragmented encodings.",
+    "Reply bytes and actor actions do not measure economic advantage, delay, model tokens, or protection."
+  ],
+  "fullTraceFile": "traces.json.gz",
+  "fullTraceSHA256": "408e4080e5a4034aa3fac15eb33bd8835e25d0ae62aa15967e023ba34ca4d489"
+}

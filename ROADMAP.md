@@ -26,7 +26,7 @@ Measure canonical task completion for authorized cases; shadow routing or fake-p
 
 Completed on 25 October: [permission-resolution protocol and results](research/painted-tunnel/permission-resolution/REPORT.md). The study has 240 main cases, 90 invalid-receipt cases, and 15 timeline-control executions. Helpful blocking and neutral resolution both complete 12/12 eligible cases; neutral handling does not demonstrate a unique trickster advantage. These are known developer-authored fixtures, with no independent actor validation.
 
-## 2. Overlapping-prefix information study — next research stage
+## 2. Overlapping-prefix information study — local development study completed
 
 **Question:** Does engagement reveal useful information that the first request did not already reveal?
 
@@ -34,11 +34,15 @@ Build mixed-goal scripted cases with shared observable prefixes. Freeze a protoc
 
 **Disconfirming case:** more conversation adds no reliable label information or costs more than it contributes. No claim of a blinded result is allowed for developer-authored actors.
 
-## 3. Independent assessment and actor pilot — pending channel availability
+Completed on 25 October: [protocol, results, and limitations](research/painted-tunnel/overlapping-prefix/REPORT.md). Protocol and observer were committed before fixture implementation. The study ran 675 scripted episodes and 120 authorization controls. Helpful blocking, clarification, and both decoys yield the same final 0.551 bits of assigned-goal information in the primary mixture; motive narratives remain indistinguishable. The observer makes errors on mimic requests. Helpful blocking and neutral clarification complete 18/18 entitled-but-unverified tasks each; the decoys substitute fake output in those cases. The proposed unique information advantage for these decoys is unsupported in this fixture set.
+
+## 3. Independent assessment and actor pilot — next stage; execution pending channel availability
 
 Obtain independently designed cases and fresh actor choices only through available, permitted channels. Keep source, policies, and observer truth hidden from the actor. Record exact model labels, dates, prompts, choices, confidence, and stopping decisions. Do not replace unavailable responses with invented holdouts or count a channel restriction as defensive success.
 
 Use existing subscription allowances if a manual pilot becomes possible; no API spending or unattended model calls are authorized by this roadmap. The blocked Astra design batch remains unavailable.
+
+Next concrete work: prepare a versioned pilot packet using the frozen menus and observer; include helpful blocking as the baseline; obtain genuinely fresh actors through a permitted channel; record the actual behavior rather than forcing the scripted continuation. Separate an independent policy assessor from the acting participant. Keep assigned task, observed resource choice, claimed motive, authorization, and completion as separate fields. Count unavailable channels and unreceived responses explicitly. If a suitable channel is unavailable, preserve the zero-actor status and prepare the packet rather than relabeling another developer-written batch as independent validation. Cap the initial pilot at existing allowances and eight actions per episode. Keep resource-accounting stage 4 separate until actual timing/usage is measured.
 
 ## 4. Resource accounting and bounded runtime
 
