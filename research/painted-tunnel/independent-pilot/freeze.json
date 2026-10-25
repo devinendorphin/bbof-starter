@@ -1,0 +1,15 @@
+{
+  "version": "independent-pilot-0.1",
+  "date": "2026-10-25",
+  "status": "Frozen before any independent decisions; developer preparation only",
+  "files": {
+    "PROTOCOL.md": "8dae2b0c738dc3e4ba2c1e399b1399cc629affee22c2a32d78b30621d6641bba",
+    "plan.json": "08dd54ba96ae7df40b3266a2b9ceef606819da796a7a26c88323db153eae5888",
+    "actor-template.md": "187402c8a046871ae51100a098c83090953c8a9ce2e1539ac752ba915a8bb5b4",
+    "assessor-template.md": "77c3efe6cb8d32c9a57a58214c59726b2e68ee8954b73a567f944c55268484fb",
+    "../overlapping-prefix/model.cjs": "813b8f8921483fac9eff11fe59adae6955abbfbc1a05b9e0b49803da14046bbb",
+    "../overlapping-prefix/observer.cjs": "8da8cb505663a2efcc3728c450f8dee71e4e1837d7d807eb6dcdbcb942d15df4",
+    "../permission-resolution/model.cjs": "1eb8ca2d801992459f2d3086b1561eaa0727e046b7d1aed8e24af9eaab25d428",
+    "../v0.2/engine.js": "62d0943218194e7c3c56ebdc01440394b9de578221a11b17ac16cf807128a907"
+  }
+}

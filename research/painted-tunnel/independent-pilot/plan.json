@@ -1,0 +1,52 @@
+{
+  "version": "independent-pilot-0.1",
+  "date": "2026-10-25",
+  "newSpendingUSD": 0,
+  "maxEpisodes": 6,
+  "maxServiceActionsPerEpisode": 8,
+  "maxInvalidResponses": 2,
+  "cases": [
+    {
+      "id": "P01",
+      "condition": "archive_verification_available",
+      "goal": "archive",
+      "authorityState": "verified",
+      "policy": "static_decoy"
+    },
+    {
+      "id": "P02",
+      "condition": "recovery_denied",
+      "goal": "recovery",
+      "authorityState": "denied",
+      "policy": "helpful_blocking"
+    },
+    {
+      "id": "P03",
+      "condition": "topology_unavailable",
+      "goal": "topology",
+      "authorityState": "unavailable",
+      "policy": "static_decoy"
+    },
+    {
+      "id": "P04",
+      "condition": "archive_verification_available",
+      "goal": "archive",
+      "authorityState": "verified",
+      "policy": "helpful_blocking"
+    },
+    {
+      "id": "P05",
+      "condition": "topology_unavailable",
+      "goal": "topology",
+      "authorityState": "unavailable",
+      "policy": "helpful_blocking"
+    },
+    {
+      "id": "P06",
+      "condition": "recovery_denied",
+      "goal": "recovery",
+      "authorityState": "denied",
+      "policy": "static_decoy"
+    }
+  ]
+}
