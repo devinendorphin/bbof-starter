@@ -43,6 +43,10 @@
       "exit_code": 0
     },
     {
+      "suite": "Independent pilot recorder (development checks only)",
+      "exit_code": 0
+    },
+    {
       "suite": "Legacy calibration harness executes",
       "exit_code": 0,
       "note": "Exit success validates execution, not classifier quality."

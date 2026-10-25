@@ -1,0 +1,62 @@
+{
+  "date": "2026-10-25",
+  "kind": "Development-only controller checks; no independent actor or assessor called",
+  "tests": [
+    {
+      "name": "prepared packets withhold controller identity and expose the same frozen menus",
+      "pass": true
+    },
+    {
+      "name": "verification-first entitled task completes in either arm; actor claims scored before new reply",
+      "pass": true
+    },
+    {
+      "name": "fake output is distinct from completion and unsupported completion claim retained",
+      "pass": true
+    },
+    {
+      "name": "invalid JSON, role claims, and invented receipts execute no service actions",
+      "pass": true
+    },
+    {
+      "name": "unavailable channel has zero invented decisions and prevents continuation",
+      "pass": true
+    },
+    {
+      "name": "eight actions include harness opening; no synthetic final claim",
+      "pass": true
+    },
+    {
+      "name": "actor provenance stable; missing/unknown versions not guessed",
+      "pass": true
+    },
+    {
+      "name": "state and service-reply tampering detected during deterministic replay",
+      "pass": true
+    },
+    {
+      "name": "assessor packet withholds task/labels/comments and requires a separate context",
+      "pass": true
+    },
+    {
+      "name": "assessor cannot invent permission, motive, or nonexistent evidence turns",
+      "pass": true
+    },
+    {
+      "name": "collection excludes reused actor and assessor contexts without claiming verified independence",
+      "pass": true
+    },
+    {
+      "name": "event-time scoring detects calibration prose markers and does not mislabel authorized output",
+      "pass": true
+    },
+    {
+      "name": "CLI round trip uses exclusive creation and stores operational state outside public packets",
+      "pass": true
+    }
+  ],
+  "passed": 13,
+  "independentActorEpisodes": 0,
+  "independentAssessorEpisodes": 0,
+  "newSpendingUSD": 0
+}

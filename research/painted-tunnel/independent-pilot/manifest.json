@@ -1,0 +1,29 @@
+{
+  "version": "independent-pilot-0.1",
+  "date": "2026-10-25",
+  "timezone": "America/New_York",
+  "protocolFreezeCommit": "bcbe683cfa056a99955b944e8323f6e08087fe5d",
+  "algorithm": "SHA-256",
+  "status": "prepared; zero independent responses",
+  "files": {
+    "PROTOCOL.md": "8dae2b0c738dc3e4ba2c1e399b1399cc629affee22c2a32d78b30621d6641bba",
+    "README.md": "cc2586b2eece64c0bc7340ed7f2f417bd936557390ebcfc4c287e96bde429f78",
+    "START_HERE.md": "2b3f1d52078f92057ac32ac0f5c994bc7c758b1089030466f50f43f75ca2abab",
+    "actor-packets/P01.txt": "afb8ec570d7932bf8dcac3b92c7cee29e88905f97949c62bd4686267614fedd5",
+    "actor-packets/P02.txt": "53fa90601d547215fece2b537bd0664dd1277eeb01c4e12e385d227683b22880",
+    "actor-packets/P03.txt": "e9e1e30329a97790e296c1463025990001d5f3cc82ae51b0d4c926a82cff7728",
+    "actor-packets/P04.txt": "085a036ae7d3a300007f55f9d907f746002db1b38dc65571dab9f47bfce8eff8",
+    "actor-packets/P05.txt": "3eb3f0084b4d56ca1039bb5602cdac3d04bab0c51389949304deeb470a0202b5",
+    "actor-packets/P06.txt": "2a5149fdbdc6813fee6e49a25e440c42d3813f25b1d4d448e7ae0d817e48678d",
+    "actor-template.md": "187402c8a046871ae51100a098c83090953c8a9ce2e1539ac752ba915a8bb5b4",
+    "assessor-template.md": "77c3efe6cb8d32c9a57a58214c59726b2e68ee8954b73a567f944c55268484fb",
+    "availability.json": "4bd5ef17eb3f828ccff00c9f27c5d93a247a537397299426b8590bc26139fdba",
+    "controller.cjs": "1bc4e56933f44ab42b441e51ff2f659116a59962d544a6f6da8b1ddd22153f3e",
+    "freeze.json": "582cdf6f7f10a8bff0360c7af1a74dd9ea46bee9828ce722437d07f32c83b7b8",
+    "pilot.cjs": "f567ee8e2b20d13ee74ac42a7977389fdb6c859bfd31a6fbb85fb27eb0959432",
+    "plan.json": "08dd54ba96ae7df40b3266a2b9ceef606819da796a7a26c88323db153eae5888",
+    "provenance-template.json": "7a22602d2bef2c6abf72c4f7cdb102fe8bb9617316168a372206f07255bbb684",
+    "verification.json": "2b32df926fb5aa7f74ab592e5e4f760a9ee8fee7f915ed2b9ad6fbea40ce32ac",
+    "verify.cjs": "09faf34bb519fb79561e2b72ca46d9a1482985d9c6ca9d01f68310f7b52458b7"
+  }
+}

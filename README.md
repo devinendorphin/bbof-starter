@@ -8,6 +8,8 @@ The repository contains the original February 2026 Python prototype and the Octo
 
 - [Research archive and chronology](research/painted-tunnel/README.md)
 - [Current roadmap](ROADMAP.md)
+- [Independent pilot: ready-to-copy first prompt](research/painted-tunnel/independent-pilot/START_HERE.md)
+- [Pilot recorder and status](research/painted-tunnel/independent-pilot/README.md)
 - [Latest overlapping-prefix information study](research/painted-tunnel/overlapping-prefix/REPORT.md)
 - [Permission-resolution study](research/painted-tunnel/permission-resolution/REPORT.md)
 - [Decision and clarification study](research/painted-tunnel/decision-study/REPORT.md)
@@ -26,6 +28,8 @@ Download [the standalone v0.2 HTML lab](research/painted-tunnel/v0.2/painted-tun
 - Fresh blinded model-actor conversations completed: **0**. A withheld designer response is documented separately from experiment outcomes.
 
 - The new permission model completes eligible tasks with neutral resolution or helpful blocking, rejects the selected invalid receipts, and scores authorization at each reply. This does not establish a unique advantage for trickster behavior.
+
+A six-episode independent-actor pilot kit is prepared, including separate assessor prompts and a local raw-response recorder. It has received zero independent responses; its development checks are not model trials.
 
 The overlapping-prefix study adds 675 scripted episodes and 120 authorization controls. Engagement reveals some assigned resource goals, but both decoys provide the same final goal information as helpful blocking. Misleading requests produce observer errors; identical motive-narrative pairs remain indistinguishable.
 

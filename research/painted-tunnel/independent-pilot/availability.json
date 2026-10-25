@@ -1,0 +1,15 @@
+{
+  "version": "independent-pilot-0.1",
+  "date": "2026-10-25",
+  "timezone": "America/New_York",
+  "status": "packet_and_controller_prepared; external_decisions_pending",
+  "plannedEpisodes": 6,
+  "preparedActorPackets": 6,
+  "receivedIndependentActorResponses": 0,
+  "receivedIndependentAssessorResponses": 0,
+  "freshBlindedModelActorConversations": 0,
+  "newSpendingUSD": 0,
+  "channelObservation": "No independent model invocation endpoint was exposed in the active preparation tool catalog. No external model session was opened or paid call made.",
+  "contentWithheldNoticesReceivedInThisPilot": 0,
+  "note": "Endpoint absence is not a moderation event, actor refusal, defensive success, or unavailable experimental response. The earlier Astra notice belongs to the historical channel observation. Controller verification uses development fixtures only."
+}

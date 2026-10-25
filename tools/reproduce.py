@@ -19,6 +19,7 @@ steps = [
     ('Decision study', 'decision-study/study.cjs'),
     ('Permission resolution', 'permission-resolution/study.cjs'),
     ('Overlapping-prefix information', 'overlapping-prefix/verify.cjs'),
+    ('Independent pilot recorder (development checks only)', 'independent-pilot/verify.cjs'),
 ]
 records = []
 for label, script in steps:
