@@ -15,8 +15,9 @@ safety governor + replay harness.
   calibrate with `evaluate_harness.py` rather than by hand.
 - **Run:** `python bbof_starter.py` · `python analyze_logs.py bbof_telemetry.jsonl` ·
   `python evaluate_harness.py`.
-- **Persona outputs are still deterministic stubs.** Replacing them with a real model call
-  (governor-gated) is step 1 of the roadmap — do not assume it has happened.
+- **Persona outputs are still deterministic stubs.** Real-model integration remains deferred
+  and budget-constrained. Follow the current `ROADMAP.md`, not the historical ordering;
+  do not assume an integration has happened.
 
 > Lineage: `the-ODS` (protocol) → **`bbof-starter`** (prototype) → `crownfull` (architecture)
 > → `alignment-friction-gda` (measurement).
