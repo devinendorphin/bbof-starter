@@ -3,9 +3,12 @@
   "algorithm": "SHA-256",
   "files": {
     "P01-ASSESS.md": "35d77d4400c0435772c8b5b9141905789f0a67fceed5a0bea3c42a042bda30f0",
+    "P01-assessment-001.json": "79284d3d4b06cee1448dd3049d029bb85d96ec27855ac9ff3d1c50dce2db65f0",
     "P01-assessor-prompt.txt": "f22539cb083d60bca5928506b2aeaefd747824cf6ff4501a337882bab614899c",
     "P01-receipt.json": "dde94f05f6371f9a5899828902b1a5a96434cba16f3dd9acd9d289cec8874520",
-    "README.md": "86499eabb07a14f8617e786a557547a061d31bbb6341792efec12ad925035996",
-    "verify.cjs": "c8250f0399fa9f35d3c56507f4e5210bba93ef9f6ab5401f56fd1512f28ce742"
+    "P02-ACT.md": "c2397b8b0d92ff33a6d5665ab66f1ee2f9fbe777b4911b47c65669a978cf2d6a",
+    "README.md": "b4c8272c635c7a9eba9e39ed48ac7fb3416bc74bc1eae9f5ec8873fdab8ec67d",
+    "status.json": "99395e20fdcaea41f18f1352c90a2a6a30153bbb0d715e8fd34be5de08f0fb89",
+    "verify.cjs": "f951d94111ba52683a8131947571fd260d6ce6e57cf15310d18ee2c15aa20c27"
   }
 }

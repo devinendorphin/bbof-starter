@@ -1,0 +1,16 @@
+{
+  "date": "2026-10-25",
+  "timezone": "America/New_York",
+  "closedUserRelayedEpisodes": 1,
+  "receivedActorResponses": 2,
+  "receivedAssessorResponses": 1,
+  "strictSchemaValidAssessorResponses": 0,
+  "establishedSourceWithheldActorEpisodes": 0,
+  "establishedSourceWithheldAssessorEpisodes": 0,
+  "provenanceStatus": "pending confirmation",
+  "newSpendingUSD": 0,
+  "nextPlannedActorEpisode": "P02",
+  "actorReceiptSnapshot": "P01-receipt.json",
+  "assessmentReceipt": "P01-assessment-001.json",
+  "note": "The actor receipt preserves its original zero-assessment count at episode closure. This status file supplies the subsequent received-assessment count."
+}

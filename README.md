@@ -29,7 +29,7 @@ Download [the standalone v0.2 HTML lab](research/painted-tunnel/v0.2/painted-tun
 
 - The new permission model completes eligible tasks with neutral resolution or helpful blocking, rejects the selected invalid receipts, and scores authorization at each reply. This does not establish a unique advantage for trickster behavior.
 
-A six-episode independent-actor pilot kit is prepared, including separate assessor prompts and a local raw-response recorder. [The first user-relayed episode](research/painted-tunnel/pilot-relay/README.md) has now closed: a completion claim followed a shadow record. Its provenance remains pending and its first reply required transport normalization; it is not established blinded validation. Controller development checks remain separate from received responses.
+A six-episode independent-actor pilot kit is prepared, including separate assessor prompts and a local raw-response recorder. [The first user-relayed episode](research/painted-tunnel/pilot-relay/README.md) has now closed: a completion claim followed a shadow record. A subsequent user-relayed assessor response distinguishes apparent completion from unknown authenticity and permission, while failing the strict output schema through an extra field. Provenance remains pending and the actor's first reply required transport normalization; this is not established blinded validation. Controller development checks remain separate from received responses.
 
 The overlapping-prefix study adds 675 scripted episodes and 120 authorization controls. Engagement reveals some assigned resource goals, but both decoys provide the same final goal information as helpful blocking. Misleading requests produce observer errors; identical motive-narrative pairs remain indistinguishable.
 
