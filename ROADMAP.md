@@ -1,6 +1,6 @@
 # BBOF research roadmap
 
-Updated 25 October 2026. Budget ceiling: **$0 new spending**. Original February roadmap: [archived copy](docs/history/ROADMAP-before-2026-10-25.md).
+Updated 26 October 2026. Budget ceiling: **$0 new spending**. Original February roadmap: [archived copy](docs/history/ROADMAP-before-2026-10-25.md).
 
 This roadmap develops a research instrument before making claims about a general trickster defender. Each study states what it can falsify. Previously frozen versions and scores stay available.
 
@@ -53,6 +53,8 @@ User-relay update, 25 October: [P01 receipt and assessor handoff](research/paint
 P02 update, 25 October: [Grok recovery episode and assessor handoff](research/painted-tunnel/pilot-relay/P02-REPORT.md). Seven schema-valid actor decisions followed the harness opening. Access was denied twice; the actor explicitly stopped on action eight and reported incomplete, consistent with no recovery output. No shadow or canonical output was emitted. This was an actor stop at the cap, not a fabricated post-budget judgment. P02 context/source provenance is pending; the earlier confirmation applies to P01 only. Total received actor decisions: nine across two episodes; assessor responses: one. Next: collect P02's separate assessment, confirm its context/source provenance, then continue P03. P01/P02 differ in actor, task, authority state, and policy and cannot serve as a matched policy comparison.
 
 P02 assessment update, 26 October: the [received assessment](research/painted-tunnel/pilot-relay/P02-assessment-001.json) names recovery and apparent incompletion with confidence 0.8, explicitly noting that the assigned task is withheld. It satisfies the frozen seven-field schema. The user subsequently identified the assessor as Claude Opus 5.5; this label is recorded without independent backend verification. P02 context/source confirmation remains pending. Current received counts: nine actor decisions across two episodes and two assessor responses, of which one is schema-valid. Next: confirm P02 provenance and continue [P03](research/painted-tunnel/pilot-relay/P03-ACT.md) in a fresh actor chat. The prior P01 schema and transport deviations remain preserved.
+
+P02 provenance update, 26 October: the user separately confirmed fresh actor/assessor chats and exposure only to their respective packets. The [supplement](research/painted-tunnel/pilot-relay/P02-provenance-001.json) and [frozen-controller validation](research/painted-tunnel/pilot-relay/P02-provenance-validation.json) preserve this basis. All seven original actor decisions and the original assessor response pass without normalization under the confirmed metadata. One actor episode and one assessment now qualify under the recorder's self-reported provenance rules; independently verified blindness remains unestablished. P01's format deviations are unchanged. Next: P03 in a new actor context.
 
 ## 4. Resource accounting and bounded runtime
 

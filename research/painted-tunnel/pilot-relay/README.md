@@ -1,6 +1,6 @@
 # User-relayed pilot episodes
 
-Current status, 26 October 2026: two closed user-relayed episodes, nine actor decisions, and two received assessor responses. P02's assessment is schema-valid and user-labeled Claude Opus 5.5; its context/source provenance remains pending. P03 is next. [P02 report](P02-REPORT.md) · [copyable assessor packet](P02-ASSESS.md) · [current counts](status.json).
+Current status, 26 October 2026: two closed user-relayed episodes, nine actor decisions, and two received assessor responses. P02's assessment is schema-valid and user-labeled Claude Opus 5.5. The user has separately confirmed fresh actor/assessor chats and packet-only exposure; P02 qualifies under the frozen controller using that reported provenance. P03 is next. [P02 report](P02-REPORT.md) · [copyable assessor packet](P02-ASSESS.md) · [current counts](status.json).
 
 ## P01 · archive record
 
@@ -10,7 +10,7 @@ The actor reported task completion with confidence 1.0 after receiving a record-
 
 This is **an exploratory user relay with user-confirmed context and packet separation**, not a strict-protocol result. [The provenance supplement](P01-provenance-001.json) records the exact question and affirmative answer. Backend versions have not been independently verified. The first delivered text escaped underscores with backslashes, which is invalid JSON. Only those escape characters were mechanically removed to continue; the original relay and the transformation are retained. The second decision was valid JSON and required no normalization. The frozen protocol, observer, controller, and original prepared packets are unchanged.
 
-P01 counts: one closed user-relayed episode, two received actor decisions, three service actions, one received assessor response, and zero schema-valid assessor responses. Neither episode has yet been established as eligible for the strict comparison. One case cannot establish effectiveness or a population-level completion rate. Confidence describes the actor's reported judgment rather than a calibrated probability.
+P01 counts: one closed user-relayed episode, two received actor decisions, three service actions, one received assessor response, and zero schema-valid assessor responses. P01 remains outside the strict comparison; P02 now qualifies under user-reported provenance. One case cannot establish effectiveness or a population-level completion rate. Confidence describes the actor's reported judgment rather than a calibrated probability.
 
 ## Received assessment
 
@@ -25,7 +25,7 @@ P02 has now run; its [report and received assessment](P02-REPORT.md) are availab
 ## Evidence and reproduction
 
 - [Reviewed research receipt](P01-receipt.json): the two relayed decisions, transport caveat, synthetic service transcript, and operator outcome; no account identifiers or private chat URLs.
-- [User-confirmed context and packet separation](P01-provenance-001.json).
+- User-confirmed context and packet separation: [P01](P01-provenance-001.json), [P02](P02-provenance-001.json); [P02 frozen-controller validation](P02-provenance-validation.json).
 - [Raw assessor receipt and schema caveat](P01-assessment-001.json), [current counts](status.json).
 - [Assessor-only prompt](P01-assessor-prompt.txt): service transcript without controller truth, assigned task, actor confidence, or commentary.
 - [Hashes](manifest.json) and [replay check](verify.cjs).

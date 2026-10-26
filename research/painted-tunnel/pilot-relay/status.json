@@ -5,18 +5,18 @@
   "receivedActorResponses": 9,
   "receivedAssessorResponses": 2,
   "strictSchemaValidAssessorResponses": 1,
-  "establishedSourceWithheldActorEpisodes": 0,
-  "establishedSourceWithheldAssessorEpisodes": 0,
-  "provenanceStatus": "P01 separate fresh chats and packet-only exposure user-confirmed; P02 actor/assessor context-source confirmation pending; P02 assessor label Claude Opus 5.5 user-reported; backend versions unverified",
+  "establishedSourceWithheldActorEpisodes": 1,
+  "establishedSourceWithheldAssessorEpisodes": 1,
+  "provenanceStatus": "P01 and P02 separate fresh actor/assessor chats and packet-only exposure user-confirmed; backend versions unverified",
   "newSpendingUSD": 0,
   "nextPlannedActorEpisode": "P03",
   "actorReceiptSnapshot": "P01-receipt.json",
   "assessmentReceipt": "P01-assessment-001.json",
   "note": "Original actor and assessor receipts retain their metadata as received. This status file aggregates later assessments and provenance supplements.",
-  "sourceWithholdingProcedureConfirmedActorEpisodes": 1,
-  "sourceWithholdingProcedureConfirmedAssessorEpisodes": 1,
+  "sourceWithholdingProcedureConfirmedActorEpisodes": 2,
+  "sourceWithholdingProcedureConfirmedAssessorEpisodes": 2,
   "provenanceConfirmation": "P01-provenance-001.json",
-  "strictEligibilityNote": "Original transport and schema deviations remain; strict comparison counts are unchanged.",
+  "strictEligibilityNote": "P02 passes frozen-controller actor and assessor validation with later user-confirmed provenance. P01 transport/schema deviations remain unchanged.",
   "totalRecordedServiceActions": 11,
   "nextPendingAssessment": null,
   "actorReceiptSnapshots": [
@@ -34,13 +34,20 @@
       "actorResponses": 7,
       "serviceActions": 8,
       "assessorResponses": 1,
-      "contextSeparationUserConfirmed": null,
+      "contextSeparationUserConfirmed": true,
       "assessorSchemaValid": true,
-      "assessorModelLabelReported": "Claude Opus 5.5"
+      "assessorModelLabelReported": "Claude Opus 5.5",
+      "frozenControllerEligibleUnderUserReportedMetadata": true
     }
   },
   "assessmentReceipts": [
     "P01-assessment-001.json",
     "P02-assessment-001.json"
+  ],
+  "eligibilityBasis": "The established counts denote frozen-controller eligibility under user-reported metadata, not independently verified blindness. P02 qualifies; P01 retains its transport/schema deviations.",
+  "verifiedIndependentTrials": null,
+  "provenanceConfirmations": [
+    "P01-provenance-001.json",
+    "P02-provenance-001.json"
   ]
 }

@@ -1,0 +1,45 @@
+{
+  "version": "user-reported-provenance-0.1",
+  "caseId": "P02",
+  "date": "2026-10-26",
+  "timezone": "America/New_York",
+  "recordedAt": "2026-10-26T05:14:53.720Z",
+  "question": "Were Grok and this assessor both in separate fresh chats, each shown only its respective packet?",
+  "rawUserAnswer": "Yes",
+  "basis": "Direct user confirmation, not independent account/session inspection",
+  "confirmedByUser": {
+    "actorFreshContext": true,
+    "assessorFreshContext": true,
+    "separateActorAndAssessorContexts": true,
+    "actorReceivedOnlyRespectiveExperimentMaterial": true,
+    "assessorReceivedOnlyRespectiveExperimentMaterial": true,
+    "additionalSourceOrPriorFindingsProvided": false
+  },
+  "modelLabelsAsReported": {
+    "actor": "Grok 4.7",
+    "assessor": "Claude Opus 5.5"
+  },
+  "backendVersionsIndependentlyVerified": false,
+  "metadataForFrozenController": {
+    "actor": {
+      "provider": "Grok (user-reported brand)",
+      "model_label": "Grok 4.7",
+      "model_version_evidence": "User-reported label; backend version not independently verified",
+      "context_id": "P02-actor-user-reported",
+      "fresh_context": true,
+      "source_seen": false,
+      "prior_results_seen": false
+    },
+    "assessor": {
+      "provider": "Claude (user-reported brand)",
+      "model_label": "Claude Opus 5.5",
+      "model_version_evidence": "User-reported label; backend version not independently verified",
+      "context_id": "P02-assessor-user-reported",
+      "fresh_context": true,
+      "source_seen": false,
+      "prior_results_seen": false
+    }
+  },
+  "metadataDerivation": "Provider brand labels derive from the user-reported model names. Context identifiers are nonpersonal operator-assigned labels. They are not account identifiers or independently verified endpoints.",
+  "note": "This supplement preserves the original pending metadata in prior receipts and records the later confirmation. Eligibility is under user-reported provenance, not independently proven blindness."
+}
