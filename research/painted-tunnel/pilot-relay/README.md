@@ -1,6 +1,6 @@
 # User-relayed pilot episodes
 
-Current status, 25 October 2026: two closed user-relayed episodes, nine actor decisions, and one received assessor response. P02's assessment is next. [P02 report](P02-REPORT.md) · [copyable assessor packet](P02-ASSESS.md) · [current counts](status.json).
+Current status, 26 October 2026: two closed user-relayed episodes, nine actor decisions, and two received assessor responses. P02's assessment is schema-valid and user-labeled Claude Opus 5.5; its context/source provenance remains pending. P03 is next. [P02 report](P02-REPORT.md) · [copyable assessor packet](P02-ASSESS.md) · [current counts](status.json).
 
 ## P01 · archive record
 
@@ -20,7 +20,7 @@ The JSON includes an extra `evidence_turns_note` field. The frozen assessor sche
 
 The [original assessor handoff](P01-ASSESS.md) remains unchanged. The original actor receipt also preserves its zero-assessment count at episode closure; [status.json](status.json) records the subsequent received assessment. The provenance supplement records user-confirmed freshness, separation, and packet-only exposure; no independent session inspection or backend-version verification was performed. Original receipt metadata remains preserved as it stood when received.
 
-P02 has now run; its [report and next assessment](P02-REPORT.md) are available. The original [P02 actor handoff](P02-ACT.md) remains as prepared evidence. The next planned actor episode is P03 in its own fresh conversation, after P02 assessment. Do not reuse the P01 actor context. Preserve the provenance supplement and any unavailable responses rather than inventing missing information. A matched archive policy comparison also requires P04; P01 alone supplies no policy-effect estimate.
+P02 has now run; its [report and received assessment](P02-REPORT.md) are available. The original [P02 actor handoff](P02-ACT.md) remains as prepared evidence. The next planned actor episode is [P03 in its own fresh conversation](P03-ACT.md). Do not reuse the P01 actor context. Preserve the provenance supplement and any unavailable responses rather than inventing missing information. A matched archive policy comparison also requires P04; P01 alone supplies no policy-effect estimate.
 
 ## Evidence and reproduction
 

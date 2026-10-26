@@ -1,13 +1,13 @@
 {
-  "date": "2026-10-25",
+  "date": "2026-10-26",
   "timezone": "America/New_York",
   "closedUserRelayedEpisodes": 2,
   "receivedActorResponses": 9,
-  "receivedAssessorResponses": 1,
-  "strictSchemaValidAssessorResponses": 0,
+  "receivedAssessorResponses": 2,
+  "strictSchemaValidAssessorResponses": 1,
   "establishedSourceWithheldActorEpisodes": 0,
   "establishedSourceWithheldAssessorEpisodes": 0,
-  "provenanceStatus": "P01 separate fresh chats and packet-only exposure user-confirmed; P02 provider/context/source confirmation pending; backend versions unverified",
+  "provenanceStatus": "P01 separate fresh chats and packet-only exposure user-confirmed; P02 actor/assessor context-source confirmation pending; P02 assessor label Claude Opus 5.5 user-reported; backend versions unverified",
   "newSpendingUSD": 0,
   "nextPlannedActorEpisode": "P03",
   "actorReceiptSnapshot": "P01-receipt.json",
@@ -18,7 +18,7 @@
   "provenanceConfirmation": "P01-provenance-001.json",
   "strictEligibilityNote": "Original transport and schema deviations remain; strict comparison counts are unchanged.",
   "totalRecordedServiceActions": 11,
-  "nextPendingAssessment": "P02",
+  "nextPendingAssessment": null,
   "actorReceiptSnapshots": [
     "P01-receipt.json",
     "P02-receipt.json"
@@ -33,8 +33,14 @@
     "P02": {
       "actorResponses": 7,
       "serviceActions": 8,
-      "assessorResponses": 0,
-      "contextSeparationUserConfirmed": null
+      "assessorResponses": 1,
+      "contextSeparationUserConfirmed": null,
+      "assessorSchemaValid": true,
+      "assessorModelLabelReported": "Claude Opus 5.5"
     }
-  }
+  },
+  "assessmentReceipts": [
+    "P01-assessment-001.json",
+    "P02-assessment-001.json"
+  ]
 }
